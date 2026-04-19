@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "election": "Legislative Yuan 立法院",
+    "year": 2024,
+    "date": "2024-01-13",
+    "notes": "113-seat Legislature. 73 district seats + 34 party-list (proportional) + 6 indigenous seats. Source: CEC db.cec.gov.tw. District-level results pending — feature IDs must be verified against taiwan-atlas districts-10t.json. Seat totals are official CEC final results.",
+    "seats": {
+      "KMT": 52,
+      "DPP": 51,
+      "TPP": 8,
+      "IND": 2
+    },
+    "seat_breakdown": {
+      "notes": "KMT: 36 district + 13 party-list + 3 indigenous. DPP: 36 district + 13 party-list + 2 indigenous. TPP: 8 party-list. IND: 2 district (indigenous).",
+      "total": 113,
+      "district": 73,
+      "party_list": 34,
+      "indigenous": 6
+    }
+  }
+}

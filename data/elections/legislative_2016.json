@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "election": "Legislative Yuan 立法院",
+    "year": 2016,
+    "date": "2016-01-16",
+    "notes": "113-seat Legislature. DPP historic majority. 73 district seats + 34 party-list + 6 indigenous. Pre-2019 redistricting — boundaries from g0v/twgeojson. Source: CEC db.cec.gov.tw. District-level results pending — feature IDs must be verified against g0v twVote2010.geo.json.",
+    "seats": {
+      "DPP": 68,
+      "KMT": 35,
+      "NPP": 5,
+      "PFP": 3,
+      "MKT": 1,
+      "IND": 1
+    },
+    "seat_breakdown": {
+      "notes": "DPP: 46 district + 18 party-list + 4 indigenous. KMT: 20 district + 11 party-list + 4 indigenous. NPP: 4 district + 1 party-list. PFP: 3 party-list. MKT (Minkuotang): 1 district. IND: 1.",
+      "total": 113,
+      "district": 73,
+      "party_list": 34,
+      "indigenous": 6
+    }
+  }
+}

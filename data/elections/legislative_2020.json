@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "election": "Legislative Yuan 立法院",
+    "year": 2020,
+    "date": "2020-01-11",
+    "notes": "113-seat Legislature. DPP supermajority. 73 district seats + 34 party-list + 6 indigenous. Source: CEC db.cec.gov.tw. District-level results pending — feature IDs must be verified against taiwan-atlas districts-10t.json.",
+    "seats": {
+      "DPP": 61,
+      "KMT": 38,
+      "TPP": 5,
+      "NPP": 3,
+      "PFP": 1,
+      "TSP": 1,
+      "IND": 4
+    },
+    "seat_breakdown": {
+      "notes": "DPP: 40 district + 13 party-list + 3 indigenous (+ close allies TSP/NPP also broadly pan-green). KMT: 26 district + 11 party-list + 1 indigenous. TPP: 5 party-list. NPP: 3 district. PFP: 1 party-list. TSP: 1 district. IND: 4.",
+      "total": 113,
+      "district": 73,
+      "party_list": 34,
+      "indigenous": 6
+    }
+  }
+}

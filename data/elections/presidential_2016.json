@@ -1,0 +1,122 @@
+{
+  "_meta": {
+    "election": "Presidential", "year": 2016, "date": "2016-01-16", "turnout": 66.27,
+    "source": "Wikipedia — 2016 Taiwanese presidential election, county results table (sourced from CEC). Entered from screenshot April 2026.",
+    "ballot_order": "1=Eric Chu/KMT, 2=Tsai Ing-wen/DPP, 3=James Soong/PFP",
+    "candidates": [
+      { "politician_id": "1004", "name_en": "Tsai Ing-wen", "name_zh": "蔡英文", "party": "DPP", "running_mate_en": "Chen Chien-jen", "running_mate_zh": "陳建仁", "total_votes": 6894744, "total_pct": 56.12 },
+      { "politician_id": "1007", "name_en": "Eric Chu", "name_zh": "朱立倫", "party": "KMT", "running_mate_en": "Wang Ju-hsuan",  "running_mate_zh": "王如玄", "total_votes": 3813365, "total_pct": 31.04 },
+      { "politician_id": "1006", "name_en": "James Soong",  "name_zh": "宋楚瑜", "party": "PFP", "running_mate_en": "Hsu Hsin-ying",  "running_mate_zh": "徐欣瑩", "total_votes": 1576861, "total_pct": 12.83 }
+    ]
+  },
+  "A": { "name_zh": "臺北市", "name_en": "Taipei City",       "electorate": 2175986, "turnout": 68.03, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 757383, "vote_pct": 51.96 },
+    { "politician_id": "1007", "party": "KMT", "votes": 546491, "vote_pct": 37.49 },
+    { "politician_id": "1006", "party": "PFP", "votes": 153804, "vote_pct": 10.55 }
+  ]},
+  "F": { "name_zh": "新北市", "name_en": "New Taipei City",   "electorate": 3204367, "turnout": 67.23, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 1165888, "vote_pct": 54.79 },
+    { "politician_id": "1007", "party": "KMT", "votes": 709374,  "vote_pct": 33.34 },
+    { "politician_id": "1006", "party": "PFP", "votes": 252486,  "vote_pct": 11.87 }
+  ]},
+  "C": { "name_zh": "基隆市", "name_en": "Keelung City",      "electorate": 306548,  "turnout": 63.99, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 93402,  "vote_pct": 48.22 },
+    { "politician_id": "1007", "party": "KMT", "votes": 68357,  "vote_pct": 35.29 },
+    { "politician_id": "1006", "party": "PFP", "votes": 31955,  "vote_pct": 16.49 }
+  ]},
+  "G": { "name_zh": "宜蘭縣", "name_en": "Yilan County",      "electorate": 369211,  "turnout": 64.05, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 144798, "vote_pct": 62.06 },
+    { "politician_id": "1007", "party": "KMT", "votes": 59216,  "vote_pct": 25.38 },
+    { "politician_id": "1006", "party": "PFP", "votes": 29288,  "vote_pct": 12.56 }
+  ]},
+  "H": { "name_zh": "桃園市", "name_en": "Taoyuan City",      "electorate": 1627598, "turnout": 66.66, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 547573, "vote_pct": 51.03 },
+    { "politician_id": "1007", "party": "KMT", "votes": 369013, "vote_pct": 34.39 },
+    { "politician_id": "1006", "party": "PFP", "votes": 156518, "vote_pct": 14.58 }
+  ]},
+  "J": { "name_zh": "新竹縣", "name_en": "Hsinchu County",    "electorate": 412731,  "turnout": 65.89, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 114023, "vote_pct": 42.52 },
+    { "politician_id": "1007", "party": "KMT", "votes": 94603,  "vote_pct": 35.28 },
+    { "politician_id": "1006", "party": "PFP", "votes": 59510,  "vote_pct": 22.20 }
+  ]},
+  "O": { "name_zh": "新竹市", "name_en": "Hsinchu City",      "electorate": 328580,  "turnout": 68.32, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 113386, "vote_pct": 51.22 },
+    { "politician_id": "1007", "party": "KMT", "votes": 71771,  "vote_pct": 32.42 },
+    { "politician_id": "1006", "party": "PFP", "votes": 36198,  "vote_pct": 16.35 }
+  ]},
+  "K": { "name_zh": "苗栗縣", "name_en": "Miaoli County",     "electorate": 448520,  "turnout": 64.81, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 130461, "vote_pct": 45.45 },
+    { "politician_id": "1007", "party": "KMT", "votes": 107779, "vote_pct": 37.55 },
+    { "politician_id": "1006", "party": "PFP", "votes": 48788,  "vote_pct": 17.00 }
+  ]},
+  "B": { "name_zh": "臺中市", "name_en": "Taichung City",     "electorate": 2138519, "turnout": 68.36, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 793281, "vote_pct": 55.01 },
+    { "politician_id": "1007", "party": "KMT", "votes": 430005, "vote_pct": 29.82 },
+    { "politician_id": "1006", "party": "PFP", "votes": 218810, "vote_pct": 15.17 }
+  ]},
+  "N": { "name_zh": "彰化縣", "name_en": "Changhua County",   "electorate": 1022962, "turnout": 66.63, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 378736, "vote_pct": 56.47 },
+    { "politician_id": "1007", "party": "KMT", "votes": 193117, "vote_pct": 28.80 },
+    { "politician_id": "1006", "party": "PFP", "votes": 98807,  "vote_pct": 14.73 }
+  ]},
+  "M": { "name_zh": "南投縣", "name_en": "Nantou County",     "electorate": 415122,  "turnout": 63.65, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 136104, "vote_pct": 52.23 },
+    { "politician_id": "1007", "party": "KMT", "votes": 83604,  "vote_pct": 32.08 },
+    { "politician_id": "1006", "party": "PFP", "votes": 40868,  "vote_pct": 15.69 }
+  ]},
+  "P": { "name_zh": "雲林縣", "name_en": "Yunlin County",     "electorate": 566207,  "turnout": 61.84, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 218842, "vote_pct": 63.41 },
+    { "politician_id": "1007", "party": "KMT", "votes": 86047,  "vote_pct": 24.93 },
+    { "politician_id": "1006", "party": "PFP", "votes": 40236,  "vote_pct": 11.66 }
+  ]},
+  "Q": { "name_zh": "嘉義縣", "name_en": "Chiayi County",     "electorate": 430885,  "turnout": 65.93, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 182913, "vote_pct": 65.37 },
+    { "politician_id": "1007", "party": "KMT", "votes": 65425,  "vote_pct": 23.38 },
+    { "politician_id": "1006", "party": "PFP", "votes": 31469,  "vote_pct": 11.25 }
+  ]},
+  "I": { "name_zh": "嘉義市", "name_en": "Chiayi City",       "electorate": 210758,  "turnout": 66.61, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 83143,  "vote_pct": 59.86 },
+    { "politician_id": "1007", "party": "KMT", "votes": 38822,  "vote_pct": 27.95 },
+    { "politician_id": "1006", "party": "PFP", "votes": 16926,  "vote_pct": 12.19 }
+  ]},
+  "D": { "name_zh": "臺南市", "name_en": "Tainan City",       "electorate": 1528246, "turnout": 65.81, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 670608, "vote_pct": 67.52 },
+    { "politician_id": "1007", "party": "KMT", "votes": 219196, "vote_pct": 22.07 },
+    { "politician_id": "1006", "party": "PFP", "votes": 103432, "vote_pct": 10.41 }
+  ]},
+  "E": { "name_zh": "高雄市", "name_en": "Kaohsiung City",    "electorate": 2254324, "turnout": 67.64, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 955168, "vote_pct": 63.39 },
+    { "politician_id": "1007", "party": "KMT", "votes": 391823, "vote_pct": 26.00 },
+    { "politician_id": "1006", "party": "PFP", "votes": 159765, "vote_pct": 10.61 }
+  ]},
+  "T": { "name_zh": "屏東縣", "name_en": "Pingtung County",   "electorate": 689170,  "turnout": 66.01, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 285297, "vote_pct": 63.49 },
+    { "politician_id": "1007", "party": "KMT", "votes": 121291, "vote_pct": 26.99 },
+    { "politician_id": "1006", "party": "PFP", "votes": 42768,  "vote_pct": 9.52  }
+  ]},
+  "V": { "name_zh": "臺東縣", "name_en": "Taitung County",    "electorate": 179547,  "turnout": 55.07, "winner": { "politician_id": "1007" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 37517,  "vote_pct": 38.41 },
+    { "politician_id": "1007", "party": "KMT", "votes": 43581,  "vote_pct": 44.62 },
+    { "politician_id": "1006", "party": "PFP", "votes": 16565,  "vote_pct": 16.96 }
+  ]},
+  "U": { "name_zh": "花蓮縣", "name_en": "Hualien County",    "electorate": 267862,  "turnout": 58.68, "winner": { "politician_id": "1007" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 57198,  "vote_pct": 36.94 },
+    { "politician_id": "1007", "party": "KMT", "votes": 73894,  "vote_pct": 47.72 },
+    { "politician_id": "1006", "party": "PFP", "votes": 23751,  "vote_pct": 15.34 }
+  ]},
+  "X": { "name_zh": "澎湖縣", "name_en": "Penghu County",     "electorate": 84222,   "turnout": 51.37, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 21658,  "vote_pct": 50.81 },
+    { "politician_id": "1007", "party": "KMT", "votes": 12564,  "vote_pct": 29.48 },
+    { "politician_id": "1006", "party": "PFP", "votes": 8401,   "vote_pct": 19.71 }
+  ]},
+  "W": { "name_zh": "金門縣", "name_en": "Kinmen County",     "electorate": 111386,  "turnout": 33.58, "winner": { "politician_id": "1007" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 6626,   "vote_pct": 18.00 },
+    { "politician_id": "1007", "party": "KMT", "votes": 24327,  "vote_pct": 66.10 },
+    { "politician_id": "1006", "party": "PFP", "votes": 5852,   "vote_pct": 15.90 }
+  ]},
+  "Z": { "name_zh": "連江縣", "name_en": "Lienchiang County", "electorate": 10240,   "turnout": 44.46, "winner": { "politician_id": "1007" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 739,    "vote_pct": 16.54 },
+    { "politician_id": "1007", "party": "KMT", "votes": 3065,   "vote_pct": 68.60 },
+    { "politician_id": "1006", "party": "PFP", "votes": 664,    "vote_pct": 14.86 }
+  ]}
+}

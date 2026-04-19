@@ -1,0 +1,122 @@
+{
+  "_meta": {
+    "election": "Presidential", "year": 2012, "date": "2012-01-14", "turnout": 74.38,
+    "source": "Wikipedia — 2012 Taiwanese presidential election, county results table (sourced from CEC). Entered from screenshot April 2026.",
+    "ballot_order": "1=Tsai Ing-wen/DPP, 2=Ma Ying-jeou/KMT, 3=James Soong/PFP",
+    "candidates": [
+      { "name_en": "Ma Ying-jeou",  "name_zh": "馬英九", "party": "KMT", "running_mate_en": "Wu Den-yih",     "running_mate_zh": "吳敦義", "total_votes": 6891139, "total_pct": 51.60 },
+      { "politician_id": "1004", "name_en": "Tsai Ing-wen", "name_zh": "蔡英文", "party": "DPP", "running_mate_en": "Su Jia-chyuan", "running_mate_zh": "蘇嘉全", "total_votes": 6093578, "total_pct": 45.63 },
+      { "politician_id": "1006", "name_en": "James Soong",  "name_zh": "宋楚瑜", "party": "PFP", "running_mate_en": "Lin Ruey-shiung","running_mate_zh": "林瑞雄", "total_votes": 369588,  "total_pct": 2.77  }
+    ]
+  },
+  "A": { "name_zh": "臺北市", "name_en": "Taipei City",       "electorate": 2102664, "turnout": 76.78, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 634565, "vote_pct": 39.54 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 928717, "vote_pct": 57.87 },
+    { "politician_id": "1006", "party": "PFP", "votes": 41448,  "vote_pct": 2.58  }
+  ]},
+  "F": { "name_zh": "新北市", "name_en": "New Taipei City",   "electorate": 3074849, "turnout": 75.90, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 1007551, "vote_pct": 43.46 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 1245673, "vote_pct": 53.73 },
+    { "politician_id": "1006", "party": "PFP", "votes": 65269,  "vote_pct": 2.81  }
+  ]},
+  "C": { "name_zh": "基隆市", "name_en": "Keelung City",      "electorate": 302139,  "turnout": 72.09, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 79562,  "vote_pct": 36.77 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 128294, "vote_pct": 59.29 },
+    { "politician_id": "1006", "party": "PFP", "votes": 8533,   "vote_pct": 3.94  }
+  ]},
+  "G": { "name_zh": "宜蘭縣", "name_en": "Yilan County",      "electorate": 358059,  "turnout": 72.54, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 135156, "vote_pct": 52.53 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 115496, "vote_pct": 44.89 },
+    { "politician_id": "1006", "party": "PFP", "votes": 6652,   "vote_pct": 2.58  }
+  ]},
+  "H": { "name_zh": "桃園市", "name_en": "Taoyuan City",      "electorate": 1506311, "turnout": 74.69, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 445308, "vote_pct": 39.85 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 639151, "vote_pct": 57.20 },
+    { "politician_id": "1006", "party": "PFP", "votes": 32927,  "vote_pct": 2.95  }
+  ]},
+  "J": { "name_zh": "新竹縣", "name_en": "Hsinchu County",    "electorate": 384261,  "turnout": 76.07, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 89741,  "vote_pct": 30.93 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 190797, "vote_pct": 65.76 },
+    { "politician_id": "1006", "party": "PFP", "votes": 9599,   "vote_pct": 3.31  }
+  ]},
+  "O": { "name_zh": "新竹市", "name_en": "Hsinchu City",      "electorate": 312118,  "turnout": 75.68, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 92632,  "vote_pct": 39.49 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 134728, "vote_pct": 57.43 },
+    { "politician_id": "1006", "party": "PFP", "votes": 7216,   "vote_pct": 3.08  }
+  ]},
+  "K": { "name_zh": "苗栗縣", "name_en": "Miaoli County",     "electorate": 436219,  "turnout": 74.63, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 107164, "vote_pct": 33.18 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 206200, "vote_pct": 63.85 },
+    { "politician_id": "1006", "party": "PFP", "votes": 9597,   "vote_pct": 2.97  }
+  ]},
+  "B": { "name_zh": "臺中市", "name_en": "Taichung City",     "electorate": 2018158, "turnout": 75.76, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 678736, "vote_pct": 44.68 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 792334, "vote_pct": 52.16 },
+    { "politician_id": "1006", "party": "PFP", "votes": 48030,  "vote_pct": 3.16  }
+  ]},
+  "N": { "name_zh": "彰化縣", "name_en": "Changhua County",   "electorate": 1005714, "turnout": 73.46, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 340069, "vote_pct": 46.49 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 369968, "vote_pct": 50.58 },
+    { "politician_id": "1006", "party": "PFP", "votes": 21403,  "vote_pct": 2.93  }
+  ]},
+  "M": { "name_zh": "南投縣", "name_en": "Nantou County",     "electorate": 411482,  "turnout": 71.13, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 123077, "vote_pct": 42.37 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 158703, "vote_pct": 54.63 },
+    { "politician_id": "1006", "party": "PFP", "votes": 8726,   "vote_pct": 3.00  }
+  ]},
+  "P": { "name_zh": "雲林縣", "name_en": "Yunlin County",     "electorate": 563034,  "turnout": 68.92, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 214141, "vote_pct": 55.81 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 159891, "vote_pct": 41.67 },
+    { "politician_id": "1006", "party": "PFP", "votes": 9662,   "vote_pct": 2.51  }
+  ]},
+  "Q": { "name_zh": "嘉義縣", "name_en": "Chiayi County",     "electorate": 431588,  "turnout": 72.48, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 181463, "vote_pct": 58.58 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 120946, "vote_pct": 39.04 },
+    { "politician_id": "1006", "party": "PFP", "votes": 7364,   "vote_pct": 2.38  }
+  ]},
+  "I": { "name_zh": "嘉義市", "name_en": "Chiayi City",       "electorate": 205711,  "turnout": 73.53, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 76711,  "vote_pct": 51.04 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 69535,  "vote_pct": 46.27 },
+    { "politician_id": "1006", "party": "PFP", "votes": 4042,   "vote_pct": 2.69  }
+  ]},
+  "D": { "name_zh": "臺南市", "name_en": "Tainan City",       "electorate": 1485047, "turnout": 74.18, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 631232, "vote_pct": 57.72 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 435274, "vote_pct": 39.80 },
+    { "politician_id": "1006", "party": "PFP", "votes": 27066,  "vote_pct": 2.48  }
+  ]},
+  "E": { "name_zh": "高雄市", "name_en": "Kaohsiung City",    "electorate": 2192005, "turnout": 75.91, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 883158, "vote_pct": 53.42 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 730461, "vote_pct": 44.19 },
+    { "politician_id": "1006", "party": "PFP", "votes": 39469,  "vote_pct": 2.39  }
+  ]},
+  "T": { "name_zh": "屏東縣", "name_en": "Pingtung County",   "electorate": 684517,  "turnout": 72.67, "winner": { "politician_id": "1004" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 271722, "vote_pct": 55.13 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 211571, "vote_pct": 42.93 },
+    { "politician_id": "1006", "party": "PFP", "votes": 9562,   "vote_pct": 1.94  }
+  ]},
+  "V": { "name_zh": "臺東縣", "name_en": "Taitung County",    "electorate": 178938,  "turnout": 61.79, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 33417,  "vote_pct": 30.50 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 72823,  "vote_pct": 66.47 },
+    { "politician_id": "1006", "party": "PFP", "votes": 3313,   "vote_pct": 3.02  }
+  ]},
+  "U": { "name_zh": "花蓮縣", "name_en": "Hualien County",    "electorate": 263888,  "turnout": 64.64, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 43845,  "vote_pct": 25.94 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 118815, "vote_pct": 70.30 },
+    { "politician_id": "1006", "party": "PFP", "votes": 6359,   "vote_pct": 3.76  }
+  ]},
+  "X": { "name_zh": "澎湖縣", "name_en": "Penghu County",     "electorate": 77817,   "turnout": 59.01, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 20717,  "vote_pct": 45.65 },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 22579,  "vote_pct": 49.75 },
+    { "politician_id": "1006", "party": "PFP", "votes": 2082,   "vote_pct": 4.58  }
+  ]},
+  "W": { "name_zh": "金門縣", "name_en": "Kinmen County",     "electorate": 83949,   "turnout": 46.67, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 3193,   "vote_pct": 8.21  },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 34676,  "vote_pct": 89.23 },
+    { "politician_id": "1006", "party": "PFP", "votes": 990,    "vote_pct": 2.54  }
+  ]},
+  "Z": { "name_zh": "連江縣", "name_en": "Lienchiang County", "electorate": 7987,    "turnout": 65.79, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1004", "party": "DPP", "votes": 418,    "vote_pct": 8.03  },
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 4507,   "vote_pct": 86.60 },
+    { "politician_id": "1006", "party": "PFP", "votes": 279,    "vote_pct": 5.36  }
+  ]}
+}

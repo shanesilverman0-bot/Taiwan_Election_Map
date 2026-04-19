@@ -1,0 +1,379 @@
+{
+  "_meta": {
+    "notes": "Politician registry. Keys are numeric string IDs used in election JSON files via 'politician_id'. Inline fields in election files override registry fields (allowing per-election photo/wiki overrides). IDs: 1xxx = national/presidential figures; 2xxx = magistrates/local executives; 3xxx = legislators.",
+    "last_updated": "April 2026"
+  },
+
+  "1001": {
+    "name_en": "Lai Ching-te",
+    "name_zh": "賴清德",
+    "party": "DPP",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lai_Ching-te",
+    "photo": null
+  },
+  "1002": {
+    "name_en": "Hou Yu-ih",
+    "name_zh": "侯友宜",
+    "party": "KMT",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hou_Yu-ih",
+    "photo": null
+  },
+  "1003": {
+    "name_en": "Ko Wen-je",
+    "name_zh": "柯文哲",
+    "party": "TPP",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ko_Wen-je",
+    "photo": null
+  },
+  "1004": {
+    "name_en": "Tsai Ing-wen",
+    "name_zh": "蔡英文",
+    "party": "DPP",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tsai_Ing-wen",
+    "photo": null
+  },
+  "1005": {
+    "name_en": "Han Kuo-yu",
+    "name_zh": "韓國瑜",
+    "party": "KMT",
+    "wiki_url": "https://en.wikipedia.org/wiki/Han_Kuo-yu",
+    "photo": null
+  },
+  "1006": {
+    "name_en": "James Soong",
+    "name_zh": "宋楚瑜",
+    "party": "PFP",
+    "wiki_url": "https://en.wikipedia.org/wiki/James_Soong",
+    "photo": null
+  },
+  "1007": {
+    "name_en": "Eric Chu",
+    "name_zh": "朱立倫",
+    "party": "KMT",
+    "wiki_url": "https://en.wikipedia.org/wiki/Eric_Chu",
+    "photo": null
+  },
+  "1008": {
+    "name_en": "Ma Ying-jeou",
+    "name_zh": "馬英九",
+    "party": "KMT",
+    "wiki_url": "https://en.wikipedia.org/wiki/Ma_Ying-jeou",
+    "photo": null
+  },
+  "1009": {
+    "name_en": "Frank Hsieh",
+    "name_zh": "謝長廷",
+    "party": "DPP",
+    "wiki_url": "https://en.wikipedia.org/wiki/Frank_Hsieh",
+    "photo": null
+  },
+
+  "2001": {
+    "name_en": "Chiang Wan-an",
+    "name_zh": "蔣萬安",
+    "party": "KMT",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chiang_Wan-an",
+    "photo": null
+  },
+  "2002": {
+    "name_en": "Chen Shih-chung",
+    "name_zh": "陳時中",
+    "party": "DPP",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chen_Shih-chung_(physician)",
+    "photo": null
+  },
+  "2003": {
+    "name_en": "Huang Shan-shan",
+    "name_zh": "黃珊珊",
+    "party": "TPP",
+    "wiki_url": "https://en.wikipedia.org/wiki/Huang_Shan-shan",
+    "photo": null
+  },
+  "2004": {
+    "name_en": "Lin Chia-lung",
+    "name_zh": "林佳龍",
+    "party": "DPP",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lin_Chia-lung",
+    "photo": null
+  },
+  "2005": {
+    "name_en": "Chang San-cheng",
+    "name_zh": "張善政",
+    "party": "KMT",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chang_San-cheng",
+    "photo": null
+  },
+  "2006": {
+    "name_en": "Cheng Pao-ching",
+    "name_zh": "鄭寶清",
+    "party": "DPP",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2007": {
+    "name_en": "Lai Hsiang-lin",
+    "name_zh": "賴香伶",
+    "party": "TPP",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2008": {
+    "name_en": "Lu Shiow-yen",
+    "name_zh": "盧秀燕",
+    "party": "KMT",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lu_Shiow-yen",
+    "photo": null
+  },
+  "2009": {
+    "name_en": "Tsai Chi-chang",
+    "name_zh": "蔡其昌",
+    "party": "DPP",
+    "wiki_url": "https://en.wikipedia.org/wiki/Tsai_Chi-chang",
+    "photo": null
+  },
+  "2010": {
+    "name_en": "Huang Wei-che",
+    "name_zh": "黃偉哲",
+    "party": "DPP",
+    "wiki_url": "https://en.wikipedia.org/wiki/Huang_Wei-che",
+    "photo": null
+  },
+  "2011": {
+    "name_en": "Hsieh Lung-chieh",
+    "name_zh": "謝龍介",
+    "party": "KMT",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hsieh_Lung-chieh",
+    "photo": null
+  },
+  "2012": {
+    "name_en": "Chen Chi-mai",
+    "name_zh": "陳其邁",
+    "party": "DPP",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chen_Chi-mai",
+    "photo": null
+  },
+  "2013": {
+    "name_en": "Ko Chih-en",
+    "name_zh": "柯志恩",
+    "party": "KMT",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2014": {
+    "name_en": "Hsieh Kuo-liang",
+    "name_zh": "謝國樑",
+    "party": "KMT",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hsieh_Kuo-liang",
+    "photo": null
+  },
+  "2015": {
+    "name_en": "Tsai Shih-ying",
+    "name_zh": "蔡適應",
+    "party": "DPP",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2016": {
+    "name_en": "Kao Hung-an",
+    "name_zh": "高虹安",
+    "party": "TPP",
+    "wiki_url": "https://en.wikipedia.org/wiki/Kao_Hung-an",
+    "photo": null
+  },
+  "2017": {
+    "name_en": "Shen Hui-hung",
+    "name_zh": "沈慧虹",
+    "party": "DPP",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2018": {
+    "name_en": "Lin Keng-hua",
+    "name_zh": "林耕華",
+    "party": "KMT",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2019": {
+    "name_en": "Yang Wen-ke",
+    "name_zh": "楊文科",
+    "party": "KMT",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2020": {
+    "name_en": "Chou Chiang-chieh",
+    "name_zh": "周江杰",
+    "party": "DPP",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2021": {
+    "name_en": "Chung Tung-chin",
+    "name_zh": "鍾東錦",
+    "party": "KMT",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2022": {
+    "name_en": "Hsu Ting-chen",
+    "name_zh": "徐定禎",
+    "party": "DPP",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2023": {
+    "name_en": "Lin Tzu-miao",
+    "name_zh": "林姿妙",
+    "party": "KMT",
+    "wiki_url": "https://en.wikipedia.org/wiki/Lin_Tzu-miao",
+    "photo": null
+  },
+  "2024": {
+    "name_en": "Chen Ou-po",
+    "name_zh": "陳歐珀",
+    "party": "DPP",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2025": {
+    "name_en": "Huang Min-hui",
+    "name_zh": "黃敏惠",
+    "party": "KMT",
+    "wiki_url": "https://en.wikipedia.org/wiki/Huang_Min-hui",
+    "photo": null
+  },
+  "2026": {
+    "name_en": "Li Chun-yi",
+    "name_zh": "李俊俋",
+    "party": "DPP",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2027": {
+    "name_en": "Hsu Shu-hua",
+    "name_zh": "許淑華",
+    "party": "KMT",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2028": {
+    "name_en": "Chen Zheng-yang",
+    "name_zh": "陳正昇",
+    "party": "DPP",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2029": {
+    "name_en": "Wang Hui-mei",
+    "name_zh": "王惠美",
+    "party": "KMT",
+    "wiki_url": "https://en.wikipedia.org/wiki/Wang_Hui-mei",
+    "photo": null
+  },
+  "2030": {
+    "name_en": "Tsai Chih-hung",
+    "name_zh": "蔡志宏",
+    "party": "DPP",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2031": {
+    "name_en": "Zhang Li-shan",
+    "name_zh": "張麗善",
+    "party": "KMT",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2032": {
+    "name_en": "Liu Chien-kuo",
+    "name_zh": "劉建國",
+    "party": "DPP",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2033": {
+    "name_en": "Weng Chang-liang",
+    "name_zh": "翁章梁",
+    "party": "DPP",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2034": {
+    "name_en": "Su Te-ching",
+    "name_zh": "蘇德清",
+    "party": "KMT",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2035": {
+    "name_en": "Chou Chun-mi",
+    "name_zh": "周春米",
+    "party": "DPP",
+    "wiki_url": "https://en.wikipedia.org/wiki/Chou_Chun-mi",
+    "photo": null
+  },
+  "2036": {
+    "name_en": "Cheng Li-ta",
+    "name_zh": "鄭麗鈕",
+    "party": "KMT",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2037": {
+    "name_en": "Hsu Chen-wei",
+    "name_zh": "徐榛蔚",
+    "party": "KMT",
+    "wiki_url": "https://en.wikipedia.org/wiki/Hsu_Chen-wei",
+    "photo": null
+  },
+  "2038": {
+    "name_en": "Hsiao Pi-ling",
+    "name_zh": "蕭碧玲",
+    "party": "DPP",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2039": {
+    "name_en": "Rao Ching-ling",
+    "name_zh": "饒慶鈴",
+    "party": "KMT",
+    "wiki_url": "https://en.wikipedia.org/wiki/Rao_Ching-ling",
+    "photo": null
+  },
+  "2040": {
+    "name_en": "Liu Ching-kuo",
+    "name_zh": "劉慶國",
+    "party": "DPP",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2041": {
+    "name_en": "Chen Fu-hai",
+    "name_zh": "陳福海",
+    "party": "KMT",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2042": {
+    "name_en": "Chen Kuang-fu",
+    "name_zh": "陳光復",
+    "party": "DPP",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2043": {
+    "name_en": "Chen Jian-ming",
+    "name_zh": "陳建名",
+    "party": "KMT",
+    "wiki_url": null,
+    "photo": null
+  },
+  "2044": {
+    "name_en": "Wang Chung-ming",
+    "name_zh": "王忠銘",
+    "party": "KMT",
+    "wiki_url": null,
+    "photo": null
+  }
+}

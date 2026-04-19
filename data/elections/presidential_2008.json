@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "election": "Presidential", "year": 2008, "date": "2008-03-22", "turnout": 76.33,
+    "source": "Wikipedia — 2008 Taiwanese presidential election, county results table (sourced from CEC). Entered from screenshot April 2026.",
+    "ballot_order": "1=Frank Hsieh/DPP, 2=Ma Ying-jeou/KMT",
+    "boundary_note": "2008 used pre-2010 boundaries: Taipei County (→ New Taipei F), Taichung County+City (→ Taichung B), Tainan County+City (→ Tainan D), Kaohsiung County+City (→ Kaohsiung E) were separate. Votes for these districts have been COMBINED to match the post-2010 22-unit boundary map used by counties_current TopoJSON. The original pre-merger breakdown is preserved below in _meta.pre_merger_data for reference.",
+    "candidates": [
+      { "name_en": "Ma Ying-jeou",  "name_zh": "馬英九", "party": "KMT", "running_mate_en": "Vincent Siew", "running_mate_zh": "蕭萬長", "total_votes": 7659014, "total_pct": 58.45 },
+      { "name_en": "Frank Hsieh",   "name_zh": "謝長廷", "party": "DPP", "running_mate_en": "Su Tseng-chang","running_mate_zh": "蘇貞昌", "total_votes": 5444949, "total_pct": 41.55 }
+    ],
+    "pre_merger_data": {
+      "Taipei County":     { "KMT": { "votes": 1359419, "pct": 61.06 }, "DPP": { "votes": 866915,  "pct": 38.94 } },
+      "Taichung County":   { "KMT": { "votes": 505698,  "pct": 58.84 }, "DPP": { "votes": 353706,  "pct": 41.16 } },
+      "Taichung City":     { "KMT": { "votes": 365979,  "pct": 61.74 }, "DPP": { "votes": 226751,  "pct": 38.26 } },
+      "Tainan County":     { "KMT": { "votes": 276751,  "pct": 43.85 }, "DPP": { "votes": 354409,  "pct": 56.15 } },
+      "Tainan City":       { "KMT": { "votes": 223034,  "pct": 50.71 }, "DPP": { "votes": 216815,  "pct": 49.29 } },
+      "Kaohsiung County":  { "KMT": { "votes": 353333,  "pct": 48.59 }, "DPP": { "votes": 373900,  "pct": 51.41 } },
+      "Kaohsiung City":    { "KMT": { "votes": 469252,  "pct": 51.59 }, "DPP": { "votes": 440367,  "pct": 48.41 } }
+    }
+  },
+
+  "A": { "name_zh": "臺北市", "name_en": "Taipei City",       "electorate": 2042805, "turnout": 79.19, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 1011546, "vote_pct": 63.03 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 593256,  "vote_pct": 36.97 }
+  ]},
+  "F": {
+    "name_zh": "新北市", "name_en": "New Taipei City",
+    "electorate": 2878477, "turnout": 78.08,
+    "boundary_note": "Formerly Taipei County (台北縣). Upgraded to special municipality New Taipei City in 2010.",
+    "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 1359419, "vote_pct": 61.06 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 866915,  "vote_pct": 38.94 }
+  ]},
+  "C": { "name_zh": "基隆市", "name_en": "Keelung City",      "electorate": 297794,  "turnout": 76.09, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 152327, "vote_pct": 67.73 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 72562,  "vote_pct": 32.27 }
+  ]},
+  "G": { "name_zh": "宜蘭縣", "name_en": "Yilan County",      "electorate": 346921,  "turnout": 73.98, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 130951, "vote_pct": 51.42 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 123700, "vote_pct": 48.58 }
+  ]},
+  "H": { "name_zh": "桃園市", "name_en": "Taoyuan City",      "electorate": 1396390, "turnout": 77.58, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 693602, "vote_pct": 64.64 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 379416, "vote_pct": 35.36 }
+  ]},
+  "J": { "name_zh": "新竹縣", "name_en": "Hsinchu County",    "electorate": 358433,  "turnout": 79.33, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 208445, "vote_pct": 74.02 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 73178,  "vote_pct": 25.98 }
+  ]},
+  "O": { "name_zh": "新竹市", "name_en": "Hsinchu City",      "electorate": 289862,  "turnout": 78.52, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 145930, "vote_pct": 64.70 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 79634,  "vote_pct": 35.30 }
+  ]},
+  "K": { "name_zh": "苗栗縣", "name_en": "Miaoli County",     "electorate": 420176,  "turnout": 76.83, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 227069, "vote_pct": 70.99 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 92795,  "vote_pct": 29.01 }
+  ]},
+  "B": {
+    "name_zh": "臺中市", "name_en": "Taichung City",
+    "electorate": 1905163, "turnout": 76.96,
+    "boundary_note": "Combined from pre-2010 Taichung County (台中縣, 1,135,237 electors) and Taichung City (台中市, 769,926 electors). Merged into special municipality 2010.",
+    "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 871677, "vote_pct": 59.59, "note": "Combined: County 505698 + City 365979" },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 580457, "vote_pct": 39.69, "note": "Combined: County 353706 + City 226751" }
+  ]},
+  "N": { "name_zh": "彰化縣", "name_en": "Changhua County",   "electorate": 981262,  "turnout": 75.05, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 419700, "vote_pct": 57.59 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 309134, "vote_pct": 42.41 }
+  ]},
+  "M": { "name_zh": "南投縣", "name_en": "Nantou County",     "electorate": 404968,  "turnout": 72.12, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 179630, "vote_pct": 62.03 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 109955, "vote_pct": 37.97 }
+  ]},
+  "P": { "name_zh": "雲林縣", "name_en": "Yunlin County",     "electorate": 557704,  "turnout": 70.06, "winner": { "name_en": "Frank Hsieh", "party": "DPP" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 187705, "vote_pct": 48.47 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 199558, "vote_pct": 51.53 }
+  ]},
+  "Q": { "name_zh": "嘉義縣", "name_en": "Chiayi County",     "electorate": 427808,  "turnout": 72.32, "winner": { "name_en": "Frank Hsieh", "party": "DPP" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 139603, "vote_pct": 45.56 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 166833, "vote_pct": 54.44 }
+  ]},
+  "I": { "name_zh": "嘉義市", "name_en": "Chiayi City",       "electorate": 200834,  "turnout": 76.34, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 79713,  "vote_pct": 52.39 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 72442,  "vote_pct": 47.61 }
+  ]},
+  "D": {
+    "name_zh": "臺南市", "name_en": "Tainan City",
+    "electorate": 2432406, "turnout": 75.18,
+    "boundary_note": "Combined from pre-2010 Tainan County (台南縣, 854,240 electors) and Tainan City (台南市, 578,159 electors). Merged into special municipality 2010.",
+    "winner": { "name_en": "Frank Hsieh", "party": "DPP" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 499785, "vote_pct": 47.26, "note": "Combined: County 276751 + City 223034" },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 571224, "vote_pct": 53.01, "note": "Combined: County 354409 + City 216815" }
+  ]},
+  "E": {
+    "name_zh": "高雄市", "name_en": "Kaohsiung City",
+    "electorate": 2117156, "turnout": 78.18,
+    "boundary_note": "Combined from pre-2010 Kaohsiung County (高雄縣, 953,610 electors) and Kaohsiung City (高雄市, 1,163,546 electors). Merged into special municipality 2010.",
+    "winner": { "name_en": "Frank Hsieh", "party": "DPP" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 822585, "vote_pct": 49.73, "note": "Combined: County 353333 + City 469252" },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 814267, "vote_pct": 49.23, "note": "Combined: County 373900 + City 440367" }
+  ]},
+  "T": { "name_zh": "屏東縣", "name_en": "Pingtung County",   "electorate": 679205,  "turnout": 73.75, "winner": { "name_en": "Frank Hsieh", "party": "DPP" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 247305, "vote_pct": 49.75 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 249795, "vote_pct": 50.25 }
+  ]},
+  "V": { "name_zh": "臺東縣", "name_en": "Taitung County",    "electorate": 177843,  "turnout": 63.18, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 81668,  "vote_pct": 73.32 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 29714,  "vote_pct": 26.68 }
+  ]},
+  "U": { "name_zh": "花蓮縣", "name_en": "Hualien County",    "electorate": 260820,  "turnout": 68.85, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 137604, "vote_pct": 77.48 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 40003,  "vote_pct": 22.52 }
+  ]},
+  "X": { "name_zh": "澎湖縣", "name_en": "Penghu County",     "electorate": 72170,   "turnout": 60.39, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 25037,  "vote_pct": 57.93 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 18181,  "vote_pct": 42.07 }
+  ]},
+  "W": { "name_zh": "金門縣", "name_en": "Kinmen County",     "electorate": 65572,   "turnout": 53.78, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 33384,  "vote_pct": 95.13 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 1710,   "vote_pct": 4.87  }
+  ]},
+  "Z": { "name_zh": "連江縣", "name_en": "Lienchiang County", "electorate": 7860,    "turnout": 58.12, "winner": { "name_en": "Ma Ying-jeou", "party": "KMT" }, "candidates": [
+    { "politician_id": "1008", "name_en": "Ma Ying-jeou", "name_zh": "馬英九", "party": "KMT", "votes": 4329,   "vote_pct": 95.16 },
+    { "politician_id": "1009", "name_en": "Frank Hsieh", "name_zh": "謝長廷", "party": "DPP", "votes": 220,    "vote_pct": 4.84  }
+  ]}
+}
