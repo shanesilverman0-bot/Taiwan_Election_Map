@@ -3,22 +3,3205 @@
     "election": "Legislative Yuan 立法院",
     "year": 2020,
     "date": "2020-01-11",
-    "notes": "113-seat Legislature. DPP supermajority. 73 district seats + 34 party-list + 6 indigenous. Source: CEC db.cec.gov.tw. District-level results pending — feature IDs must be verified against taiwan-atlas districts-10t.json.",
+    "source": "elections.olc.tw",
+    "boundary_source": "legislative_2020",
     "seats": {
       "DPP": 61,
       "KMT": 38,
       "TPP": 5,
       "NPP": 3,
-      "PFP": 1,
       "TSP": 1,
-      "IND": 4
-    },
-    "seat_breakdown": {
-      "notes": "DPP: 40 district + 13 party-list + 3 indigenous (+ close allies TSP/NPP also broadly pan-green). KMT: 26 district + 11 party-list + 1 indigenous. TPP: 5 party-list. NPP: 3 district. PFP: 1 party-list. TSP: 1 district. IND: 4.",
-      "total": 113,
-      "district": 73,
-      "party_list": 34,
-      "indigenous": 6
+      "IND": 5
     }
+  },
+  "10008-1": {
+    "winner": {
+      "name_zh": "馬文君",
+      "party": "KMT",
+      "votes": 73480,
+      "vote_pct": 53.6
+    },
+    "candidates": [
+      {
+        "name_zh": "馬文君",
+        "party": "KMT",
+        "votes": 73480,
+        "vote_pct": 53.6
+      },
+      {
+        "name_zh": "蔡培慧",
+        "party": "DPP",
+        "votes": 63691,
+        "vote_pct": 46.4
+      }
+    ]
+  },
+  "10008-2": {
+    "winner": {
+      "name_zh": "許淑華",
+      "party": "KMT",
+      "votes": 80067,
+      "vote_pct": 52.1
+    },
+    "candidates": [
+      {
+        "name_zh": "許淑華",
+        "party": "KMT",
+        "votes": 80067,
+        "vote_pct": 52.1
+      },
+      {
+        "name_zh": "陳癸佑",
+        "party": "DPP",
+        "votes": 59322,
+        "vote_pct": 38.6
+      },
+      {
+        "name_zh": "傅文佐",
+        "party": "IND",
+        "votes": 8421,
+        "vote_pct": 5.5
+      },
+      {
+        "name_zh": "吳承叡",
+        "party": "TSP",
+        "votes": 4865,
+        "vote_pct": 3.2
+      },
+      {
+        "name_zh": "謝福全",
+        "party": "IND",
+        "votes": 978,
+        "vote_pct": 0.6
+      }
+    ]
+  },
+  "10020-1": {
+    "winner": {
+      "name_zh": "王美惠",
+      "party": "DPP",
+      "votes": 80333,
+      "vote_pct": 48.6
+    },
+    "candidates": [
+      {
+        "name_zh": "王美惠",
+        "party": "DPP",
+        "votes": 80333,
+        "vote_pct": 48.6
+      },
+      {
+        "name_zh": "傅大偉",
+        "party": "KMT",
+        "votes": 53154,
+        "vote_pct": 32.1
+      },
+      {
+        "name_zh": "戴寧",
+        "party": "IND",
+        "votes": 14000,
+        "vote_pct": 8.5
+      },
+      {
+        "name_zh": "凌子楚",
+        "party": "IND",
+        "votes": 7270,
+        "vote_pct": 4.4
+      },
+      {
+        "name_zh": "郭瑞豐",
+        "party": "IND",
+        "votes": 3878,
+        "vote_pct": 2.3
+      },
+      {
+        "name_zh": "蔡永泉",
+        "party": "IND",
+        "votes": 3501,
+        "vote_pct": 2.1
+      },
+      {
+        "name_zh": "陳泰山",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 1.2
+      },
+      {
+        "name_zh": "黃宏成台灣阿成世界偉人財神總統",
+        "party": "IND",
+        "votes": 1208,
+        "vote_pct": 0.7
+      }
+    ]
+  },
+  "10010-1": {
+    "winner": {
+      "name_zh": "蔡易餘",
+      "party": "DPP",
+      "votes": 81028,
+      "vote_pct": 56.4
+    },
+    "candidates": [
+      {
+        "name_zh": "蔡易餘",
+        "party": "DPP",
+        "votes": 81028,
+        "vote_pct": 56.4
+      },
+      {
+        "name_zh": "王啓澧",
+        "party": "KMT",
+        "votes": 56256,
+        "vote_pct": 39.1
+      },
+      {
+        "name_zh": "黃俊雄",
+        "party": "IND",
+        "votes": 4243,
+        "vote_pct": 3
+      },
+      {
+        "name_zh": "黃奕瑄",
+        "party": "IND",
+        "votes": 2175,
+        "vote_pct": 1.5
+      }
+    ]
+  },
+  "10010-2": {
+    "winner": {
+      "name_zh": "陳明文",
+      "party": "DPP",
+      "votes": 72141,
+      "vote_pct": 44.5
+    },
+    "candidates": [
+      {
+        "name_zh": "陳明文",
+        "party": "DPP",
+        "votes": 72141,
+        "vote_pct": 44.5
+      },
+      {
+        "name_zh": "林國慶",
+        "party": "IND",
+        "votes": 64415,
+        "vote_pct": 39.7
+      },
+      {
+        "name_zh": "許能通",
+        "party": "IND",
+        "votes": 13246,
+        "vote_pct": 8.2
+      },
+      {
+        "name_zh": "簡明廉",
+        "party": "IND",
+        "votes": 7254,
+        "vote_pct": 4.5
+      },
+      {
+        "name_zh": "許韶珍",
+        "party": "IND",
+        "votes": 2681,
+        "vote_pct": 1.7
+      },
+      {
+        "name_zh": "王金山",
+        "party": "IND",
+        "votes": 2418,
+        "vote_pct": 1.5
+      }
+    ]
+  },
+  "10017-1": {
+    "winner": {
+      "name_zh": "蔡適應",
+      "party": "DPP",
+      "votes": 104082,
+      "vote_pct": 47.3
+    },
+    "candidates": [
+      {
+        "name_zh": "蔡適應",
+        "party": "DPP",
+        "votes": 104082,
+        "vote_pct": 47.3
+      },
+      {
+        "name_zh": "宋瑋莉",
+        "party": "KMT",
+        "votes": 83689,
+        "vote_pct": 38
+      },
+      {
+        "name_zh": "楊石城",
+        "party": "IND",
+        "votes": 18942,
+        "vote_pct": 8.6
+      },
+      {
+        "name_zh": "張耿輝",
+        "party": "IND",
+        "votes": 13374,
+        "vote_pct": 6.1
+      }
+    ]
+  },
+  "10002-1": {
+    "winner": {
+      "name_zh": "陳歐珀",
+      "party": "DPP",
+      "votes": 121526,
+      "vote_pct": 45.4
+    },
+    "candidates": [
+      {
+        "name_zh": "陳歐珀",
+        "party": "DPP",
+        "votes": 121526,
+        "vote_pct": 45.4
+      },
+      {
+        "name_zh": "呂國華",
+        "party": "KMT",
+        "votes": 89380,
+        "vote_pct": 33.4
+      },
+      {
+        "name_zh": "黃定和",
+        "party": "IND",
+        "votes": 33026,
+        "vote_pct": 12.3
+      },
+      {
+        "name_zh": "孫博萮",
+        "party": "IND",
+        "votes": 15570,
+        "vote_pct": 5.8
+      },
+      {
+        "name_zh": "林獻山",
+        "party": "IND",
+        "votes": 6350,
+        "vote_pct": 2.4
+      },
+      {
+        "name_zh": "許育嘉",
+        "party": "IND",
+        "votes": 1730,
+        "vote_pct": 0.6
+      }
+    ]
+  },
+  "10013-1": {
+    "winner": {
+      "name_zh": "鍾佳濱",
+      "party": "DPP",
+      "votes": 119871,
+      "vote_pct": 47.7
+    },
+    "candidates": [
+      {
+        "name_zh": "鍾佳濱",
+        "party": "DPP",
+        "votes": 119871,
+        "vote_pct": 47.7
+      },
+      {
+        "name_zh": "葉壽山",
+        "party": "KMT",
+        "votes": 90467,
+        "vote_pct": 36
+      },
+      {
+        "name_zh": "蔣月惠",
+        "party": "IND",
+        "votes": 24118,
+        "vote_pct": 9.6
+      },
+      {
+        "name_zh": "秦鴻明",
+        "party": "IND",
+        "votes": 9411,
+        "vote_pct": 3.7
+      },
+      {
+        "name_zh": "潘偉龍",
+        "party": "IND",
+        "votes": 4476,
+        "vote_pct": 1.8
+      },
+      {
+        "name_zh": "黃冬輝",
+        "party": "IND",
+        "votes": 2700,
+        "vote_pct": 1.1
+      }
+    ]
+  },
+  "10013-2": {
+    "winner": {
+      "name_zh": "蘇震清",
+      "party": "IND",
+      "votes": 107956,
+      "vote_pct": 45
+    },
+    "candidates": [
+      {
+        "name_zh": "蘇震清",
+        "party": "IND",
+        "votes": 107956,
+        "vote_pct": 45
+      },
+      {
+        "name_zh": "周佳琪",
+        "party": "KMT",
+        "votes": 91168,
+        "vote_pct": 38
+      },
+      {
+        "name_zh": "張怡",
+        "party": "IND",
+        "votes": 19209,
+        "vote_pct": 8
+      },
+      {
+        "name_zh": "姚宗翰",
+        "party": "IND",
+        "votes": 9468,
+        "vote_pct": 3.9
+      },
+      {
+        "name_zh": "鄭朝明",
+        "party": "IND",
+        "votes": 7214,
+        "vote_pct": 3
+      },
+      {
+        "name_zh": "何麗莉",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 0.8
+      },
+      {
+        "name_zh": "何秋葺",
+        "party": "IND",
+        "votes": 1102,
+        "vote_pct": 0.5
+      },
+      {
+        "name_zh": "鄭文龍",
+        "party": "IND",
+        "votes": 887,
+        "vote_pct": 0.4
+      },
+      {
+        "name_zh": "馮家芸",
+        "party": "IND",
+        "votes": 682,
+        "vote_pct": 0.3
+      }
+    ]
+  },
+  "10007-1": {
+    "winner": {
+      "name_zh": "陳秀寳",
+      "party": "DPP",
+      "votes": 96191,
+      "vote_pct": 52
+    },
+    "candidates": [
+      {
+        "name_zh": "陳秀寳",
+        "party": "DPP",
+        "votes": 96191,
+        "vote_pct": 52
+      },
+      {
+        "name_zh": "柯呈枋",
+        "party": "KMT",
+        "votes": 88690,
+        "vote_pct": 48
+      }
+    ]
+  },
+  "10007-2": {
+    "winner": {
+      "name_zh": "黃秀芳",
+      "party": "DPP",
+      "votes": 83013,
+      "vote_pct": 45.1
+    },
+    "candidates": [
+      {
+        "name_zh": "黃秀芳",
+        "party": "DPP",
+        "votes": 83013,
+        "vote_pct": 45.1
+      },
+      {
+        "name_zh": "張瀚天",
+        "party": "KMT",
+        "votes": 78177,
+        "vote_pct": 42.5
+      },
+      {
+        "name_zh": "黃玉芬",
+        "party": "IND",
+        "votes": 22834,
+        "vote_pct": 12.4
+      }
+    ]
+  },
+  "10007-3": {
+    "winner": {
+      "name_zh": "謝衣鳳",
+      "party": "KMT",
+      "votes": 97396,
+      "vote_pct": 49
+    },
+    "candidates": [
+      {
+        "name_zh": "謝衣鳳",
+        "party": "KMT",
+        "votes": 97396,
+        "vote_pct": 49
+      },
+      {
+        "name_zh": "洪宗熠",
+        "party": "DPP",
+        "votes": 83380,
+        "vote_pct": 41.9
+      },
+      {
+        "name_zh": "劉銀鬃",
+        "party": "IND",
+        "votes": 9490,
+        "vote_pct": 4.8
+      },
+      {
+        "name_zh": "楊麗香",
+        "party": "IND",
+        "votes": 8518,
+        "vote_pct": 4.3
+      }
+    ]
+  },
+  "10007-4": {
+    "winner": {
+      "name_zh": "陳素月",
+      "party": "DPP",
+      "votes": 103740,
+      "vote_pct": 52.3
+    },
+    "candidates": [
+      {
+        "name_zh": "陳素月",
+        "party": "DPP",
+        "votes": 103740,
+        "vote_pct": 52.3
+      },
+      {
+        "name_zh": "蕭景田",
+        "party": "KMT",
+        "votes": 78603,
+        "vote_pct": 39.6
+      },
+      {
+        "name_zh": "何倍爾",
+        "party": "IND",
+        "votes": 4352,
+        "vote_pct": 2.2
+      },
+      {
+        "name_zh": "蕭翠瑩",
+        "party": "IND",
+        "votes": 4240,
+        "vote_pct": 2.1
+      },
+      {
+        "name_zh": "陳志傑",
+        "party": "IND",
+        "votes": 2913,
+        "vote_pct": 1.5
+      },
+      {
+        "name_zh": "林怡彣",
+        "party": "IND",
+        "votes": 2451,
+        "vote_pct": 1.2
+      },
+      {
+        "name_zh": "洪祐輔",
+        "party": "IND",
+        "votes": 2164,
+        "vote_pct": 1.1
+      }
+    ]
+  },
+  "65000-1": {
+    "winner": {
+      "name_zh": "洪孟楷",
+      "party": "KMT",
+      "votes": 119401,
+      "vote_pct": 44
+    },
+    "candidates": [
+      {
+        "name_zh": "洪孟楷",
+        "party": "KMT",
+        "votes": 119401,
+        "vote_pct": 44
+      },
+      {
+        "name_zh": "呂孫綾",
+        "party": "DPP",
+        "votes": 110162,
+        "vote_pct": 40.6
+      },
+      {
+        "name_zh": "張衛航",
+        "party": "NPP",
+        "votes": 19641,
+        "vote_pct": 7.2
+      },
+      {
+        "name_zh": "余長欣",
+        "party": "IND",
+        "votes": 8683,
+        "vote_pct": 3.2
+      },
+      {
+        "name_zh": "歐崇敬",
+        "party": "IND",
+        "votes": 7754,
+        "vote_pct": 2.9
+      },
+      {
+        "name_zh": "陳昭宏",
+        "party": "IND",
+        "votes": 2579,
+        "vote_pct": 1
+      },
+      {
+        "name_zh": "陳榮太",
+        "party": "IND",
+        "votes": 2478,
+        "vote_pct": 0.9
+      },
+      {
+        "name_zh": "張立蔭",
+        "party": "IND",
+        "votes": 604,
+        "vote_pct": 0.2
+      }
+    ]
+  },
+  "65000-2": {
+    "winner": {
+      "name_zh": "林淑芬",
+      "party": "DPP",
+      "votes": 132591,
+      "vote_pct": 61.6
+    },
+    "candidates": [
+      {
+        "name_zh": "林淑芬",
+        "party": "DPP",
+        "votes": 132591,
+        "vote_pct": 61.6
+      },
+      {
+        "name_zh": "黃桂蘭",
+        "party": "KMT",
+        "votes": 77625,
+        "vote_pct": 36.1
+      },
+      {
+        "name_zh": "龍大智",
+        "party": "IND",
+        "votes": 4998,
+        "vote_pct": 2.3
+      }
+    ]
+  },
+  "65000-3": {
+    "winner": {
+      "name_zh": "余天",
+      "party": "DPP",
+      "votes": 90022,
+      "vote_pct": 42.5
+    },
+    "candidates": [
+      {
+        "name_zh": "余天",
+        "party": "DPP",
+        "votes": 90022,
+        "vote_pct": 42.5
+      },
+      {
+        "name_zh": "李翁月娥",
+        "party": "IND",
+        "votes": 63832,
+        "vote_pct": 30.2
+      },
+      {
+        "name_zh": "李旻蔚",
+        "party": "TPP",
+        "votes": 35843,
+        "vote_pct": 16.9
+      },
+      {
+        "name_zh": "林宜瑄",
+        "party": "IND",
+        "votes": 9941,
+        "vote_pct": 4.7
+      },
+      {
+        "name_zh": "蘇卿彥",
+        "party": "IND",
+        "votes": 5328,
+        "vote_pct": 2.5
+      },
+      {
+        "name_zh": "李崇威",
+        "party": "IND",
+        "votes": 4230,
+        "vote_pct": 2
+      },
+      {
+        "name_zh": "羅和讚",
+        "party": "IND",
+        "votes": 2390,
+        "vote_pct": 1.1
+      }
+    ]
+  },
+  "65000-4": {
+    "winner": {
+      "name_zh": "吳秉叡",
+      "party": "DPP",
+      "votes": 119461,
+      "vote_pct": 51.4
+    },
+    "candidates": [
+      {
+        "name_zh": "吳秉叡",
+        "party": "DPP",
+        "votes": 119461,
+        "vote_pct": 51.4
+      },
+      {
+        "name_zh": "陳明義",
+        "party": "KMT",
+        "votes": 80455,
+        "vote_pct": 34.6
+      },
+      {
+        "name_zh": "黃博仁",
+        "party": "IND",
+        "votes": 9898,
+        "vote_pct": 4.3
+      },
+      {
+        "name_zh": "張哲偉",
+        "party": "IND",
+        "votes": 7025,
+        "vote_pct": 3
+      },
+      {
+        "name_zh": "葉宏仁",
+        "party": "IND",
+        "votes": 4882,
+        "vote_pct": 2.1
+      },
+      {
+        "name_zh": "陳俊憲",
+        "party": "IND",
+        "votes": 4002,
+        "vote_pct": 1.7
+      },
+      {
+        "name_zh": "王斯儀",
+        "party": "IND",
+        "votes": 3389,
+        "vote_pct": 1.5
+      },
+      {
+        "name_zh": "林麗容",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 0.9
+      },
+      {
+        "name_zh": "朱約翰",
+        "party": "IND",
+        "votes": 1469,
+        "vote_pct": 0.6
+      }
+    ]
+  },
+  "65000-5": {
+    "winner": {
+      "name_zh": "蘇巧慧",
+      "party": "DPP",
+      "votes": 106368,
+      "vote_pct": 57.1
+    },
+    "candidates": [
+      {
+        "name_zh": "蘇巧慧",
+        "party": "DPP",
+        "votes": 106368,
+        "vote_pct": 57.1
+      },
+      {
+        "name_zh": "黃志雄",
+        "party": "KMT",
+        "votes": 77919,
+        "vote_pct": 41.8
+      },
+      {
+        "name_zh": "徐金菊",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 1.1
+      }
+    ]
+  },
+  "65000-6": {
+    "winner": {
+      "name_zh": "張宏陸",
+      "party": "DPP",
+      "votes": 88236,
+      "vote_pct": 51.3
+    },
+    "candidates": [
+      {
+        "name_zh": "張宏陸",
+        "party": "DPP",
+        "votes": 88236,
+        "vote_pct": 51.3
+      },
+      {
+        "name_zh": "林國春",
+        "party": "KMT",
+        "votes": 69178,
+        "vote_pct": 40.2
+      },
+      {
+        "name_zh": "陳玉鳳",
+        "party": "IND",
+        "votes": 9974,
+        "vote_pct": 5.8
+      },
+      {
+        "name_zh": "石人仁",
+        "party": "PFP",
+        "votes": 4649,
+        "vote_pct": 2.7
+      }
+    ]
+  },
+  "65000-7": {
+    "winner": {
+      "name_zh": "羅致政",
+      "party": "DPP",
+      "votes": 82764,
+      "vote_pct": 41.6
+    },
+    "candidates": [
+      {
+        "name_zh": "羅致政",
+        "party": "DPP",
+        "votes": 82764,
+        "vote_pct": 41.6
+      },
+      {
+        "name_zh": "柯志恩",
+        "party": "KMT",
+        "votes": 70659,
+        "vote_pct": 35.5
+      },
+      {
+        "name_zh": "吳達偉",
+        "party": "TPP",
+        "votes": 20579,
+        "vote_pct": 10.3
+      },
+      {
+        "name_zh": "黃足貞",
+        "party": "IND",
+        "votes": 9990,
+        "vote_pct": 5
+      },
+      {
+        "name_zh": "朱盛興",
+        "party": "IND",
+        "votes": 9892,
+        "vote_pct": 5
+      },
+      {
+        "name_zh": "張源益",
+        "party": "IND",
+        "votes": 4736,
+        "vote_pct": 2.4
+      },
+      {
+        "name_zh": "連石磊",
+        "party": "IND",
+        "votes": 235,
+        "vote_pct": 0.1
+      }
+    ]
+  },
+  "65000-8": {
+    "winner": {
+      "name_zh": "江永昌",
+      "party": "DPP",
+      "votes": 101068,
+      "vote_pct": 45.9
+    },
+    "candidates": [
+      {
+        "name_zh": "江永昌",
+        "party": "DPP",
+        "votes": 101068,
+        "vote_pct": 45.9
+      },
+      {
+        "name_zh": "邱烽堯",
+        "party": "KMT",
+        "votes": 95471,
+        "vote_pct": 43.4
+      },
+      {
+        "name_zh": "李正皓",
+        "party": "PFP",
+        "votes": 13226,
+        "vote_pct": 6
+      },
+      {
+        "name_zh": "許惠珍",
+        "party": "IND",
+        "votes": 6614,
+        "vote_pct": 3
+      },
+      {
+        "name_zh": "李國憲",
+        "party": "IND",
+        "votes": 2977,
+        "vote_pct": 1.4
+      },
+      {
+        "name_zh": "蔡宗霖",
+        "party": "IND",
+        "votes": 739,
+        "vote_pct": 0.3
+      }
+    ]
+  },
+  "65000-9": {
+    "winner": {
+      "name_zh": "林德福",
+      "party": "KMT",
+      "votes": 102108,
+      "vote_pct": 55.4
+    },
+    "candidates": [
+      {
+        "name_zh": "林德福",
+        "party": "KMT",
+        "votes": 102108,
+        "vote_pct": 55.4
+      },
+      {
+        "name_zh": "蔡沐霖",
+        "party": "DPP",
+        "votes": 68206,
+        "vote_pct": 37
+      },
+      {
+        "name_zh": "陳愷寧",
+        "party": "IND",
+        "votes": 4881,
+        "vote_pct": 2.6
+      },
+      {
+        "name_zh": "林聲洲",
+        "party": "IND",
+        "votes": 4163,
+        "vote_pct": 2.3
+      },
+      {
+        "name_zh": "詹宇賢",
+        "party": "TSP",
+        "votes": 3053,
+        "vote_pct": 1.7
+      },
+      {
+        "name_zh": "楊智淵",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 1.1
+      }
+    ]
+  },
+  "65000-10": {
+    "winner": {
+      "name_zh": "吳琪銘",
+      "party": "DPP",
+      "votes": 92665,
+      "vote_pct": 42.4
+    },
+    "candidates": [
+      {
+        "name_zh": "吳琪銘",
+        "party": "DPP",
+        "votes": 92665,
+        "vote_pct": 42.4
+      },
+      {
+        "name_zh": "林金結",
+        "party": "KMT",
+        "votes": 73686,
+        "vote_pct": 33.7
+      },
+      {
+        "name_zh": "李縉穎",
+        "party": "IND",
+        "votes": 38977,
+        "vote_pct": 17.8
+      },
+      {
+        "name_zh": "劉瑞娜",
+        "party": "IND",
+        "votes": 8704,
+        "vote_pct": 4
+      },
+      {
+        "name_zh": "曾怡晴",
+        "party": "IND",
+        "votes": 4354,
+        "vote_pct": 2
+      }
+    ]
+  },
+  "65000-11": {
+    "winner": {
+      "name_zh": "羅明才",
+      "party": "KMT",
+      "votes": 124714,
+      "vote_pct": 57.4
+    },
+    "candidates": [
+      {
+        "name_zh": "羅明才",
+        "party": "KMT",
+        "votes": 124714,
+        "vote_pct": 57.4
+      },
+      {
+        "name_zh": "張銘祐",
+        "party": "DPP",
+        "votes": 73755,
+        "vote_pct": 34
+      },
+      {
+        "name_zh": "李欣翰",
+        "party": "TSP",
+        "votes": 7363,
+        "vote_pct": 3.4
+      },
+      {
+        "name_zh": "胡大剛",
+        "party": "IND",
+        "votes": 4065,
+        "vote_pct": 1.9
+      },
+      {
+        "name_zh": "廖再興",
+        "party": "IND",
+        "votes": 3082,
+        "vote_pct": 1.4
+      },
+      {
+        "name_zh": "廖麗娟",
+        "party": "IND",
+        "votes": 2806,
+        "vote_pct": 1.3
+      },
+      {
+        "name_zh": "臧汝興",
+        "party": "IND",
+        "votes": 1414,
+        "vote_pct": 0.7
+      }
+    ]
+  },
+  "65000-12": {
+    "winner": {
+      "name_zh": "賴品妤",
+      "party": "DPP",
+      "votes": 84393,
+      "vote_pct": 45
+    },
+    "candidates": [
+      {
+        "name_zh": "賴品妤",
+        "party": "DPP",
+        "votes": 84393,
+        "vote_pct": 45
+      },
+      {
+        "name_zh": "李永萍",
+        "party": "KMT",
+        "votes": 81613,
+        "vote_pct": 43.5
+      },
+      {
+        "name_zh": "賴嘉倫",
+        "party": "NPP",
+        "votes": 13563,
+        "vote_pct": 7.2
+      },
+      {
+        "name_zh": "孫繼正",
+        "party": "IND",
+        "votes": 2889,
+        "vote_pct": 1.5
+      },
+      {
+        "name_zh": "張依維",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 1.1
+      },
+      {
+        "name_zh": "張志偉",
+        "party": "IND",
+        "votes": 1638,
+        "vote_pct": 0.9
+      },
+      {
+        "name_zh": "周武榮",
+        "party": "IND",
+        "votes": 1620,
+        "vote_pct": 0.9
+      }
+    ]
+  },
+  "10018-1": {
+    "winner": {
+      "name_zh": "鄭正鈐",
+      "party": "KMT",
+      "votes": 95298,
+      "vote_pct": 36.4
+    },
+    "candidates": [
+      {
+        "name_zh": "鄭正鈐",
+        "party": "KMT",
+        "votes": 95298,
+        "vote_pct": 36.4
+      },
+      {
+        "name_zh": "鄭宏輝",
+        "party": "DPP",
+        "votes": 82011,
+        "vote_pct": 31.3
+      },
+      {
+        "name_zh": "高鈺婷",
+        "party": "NPP",
+        "votes": 73770,
+        "vote_pct": 28.2
+      },
+      {
+        "name_zh": "廖蓓瑩",
+        "party": "IND",
+        "votes": 5151,
+        "vote_pct": 2
+      },
+      {
+        "name_zh": "曾楷耀",
+        "party": "IND",
+        "votes": 4757,
+        "vote_pct": 1.8
+      },
+      {
+        "name_zh": "王榮德",
+        "party": "IND",
+        "votes": 971,
+        "vote_pct": 0.4
+      }
+    ]
+  },
+  "10004-1": {
+    "winner": {
+      "name_zh": "林為洲",
+      "party": "KMT",
+      "votes": 74087,
+      "vote_pct": 48.8
+    },
+    "candidates": [
+      {
+        "name_zh": "林為洲",
+        "party": "KMT",
+        "votes": 74087,
+        "vote_pct": 48.8
+      },
+      {
+        "name_zh": "周江杰",
+        "party": "DPP",
+        "votes": 54862,
+        "vote_pct": 36.2
+      },
+      {
+        "name_zh": "吳旭智",
+        "party": "IND",
+        "votes": 9623,
+        "vote_pct": 6.3
+      },
+      {
+        "name_zh": "余筱菁",
+        "party": "IND",
+        "votes": 7142,
+        "vote_pct": 4.7
+      },
+      {
+        "name_zh": "傅家賢",
+        "party": "IND",
+        "votes": 4019,
+        "vote_pct": 2.6
+      },
+      {
+        "name_zh": "劉復嵐",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 1.3
+      }
+    ]
+  },
+  "10004-2": {
+    "winner": {
+      "name_zh": "林思銘",
+      "party": "KMT",
+      "votes": 58575,
+      "vote_pct": 33
+    },
+    "candidates": [
+      {
+        "name_zh": "林思銘",
+        "party": "KMT",
+        "votes": 58575,
+        "vote_pct": 33
+      },
+      {
+        "name_zh": "鄭朝方",
+        "party": "DPP",
+        "votes": 56075,
+        "vote_pct": 31.6
+      },
+      {
+        "name_zh": "邱靖雅",
+        "party": "IND",
+        "votes": 22964,
+        "vote_pct": 12.9
+      },
+      {
+        "name_zh": "林碩彥",
+        "party": "TPP",
+        "votes": 17902,
+        "vote_pct": 10.1
+      },
+      {
+        "name_zh": "劉士睿",
+        "party": "TSP",
+        "votes": 9397,
+        "vote_pct": 5.3
+      },
+      {
+        "name_zh": "陳冠宇",
+        "party": "IND",
+        "votes": 8422,
+        "vote_pct": 4.7
+      },
+      {
+        "name_zh": "黃秀龍",
+        "party": "IND",
+        "votes": 4057,
+        "vote_pct": 2.3
+      }
+    ]
+  },
+  "68000-1": {
+    "winner": {
+      "name_zh": "鄭運鵬",
+      "party": "DPP",
+      "votes": 104735,
+      "vote_pct": 45.8
+    },
+    "candidates": [
+      {
+        "name_zh": "鄭運鵬",
+        "party": "DPP",
+        "votes": 104735,
+        "vote_pct": 45.8
+      },
+      {
+        "name_zh": "陳根德",
+        "party": "KMT",
+        "votes": 97787,
+        "vote_pct": 42.8
+      },
+      {
+        "name_zh": "陳泓維",
+        "party": "TPP",
+        "votes": 21951,
+        "vote_pct": 9.6
+      },
+      {
+        "name_zh": "楊淂鉉",
+        "party": "IND",
+        "votes": 2031,
+        "vote_pct": 0.9
+      },
+      {
+        "name_zh": "沈育和",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 0.9
+      }
+    ]
+  },
+  "68000-2": {
+    "winner": {
+      "name_zh": "黃世杰",
+      "party": "DPP",
+      "votes": 111963,
+      "vote_pct": 48.7
+    },
+    "candidates": [
+      {
+        "name_zh": "黃世杰",
+        "party": "DPP",
+        "votes": 111963,
+        "vote_pct": 48.7
+      },
+      {
+        "name_zh": "吳志揚",
+        "party": "KMT",
+        "votes": 99281,
+        "vote_pct": 43.2
+      },
+      {
+        "name_zh": "陳志豪",
+        "party": "IND",
+        "votes": 9784,
+        "vote_pct": 4.3
+      },
+      {
+        "name_zh": "張馨云",
+        "party": "IND",
+        "votes": 4944,
+        "vote_pct": 2.2
+      },
+      {
+        "name_zh": "吳文凱",
+        "party": "IND",
+        "votes": 3953,
+        "vote_pct": 1.7
+      }
+    ]
+  },
+  "68000-3": {
+    "winner": {
+      "name_zh": "魯明哲",
+      "party": "KMT",
+      "votes": 100463,
+      "vote_pct": 45.3
+    },
+    "candidates": [
+      {
+        "name_zh": "魯明哲",
+        "party": "KMT",
+        "votes": 100463,
+        "vote_pct": 45.3
+      },
+      {
+        "name_zh": "彭俊豪",
+        "party": "DPP",
+        "votes": 90148,
+        "vote_pct": 40.7
+      },
+      {
+        "name_zh": "林佳瑋",
+        "party": "NPP",
+        "votes": 17512,
+        "vote_pct": 7.9
+      },
+      {
+        "name_zh": "李奇峰",
+        "party": "IND",
+        "votes": 6474,
+        "vote_pct": 2.9
+      },
+      {
+        "name_zh": "胡文中",
+        "party": "IND",
+        "votes": 5414,
+        "vote_pct": 2.4
+      },
+      {
+        "name_zh": "李文雄",
+        "party": "IND",
+        "votes": 1727,
+        "vote_pct": 0.8
+      }
+    ]
+  },
+  "68000-4": {
+    "winner": {
+      "name_zh": "萬美玲",
+      "party": "KMT",
+      "votes": 102763,
+      "vote_pct": 46.7
+    },
+    "candidates": [
+      {
+        "name_zh": "萬美玲",
+        "party": "KMT",
+        "votes": 102763,
+        "vote_pct": 46.7
+      },
+      {
+        "name_zh": "鄭寶清",
+        "party": "DPP",
+        "votes": 97316,
+        "vote_pct": 44.2
+      },
+      {
+        "name_zh": "吳清江",
+        "party": "IND",
+        "votes": 9607,
+        "vote_pct": 4.4
+      },
+      {
+        "name_zh": "林國政",
+        "party": "IND",
+        "votes": 5523,
+        "vote_pct": 2.5
+      },
+      {
+        "name_zh": "李中",
+        "party": "IND",
+        "votes": 4938,
+        "vote_pct": 2.2
+      }
+    ]
+  },
+  "68000-5": {
+    "winner": {
+      "name_zh": "呂玉玲",
+      "party": "KMT",
+      "votes": 94218,
+      "vote_pct": 43.8
+    },
+    "candidates": [
+      {
+        "name_zh": "呂玉玲",
+        "party": "KMT",
+        "votes": 94218,
+        "vote_pct": 43.8
+      },
+      {
+        "name_zh": "蔣絜安",
+        "party": "DPP",
+        "votes": 89629,
+        "vote_pct": 41.7
+      },
+      {
+        "name_zh": "張誠",
+        "party": "IND",
+        "votes": 13533,
+        "vote_pct": 6.3
+      },
+      {
+        "name_zh": "易乃文",
+        "party": "IND",
+        "votes": 9625,
+        "vote_pct": 4.5
+      },
+      {
+        "name_zh": "劉芳萍",
+        "party": "IND",
+        "votes": 8148,
+        "vote_pct": 3.8
+      }
+    ]
+  },
+  "68000-6": {
+    "winner": {
+      "name_zh": "趙正宇",
+      "party": "IND",
+      "votes": 115496,
+      "vote_pct": 58.4
+    },
+    "candidates": [
+      {
+        "name_zh": "趙正宇",
+        "party": "IND",
+        "votes": 115496,
+        "vote_pct": 58.4
+      },
+      {
+        "name_zh": "陳學聖",
+        "party": "KMT",
+        "votes": 82152,
+        "vote_pct": 41.6
+      }
+    ]
+  },
+  "10016-1": {
+    "winner": {
+      "name_zh": "楊曜",
+      "party": "DPP",
+      "votes": 26737,
+      "vote_pct": 45.8
+    },
+    "candidates": [
+      {
+        "name_zh": "楊曜",
+        "party": "DPP",
+        "votes": 26737,
+        "vote_pct": 45.8
+      },
+      {
+        "name_zh": "歐中慨",
+        "party": "KMT",
+        "votes": 22332,
+        "vote_pct": 38.2
+      },
+      {
+        "name_zh": "呂應宏",
+        "party": "IND",
+        "votes": 9368,
+        "vote_pct": 16
+      }
+    ]
+  },
+  "66000-1": {
+    "winner": {
+      "name_zh": "蔡其昌",
+      "party": "DPP",
+      "votes": 106376,
+      "vote_pct": 66.7
+    },
+    "candidates": [
+      {
+        "name_zh": "蔡其昌",
+        "party": "DPP",
+        "votes": 106376,
+        "vote_pct": 66.7
+      },
+      {
+        "name_zh": "林佳新",
+        "party": "KMT",
+        "votes": 47050,
+        "vote_pct": 29.5
+      },
+      {
+        "name_zh": "黃朝淵",
+        "party": "PFP",
+        "votes": 6086,
+        "vote_pct": 3.8
+      }
+    ]
+  },
+  "66000-2": {
+    "winner": {
+      "name_zh": "陳柏惟",
+      "party": "TSP",
+      "votes": 112839,
+      "vote_pct": 51.1
+    },
+    "candidates": [
+      {
+        "name_zh": "陳柏惟",
+        "party": "TSP",
+        "votes": 112839,
+        "vote_pct": 51.1
+      },
+      {
+        "name_zh": "顏寬恒",
+        "party": "KMT",
+        "votes": 107766,
+        "vote_pct": 48.9
+      }
+    ]
+  },
+  "66000-3": {
+    "winner": {
+      "name_zh": "楊瓊瓔",
+      "party": "KMT",
+      "votes": 91182,
+      "vote_pct": 44.9
+    },
+    "candidates": [
+      {
+        "name_zh": "楊瓊瓔",
+        "party": "KMT",
+        "votes": 91182,
+        "vote_pct": 44.9
+      },
+      {
+        "name_zh": "洪慈庸",
+        "party": "IND",
+        "votes": 90213,
+        "vote_pct": 44.4
+      },
+      {
+        "name_zh": "張睿倉",
+        "party": "TPP",
+        "votes": 14700,
+        "vote_pct": 7.2
+      },
+      {
+        "name_zh": "朱立凡",
+        "party": "IND",
+        "votes": 4832,
+        "vote_pct": 2.4
+      },
+      {
+        "name_zh": "宋柏澄",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 1
+      },
+      {
+        "name_zh": "張烱春",
+        "party": "IND",
+        "votes": 331,
+        "vote_pct": 0.2
+      }
+    ]
+  },
+  "66000-4": {
+    "winner": {
+      "name_zh": "張廖萬堅",
+      "party": "DPP",
+      "votes": 119886,
+      "vote_pct": 44.8
+    },
+    "candidates": [
+      {
+        "name_zh": "張廖萬堅",
+        "party": "DPP",
+        "votes": 119886,
+        "vote_pct": 44.8
+      },
+      {
+        "name_zh": "黃馨慧",
+        "party": "KMT",
+        "votes": 96460,
+        "vote_pct": 36
+      },
+      {
+        "name_zh": "張渝江",
+        "party": "TPP",
+        "votes": 13434,
+        "vote_pct": 5
+      },
+      {
+        "name_zh": "楊書銘",
+        "party": "IND",
+        "votes": 9688,
+        "vote_pct": 3.6
+      },
+      {
+        "name_zh": "陳志彬",
+        "party": "IND",
+        "votes": 9282,
+        "vote_pct": 3.5
+      },
+      {
+        "name_zh": "林金連",
+        "party": "IND",
+        "votes": 9158,
+        "vote_pct": 3.4
+      },
+      {
+        "name_zh": "李家葳",
+        "party": "IND",
+        "votes": 7714,
+        "vote_pct": 2.9
+      },
+      {
+        "name_zh": "紀經儀",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 0.8
+      }
+    ]
+  },
+  "66000-5": {
+    "winner": {
+      "name_zh": "莊競程",
+      "party": "DPP",
+      "votes": 114738,
+      "vote_pct": 44
+    },
+    "candidates": [
+      {
+        "name_zh": "莊競程",
+        "party": "DPP",
+        "votes": 114738,
+        "vote_pct": 44
+      },
+      {
+        "name_zh": "沈智慧",
+        "party": "KMT",
+        "votes": 109466,
+        "vote_pct": 42
+      },
+      {
+        "name_zh": "謝文卿",
+        "party": "TPP",
+        "votes": 18768,
+        "vote_pct": 7.2
+      },
+      {
+        "name_zh": "段體佩",
+        "party": "IND",
+        "votes": 5225,
+        "vote_pct": 2
+      },
+      {
+        "name_zh": "賴建豪",
+        "party": "PFP",
+        "votes": 5100,
+        "vote_pct": 2
+      },
+      {
+        "name_zh": "黃名白",
+        "party": "IND",
+        "votes": 4713,
+        "vote_pct": 1.8
+      },
+      {
+        "name_zh": "苗豐隆",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 0.8
+      },
+      {
+        "name_zh": "彭振芳",
+        "party": "IND",
+        "votes": 561,
+        "vote_pct": 0.2
+      },
+      {
+        "name_zh": "顧吉熙",
+        "party": "IND",
+        "votes": 339,
+        "vote_pct": 0.1
+      }
+    ]
+  },
+  "66000-6": {
+    "winner": {
+      "name_zh": "黃國書",
+      "party": "DPP",
+      "votes": 113128,
+      "vote_pct": 55.5
+    },
+    "candidates": [
+      {
+        "name_zh": "黃國書",
+        "party": "DPP",
+        "votes": 113128,
+        "vote_pct": 55.5
+      },
+      {
+        "name_zh": "李中",
+        "party": "KMT",
+        "votes": 80478,
+        "vote_pct": 39.5
+      },
+      {
+        "name_zh": "楊木蘭",
+        "party": "IND",
+        "votes": 4278,
+        "vote_pct": 2.1
+      },
+      {
+        "name_zh": "吳光中",
+        "party": "PFP",
+        "votes": 3882,
+        "vote_pct": 1.9
+      },
+      {
+        "name_zh": "洪偉富",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 1
+      }
+    ]
+  },
+  "66000-7": {
+    "winner": {
+      "name_zh": "何欣純",
+      "party": "DPP",
+      "votes": 149538,
+      "vote_pct": 61.7
+    },
+    "candidates": [
+      {
+        "name_zh": "何欣純",
+        "party": "DPP",
+        "votes": 149538,
+        "vote_pct": 61.7
+      },
+      {
+        "name_zh": "莊子富",
+        "party": "KMT",
+        "votes": 80000,
+        "vote_pct": 33
+      },
+      {
+        "name_zh": "蔣祖棋",
+        "party": "IND",
+        "votes": 8798,
+        "vote_pct": 3.6
+      },
+      {
+        "name_zh": "林培基",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 0.8
+      },
+      {
+        "name_zh": "傅若怡",
+        "party": "IND",
+        "votes": 1883,
+        "vote_pct": 0.8
+      }
+    ]
+  },
+  "66000-8": {
+    "winner": {
+      "name_zh": "江啟臣",
+      "party": "KMT",
+      "votes": 94750,
+      "vote_pct": 58.5
+    },
+    "candidates": [
+      {
+        "name_zh": "江啟臣",
+        "party": "KMT",
+        "votes": 94750,
+        "vote_pct": 58.5
+      },
+      {
+        "name_zh": "翁美春",
+        "party": "DPP",
+        "votes": 62471,
+        "vote_pct": 38.6
+      },
+      {
+        "name_zh": "朱智德",
+        "party": "IND",
+        "votes": 2614,
+        "vote_pct": 1.6
+      },
+      {
+        "name_zh": "劉星龍",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 1.3
+      }
+    ]
+  },
+  "63000-1": {
+    "winner": {
+      "name_zh": "吳思瑤",
+      "party": "DPP",
+      "votes": 107850,
+      "vote_pct": 50.1
+    },
+    "candidates": [
+      {
+        "name_zh": "吳思瑤",
+        "party": "DPP",
+        "votes": 107850,
+        "vote_pct": 50.1
+      },
+      {
+        "name_zh": "汪志冰",
+        "party": "KMT",
+        "votes": 83566,
+        "vote_pct": 38.8
+      },
+      {
+        "name_zh": "孫士堅",
+        "party": "IND",
+        "votes": 9142,
+        "vote_pct": 4.2
+      },
+      {
+        "name_zh": "李婉鈺",
+        "party": "IND",
+        "votes": 6636,
+        "vote_pct": 3.1
+      },
+      {
+        "name_zh": "王郁揚",
+        "party": "IND",
+        "votes": 4004,
+        "vote_pct": 1.9
+      },
+      {
+        "name_zh": "方儉",
+        "party": "IND",
+        "votes": 2203,
+        "vote_pct": 1
+      },
+      {
+        "name_zh": "賴宗育",
+        "party": "IND",
+        "votes": 1870,
+        "vote_pct": 0.9
+      }
+    ]
+  },
+  "63000-2": {
+    "winner": {
+      "name_zh": "何志偉",
+      "party": "DPP",
+      "votes": 123652,
+      "vote_pct": 59.3
+    },
+    "candidates": [
+      {
+        "name_zh": "何志偉",
+        "party": "DPP",
+        "votes": 123652,
+        "vote_pct": 59.3
+      },
+      {
+        "name_zh": "孫大千",
+        "party": "KMT",
+        "votes": 68667,
+        "vote_pct": 32.9
+      },
+      {
+        "name_zh": "陳民乾",
+        "party": "IND",
+        "votes": 9417,
+        "vote_pct": 4.5
+      },
+      {
+        "name_zh": "巫超勝",
+        "party": "IND",
+        "votes": 4068,
+        "vote_pct": 2
+      },
+      {
+        "name_zh": "熊嘉玲",
+        "party": "IND",
+        "votes": 2360,
+        "vote_pct": 1.1
+      },
+      {
+        "name_zh": "郭啟源",
+        "party": "IND",
+        "votes": 418,
+        "vote_pct": 0.2
+      }
+    ]
+  },
+  "63000-3": {
+    "winner": {
+      "name_zh": "蔣萬安",
+      "party": "KMT",
+      "votes": 112784,
+      "vote_pct": 50.3
+    },
+    "candidates": [
+      {
+        "name_zh": "蔣萬安",
+        "party": "KMT",
+        "votes": 112784,
+        "vote_pct": 50.3
+      },
+      {
+        "name_zh": "吳怡農",
+        "party": "DPP",
+        "votes": 99539,
+        "vote_pct": 44.4
+      },
+      {
+        "name_zh": "何景榮",
+        "party": "TPP",
+        "votes": 9978,
+        "vote_pct": 4.4
+      },
+      {
+        "name_zh": "田方宇",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 0.9
+      }
+    ]
+  },
+  "63000-4": {
+    "winner": {
+      "name_zh": "高嘉瑜",
+      "party": "DPP",
+      "votes": 125138,
+      "vote_pct": 46.2
+    },
+    "candidates": [
+      {
+        "name_zh": "高嘉瑜",
+        "party": "DPP",
+        "votes": 125138,
+        "vote_pct": 46.2
+      },
+      {
+        "name_zh": "李彥秀",
+        "party": "KMT",
+        "votes": 118432,
+        "vote_pct": 43.7
+      },
+      {
+        "name_zh": "錢一凡",
+        "party": "IND",
+        "votes": 9574,
+        "vote_pct": 3.5
+      },
+      {
+        "name_zh": "文祥志",
+        "party": "IND",
+        "votes": 9458,
+        "vote_pct": 3.5
+      },
+      {
+        "name_zh": "郭正典",
+        "party": "IND",
+        "votes": 4180,
+        "vote_pct": 1.5
+      },
+      {
+        "name_zh": "郭佩雯",
+        "party": "IND",
+        "votes": 3934,
+        "vote_pct": 1.5
+      },
+      {
+        "name_zh": "蕭蒼澤",
+        "party": "IND",
+        "votes": 338,
+        "vote_pct": 0.1
+      }
+    ]
+  },
+  "63000-5": {
+    "winner": {
+      "name_zh": "林昶佐",
+      "party": "IND",
+      "votes": 81853,
+      "vote_pct": 42.8
+    },
+    "candidates": [
+      {
+        "name_zh": "林昶佐",
+        "party": "IND",
+        "votes": 81853,
+        "vote_pct": 42.8
+      },
+      {
+        "name_zh": "林郁方",
+        "party": "KMT",
+        "votes": 76437,
+        "vote_pct": 39.9
+      },
+      {
+        "name_zh": "徐立信",
+        "party": "IND",
+        "votes": 22208,
+        "vote_pct": 11.6
+      },
+      {
+        "name_zh": "周慶峻",
+        "party": "IND",
+        "votes": 4828,
+        "vote_pct": 2.5
+      },
+      {
+        "name_zh": "黃義豐",
+        "party": "IND",
+        "votes": 4730,
+        "vote_pct": 2.5
+      },
+      {
+        "name_zh": "邱一峰",
+        "party": "IND",
+        "votes": 551,
+        "vote_pct": 0.3
+      },
+      {
+        "name_zh": "盧憲孚",
+        "party": "IND",
+        "votes": 385,
+        "vote_pct": 0.2
+      },
+      {
+        "name_zh": "楊烱煌",
+        "party": "IND",
+        "votes": 352,
+        "vote_pct": 0.2
+      }
+    ]
+  },
+  "63000-6": {
+    "winner": {
+      "name_zh": "林奕華",
+      "party": "KMT",
+      "votes": 93785,
+      "vote_pct": 49.4
+    },
+    "candidates": [
+      {
+        "name_zh": "林奕華",
+        "party": "KMT",
+        "votes": 93785,
+        "vote_pct": 49.4
+      },
+      {
+        "name_zh": "謝佩芬",
+        "party": "DPP",
+        "votes": 75718,
+        "vote_pct": 39.9
+      },
+      {
+        "name_zh": "孟藹倫",
+        "party": "IND",
+        "votes": 5528,
+        "vote_pct": 2.9
+      },
+      {
+        "name_zh": "羅世晧",
+        "party": "IND",
+        "votes": 4404,
+        "vote_pct": 2.3
+      },
+      {
+        "name_zh": "楊攸凱",
+        "party": "IND",
+        "votes": 4155,
+        "vote_pct": 2.2
+      },
+      {
+        "name_zh": "黃典本",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 1.1
+      },
+      {
+        "name_zh": "葉日勤",
+        "party": "TSP",
+        "votes": 1508,
+        "vote_pct": 0.8
+      },
+      {
+        "name_zh": "沈宜璇",
+        "party": "IND",
+        "votes": 1267,
+        "vote_pct": 0.7
+      },
+      {
+        "name_zh": "蕭瑞麟",
+        "party": "IND",
+        "votes": 739,
+        "vote_pct": 0.4
+      },
+      {
+        "name_zh": "張余健",
+        "party": "IND",
+        "votes": 589,
+        "vote_pct": 0.3
+      }
+    ]
+  },
+  "63000-7": {
+    "winner": {
+      "name_zh": "費鴻泰",
+      "party": "KMT",
+      "votes": 85082,
+      "vote_pct": 45.8
+    },
+    "candidates": [
+      {
+        "name_zh": "費鴻泰",
+        "party": "KMT",
+        "votes": 85082,
+        "vote_pct": 45.8
+      },
+      {
+        "name_zh": "許淑華",
+        "party": "DPP",
+        "votes": 79057,
+        "vote_pct": 42.6
+      },
+      {
+        "name_zh": "蔡宜芳",
+        "party": "TPP",
+        "votes": 17435,
+        "vote_pct": 9.4
+      },
+      {
+        "name_zh": "蘇伊文",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 1.1
+      },
+      {
+        "name_zh": "王映心",
+        "party": "TSP",
+        "votes": 1979,
+        "vote_pct": 1.1
+      }
+    ]
+  },
+  "63000-8": {
+    "winner": {
+      "name_zh": "賴士葆",
+      "party": "KMT",
+      "votes": 96377,
+      "vote_pct": 47.7
+    },
+    "candidates": [
+      {
+        "name_zh": "賴士葆",
+        "party": "KMT",
+        "votes": 96377,
+        "vote_pct": 47.7
+      },
+      {
+        "name_zh": "阮昭雄",
+        "party": "DPP",
+        "votes": 67470,
+        "vote_pct": 33.4
+      },
+      {
+        "name_zh": "張幸松",
+        "party": "TPP",
+        "votes": 12111,
+        "vote_pct": 6
+      },
+      {
+        "name_zh": "蕭曉玲",
+        "party": "IND",
+        "votes": 9555,
+        "vote_pct": 4.7
+      },
+      {
+        "name_zh": "華珮君",
+        "party": "IND",
+        "votes": 7660,
+        "vote_pct": 3.8
+      },
+      {
+        "name_zh": "顏銘緯",
+        "party": "TSP",
+        "votes": 4330,
+        "vote_pct": 2.1
+      },
+      {
+        "name_zh": "柯士翎",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 1
+      },
+      {
+        "name_zh": "彭子軒",
+        "party": "IND",
+        "votes": 1324,
+        "vote_pct": 0.7
+      },
+      {
+        "name_zh": "李文",
+        "party": "IND",
+        "votes": 1064,
+        "vote_pct": 0.5
+      }
+    ]
+  },
+  "67000-1": {
+    "winner": {
+      "name_zh": "賴惠員",
+      "party": "DPP",
+      "votes": 99344,
+      "vote_pct": 52.4
+    },
+    "candidates": [
+      {
+        "name_zh": "賴惠員",
+        "party": "DPP",
+        "votes": 99344,
+        "vote_pct": 52.4
+      },
+      {
+        "name_zh": "蔡育輝",
+        "party": "KMT",
+        "votes": 68568,
+        "vote_pct": 36.2
+      },
+      {
+        "name_zh": "顏耀星",
+        "party": "TPP",
+        "votes": 8793,
+        "vote_pct": 4.6
+      },
+      {
+        "name_zh": "康淑敏",
+        "party": "IND",
+        "votes": 8107,
+        "vote_pct": 4.3
+      },
+      {
+        "name_zh": "蔡承攸",
+        "party": "IND",
+        "votes": 3758,
+        "vote_pct": 2
+      },
+      {
+        "name_zh": "黃天辰",
+        "party": "IND",
+        "votes": 534,
+        "vote_pct": 0.3
+      },
+      {
+        "name_zh": "蘇志仁",
+        "party": "IND",
+        "votes": 389,
+        "vote_pct": 0.2
+      }
+    ]
+  },
+  "67000-2": {
+    "winner": {
+      "name_zh": "郭國文",
+      "party": "DPP",
+      "votes": 120097,
+      "vote_pct": 61.4
+    },
+    "candidates": [
+      {
+        "name_zh": "郭國文",
+        "party": "DPP",
+        "votes": 120097,
+        "vote_pct": 61.4
+      },
+      {
+        "name_zh": "李武龍",
+        "party": "KMT",
+        "votes": 66270,
+        "vote_pct": 33.9
+      },
+      {
+        "name_zh": "王章記",
+        "party": "IND",
+        "votes": 9188,
+        "vote_pct": 4.7
+      }
+    ]
+  },
+  "67000-3": {
+    "winner": {
+      "name_zh": "陳亭妃",
+      "party": "DPP",
+      "votes": 136815,
+      "vote_pct": 69.8
+    },
+    "candidates": [
+      {
+        "name_zh": "陳亭妃",
+        "party": "DPP",
+        "votes": 136815,
+        "vote_pct": 69.8
+      },
+      {
+        "name_zh": "童小芸",
+        "party": "KMT",
+        "votes": 52886,
+        "vote_pct": 27
+      },
+      {
+        "name_zh": "鄧秀寶",
+        "party": "PFP",
+        "votes": 3493,
+        "vote_pct": 1.8
+      },
+      {
+        "name_zh": "陳西安",
+        "party": "IND",
+        "votes": 2892,
+        "vote_pct": 1.5
+      }
+    ]
+  },
+  "67000-4": {
+    "winner": {
+      "name_zh": "林宜瑾",
+      "party": "DPP",
+      "votes": 113046,
+      "vote_pct": 58
+    },
+    "candidates": [
+      {
+        "name_zh": "林宜瑾",
+        "party": "DPP",
+        "votes": 113046,
+        "vote_pct": 58
+      },
+      {
+        "name_zh": "林燕祝",
+        "party": "KMT",
+        "votes": 71052,
+        "vote_pct": 36.4
+      },
+      {
+        "name_zh": "蔡明峰",
+        "party": "IND",
+        "votes": 4180,
+        "vote_pct": 2.1
+      },
+      {
+        "name_zh": "林志文",
+        "party": "IND",
+        "votes": 3998,
+        "vote_pct": 2.1
+      },
+      {
+        "name_zh": "温米樂",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 1
+      },
+      {
+        "name_zh": "林淑娟",
+        "party": "IND",
+        "votes": 636,
+        "vote_pct": 0.3
+      }
+    ]
+  },
+  "67000-5": {
+    "winner": {
+      "name_zh": "林俊憲",
+      "party": "DPP",
+      "votes": 110547,
+      "vote_pct": 53.5
+    },
+    "candidates": [
+      {
+        "name_zh": "林俊憲",
+        "party": "DPP",
+        "votes": 110547,
+        "vote_pct": 53.5
+      },
+      {
+        "name_zh": "蔡淑惠",
+        "party": "KMT",
+        "votes": 67364,
+        "vote_pct": 32.6
+      },
+      {
+        "name_zh": "林義豐",
+        "party": "IND",
+        "votes": 10110,
+        "vote_pct": 4.9
+      },
+      {
+        "name_zh": "陳致曉",
+        "party": "IND",
+        "votes": 8068,
+        "vote_pct": 3.9
+      },
+      {
+        "name_zh": "李伯利",
+        "party": "IND",
+        "votes": 6350,
+        "vote_pct": 3.1
+      },
+      {
+        "name_zh": "吳炳輝",
+        "party": "IND",
+        "votes": 4297,
+        "vote_pct": 2.1
+      }
+    ]
+  },
+  "67000-6": {
+    "winner": {
+      "name_zh": "王定宇",
+      "party": "DPP",
+      "votes": 116174,
+      "vote_pct": 57.2
+    },
+    "candidates": [
+      {
+        "name_zh": "王定宇",
+        "party": "DPP",
+        "votes": 116174,
+        "vote_pct": 57.2
+      },
+      {
+        "name_zh": "洪秀柱",
+        "party": "KMT",
+        "votes": 72137,
+        "vote_pct": 35.5
+      },
+      {
+        "name_zh": "翁語含",
+        "party": "IND",
+        "votes": 8042,
+        "vote_pct": 4
+      },
+      {
+        "name_zh": "李晉豪",
+        "party": "IND",
+        "votes": 4612,
+        "vote_pct": 2.3
+      },
+      {
+        "name_zh": "唐宇姮",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 1
+      }
+    ]
+  },
+  "10014-1": {
+    "winner": {
+      "name_zh": "劉櫂豪",
+      "party": "DPP",
+      "votes": 41493,
+      "vote_pct": 50.6
+    },
+    "candidates": [
+      {
+        "name_zh": "劉櫂豪",
+        "party": "DPP",
+        "votes": 41493,
+        "vote_pct": 50.6
+      },
+      {
+        "name_zh": "張志明",
+        "party": "KMT",
+        "votes": 32737,
+        "vote_pct": 39.9
+      },
+      {
+        "name_zh": "張坤和",
+        "party": "IND",
+        "votes": 4205,
+        "vote_pct": 5.1
+      },
+      {
+        "name_zh": "陳允萍",
+        "party": "TPP",
+        "votes": 3527,
+        "vote_pct": 4.3
+      }
+    ]
+  },
+  "10015-1": {
+    "winner": {
+      "name_zh": "傅崐萁",
+      "party": "IND",
+      "votes": 64060,
+      "vote_pct": 43
+    },
+    "candidates": [
+      {
+        "name_zh": "傅崐萁",
+        "party": "IND",
+        "votes": 64060,
+        "vote_pct": 43
+      },
+      {
+        "name_zh": "蕭美琴",
+        "party": "DPP",
+        "votes": 56485,
+        "vote_pct": 37.9
+      },
+      {
+        "name_zh": "黃啓嘉",
+        "party": "KMT",
+        "votes": 17507,
+        "vote_pct": 11.8
+      },
+      {
+        "name_zh": "曹純明",
+        "party": "IND",
+        "votes": 9663,
+        "vote_pct": 6.5
+      },
+      {
+        "name_zh": "許願神",
+        "party": "IND",
+        "votes": 795,
+        "vote_pct": 0.5
+      },
+      {
+        "name_zh": "蕭嘉豪",
+        "party": "IND",
+        "votes": 417,
+        "vote_pct": 0.3
+      }
+    ]
+  },
+  "10005-1": {
+    "winner": {
+      "name_zh": "陳超明",
+      "party": "KMT",
+      "votes": 73154,
+      "vote_pct": 47.8
+    },
+    "candidates": [
+      {
+        "name_zh": "陳超明",
+        "party": "KMT",
+        "votes": 73154,
+        "vote_pct": 47.8
+      },
+      {
+        "name_zh": "羅貴星",
+        "party": "DPP",
+        "votes": 56622,
+        "vote_pct": 37
+      },
+      {
+        "name_zh": "朱哲成",
+        "party": "TPP",
+        "votes": 16566,
+        "vote_pct": 10.8
+      },
+      {
+        "name_zh": "鍾林芷綸",
+        "party": "IND",
+        "votes": 4492,
+        "vote_pct": 2.9
+      },
+      {
+        "name_zh": "曾國良",
+        "party": "IND",
+        "votes": 1050,
+        "vote_pct": 0.7
+      },
+      {
+        "name_zh": "朱英濠",
+        "party": "IND",
+        "votes": 1046,
+        "vote_pct": 0.7
+      }
+    ]
+  },
+  "10005-2": {
+    "winner": {
+      "name_zh": "徐志榮",
+      "party": "KMT",
+      "votes": 91144,
+      "vote_pct": 54
+    },
+    "candidates": [
+      {
+        "name_zh": "徐志榮",
+        "party": "KMT",
+        "votes": 91144,
+        "vote_pct": 54
+      },
+      {
+        "name_zh": "徐定禎",
+        "party": "DPP",
+        "votes": 50629,
+        "vote_pct": 30
+      },
+      {
+        "name_zh": "温俊勇",
+        "party": "IND",
+        "votes": 19418,
+        "vote_pct": 11.5
+      },
+      {
+        "name_zh": "曾宛菁",
+        "party": "IND",
+        "votes": 2803,
+        "vote_pct": 1.7
+      },
+      {
+        "name_zh": "林昱同",
+        "party": "TSP",
+        "votes": 2694,
+        "vote_pct": 1.6
+      },
+      {
+        "name_zh": "林名哲",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 1.2
+      }
+    ]
+  },
+  "09007-1": {
+    "winner": {
+      "name_zh": "王長明",
+      "party": "IND",
+      "votes": 9591,
+      "vote_pct": 38.7
+    },
+    "candidates": [
+      {
+        "name_zh": "王長明",
+        "party": "IND",
+        "votes": 9591,
+        "vote_pct": 38.7
+      },
+      {
+        "name_zh": "李克焜",
+        "party": "IND",
+        "votes": 9357,
+        "vote_pct": 37.7
+      },
+      {
+        "name_zh": "陳雪生",
+        "party": "KMT",
+        "votes": 2938,
+        "vote_pct": 11.9
+      },
+      {
+        "name_zh": "曹爾忠",
+        "party": "IND",
+        "votes": 2198,
+        "vote_pct": 8.9
+      },
+      {
+        "name_zh": "李問",
+        "party": "DPP",
+        "votes": 706,
+        "vote_pct": 2.8
+      }
+    ]
+  },
+  "09020-1": {
+    "winner": {
+      "name_zh": "陳玉珍",
+      "party": "KMT",
+      "votes": 21875,
+      "vote_pct": 35.9
+    },
+    "candidates": [
+      {
+        "name_zh": "陳玉珍",
+        "party": "KMT",
+        "votes": 21875,
+        "vote_pct": 35.9
+      },
+      {
+        "name_zh": "陳福海",
+        "party": "IND",
+        "votes": 13801,
+        "vote_pct": 22.6
+      },
+      {
+        "name_zh": "程耀德",
+        "party": "IND",
+        "votes": 9828,
+        "vote_pct": 16.1
+      },
+      {
+        "name_zh": "陳滄江",
+        "party": "IND",
+        "votes": 7303,
+        "vote_pct": 12
+      },
+      {
+        "name_zh": "盧月香",
+        "party": "IND",
+        "votes": 4632,
+        "vote_pct": 7.6
+      },
+      {
+        "name_zh": "洪正",
+        "party": "TSP",
+        "votes": 1627,
+        "vote_pct": 2.7
+      },
+      {
+        "name_zh": "洪志恒",
+        "party": "IND",
+        "votes": 899,
+        "vote_pct": 1.5
+      },
+      {
+        "name_zh": "許丕肯",
+        "party": "IND",
+        "votes": 428,
+        "vote_pct": 0.7
+      },
+      {
+        "name_zh": "洪和成",
+        "party": "IND",
+        "votes": 283,
+        "vote_pct": 0.5
+      },
+      {
+        "name_zh": "林志錦",
+        "party": "IND",
+        "votes": 264,
+        "vote_pct": 0.4
+      }
+    ]
+  },
+  "10009-1": {
+    "winner": {
+      "name_zh": "蘇治芬",
+      "party": "DPP",
+      "votes": 94786,
+      "vote_pct": 50.6
+    },
+    "candidates": [
+      {
+        "name_zh": "蘇治芬",
+        "party": "DPP",
+        "votes": 94786,
+        "vote_pct": 50.6
+      },
+      {
+        "name_zh": "張嘉郡",
+        "party": "KMT",
+        "votes": 86862,
+        "vote_pct": 46.4
+      },
+      {
+        "name_zh": "林富源",
+        "party": "IND",
+        "votes": 3558,
+        "vote_pct": 1.9
+      },
+      {
+        "name_zh": "李昭儀",
+        "party": "IND",
+        "votes": 2088,
+        "vote_pct": 1.1
+      }
+    ]
+  },
+  "10009-2": {
+    "winner": {
+      "name_zh": "劉建國",
+      "party": "DPP",
+      "votes": 119468,
+      "vote_pct": 56.2
+    },
+    "candidates": [
+      {
+        "name_zh": "劉建國",
+        "party": "DPP",
+        "votes": 119468,
+        "vote_pct": 56.2
+      },
+      {
+        "name_zh": "謝淑亞",
+        "party": "KMT",
+        "votes": 82150,
+        "vote_pct": 38.7
+      },
+      {
+        "name_zh": "彭新銘",
+        "party": "IND",
+        "votes": 6070,
+        "vote_pct": 2.9
+      },
+      {
+        "name_zh": "張永津",
+        "party": "IND",
+        "votes": 4803,
+        "vote_pct": 2.3
+      }
+    ]
+  },
+  "64000-1": {
+    "winner": {
+      "name_zh": "邱議瑩",
+      "party": "DPP",
+      "votes": 91561,
+      "vote_pct": 54.6
+    },
+    "candidates": [
+      {
+        "name_zh": "邱議瑩",
+        "party": "DPP",
+        "votes": 91561,
+        "vote_pct": 54.6
+      },
+      {
+        "name_zh": "王齡嬌",
+        "party": "KMT",
+        "votes": 55373,
+        "vote_pct": 33
+      },
+      {
+        "name_zh": "羅鼎城",
+        "party": "TPP",
+        "votes": 10661,
+        "vote_pct": 6.4
+      },
+      {
+        "name_zh": "黃綉晶",
+        "party": "PFP",
+        "votes": 5443,
+        "vote_pct": 3.2
+      },
+      {
+        "name_zh": "晏揚清",
+        "party": "IND",
+        "votes": 4522,
+        "vote_pct": 2.7
+      }
+    ]
+  },
+  "64000-2": {
+    "winner": {
+      "name_zh": "邱志偉",
+      "party": "DPP",
+      "votes": 126469,
+      "vote_pct": 62.7
+    },
+    "candidates": [
+      {
+        "name_zh": "邱志偉",
+        "party": "DPP",
+        "votes": 126469,
+        "vote_pct": 62.7
+      },
+      {
+        "name_zh": "黃韻涵",
+        "party": "KMT",
+        "votes": 70867,
+        "vote_pct": 35.1
+      },
+      {
+        "name_zh": "李柏融",
+        "party": "IND",
+        "votes": 4317,
+        "vote_pct": 2.1
+      }
+    ]
+  },
+  "64000-3": {
+    "winner": {
+      "name_zh": "劉世芳",
+      "party": "DPP",
+      "votes": 102300,
+      "vote_pct": 41.6
+    },
+    "candidates": [
+      {
+        "name_zh": "劉世芳",
+        "party": "DPP",
+        "votes": 102300,
+        "vote_pct": 41.6
+      },
+      {
+        "name_zh": "黃昭順",
+        "party": "KMT",
+        "votes": 87665,
+        "vote_pct": 35.6
+      },
+      {
+        "name_zh": "郭新政",
+        "party": "IND",
+        "votes": 24277,
+        "vote_pct": 9.9
+      },
+      {
+        "name_zh": "莊貽量",
+        "party": "TPP",
+        "votes": 12099,
+        "vote_pct": 4.9
+      },
+      {
+        "name_zh": "湯金全",
+        "party": "IND",
+        "votes": 8308,
+        "vote_pct": 3.4
+      },
+      {
+        "name_zh": "莊于萱",
+        "party": "IND",
+        "votes": 4658,
+        "vote_pct": 1.9
+      },
+      {
+        "name_zh": "蘇博廷",
+        "party": "PFP",
+        "votes": 3138,
+        "vote_pct": 1.3
+      },
+      {
+        "name_zh": "王貴雄",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 0.8
+      },
+      {
+        "name_zh": "柳淑芳",
+        "party": "IND",
+        "votes": 939,
+        "vote_pct": 0.4
+      },
+      {
+        "name_zh": "鄭品娟",
+        "party": "IND",
+        "votes": 412,
+        "vote_pct": 0.2
+      },
+      {
+        "name_zh": "李郭秋蘭",
+        "party": "IND",
+        "votes": 319,
+        "vote_pct": 0.1
+      }
+    ]
+  },
+  "64000-4": {
+    "winner": {
+      "name_zh": "林岱樺",
+      "party": "DPP",
+      "votes": 118219,
+      "vote_pct": 59.6
+    },
+    "candidates": [
+      {
+        "name_zh": "林岱樺",
+        "party": "DPP",
+        "votes": 118219,
+        "vote_pct": 59.6
+      },
+      {
+        "name_zh": "徐慶煌",
+        "party": "KMT",
+        "votes": 56774,
+        "vote_pct": 28.6
+      },
+      {
+        "name_zh": "周凱崙",
+        "party": "IND",
+        "votes": 11102,
+        "vote_pct": 5.6
+      },
+      {
+        "name_zh": "黃兆呈",
+        "party": "IND",
+        "votes": 10323,
+        "vote_pct": 5.2
+      },
+      {
+        "name_zh": "孫蓬逸",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 1
+      }
+    ]
+  },
+  "64000-5": {
+    "winner": {
+      "name_zh": "李昆澤",
+      "party": "DPP",
+      "votes": 123239,
+      "vote_pct": 52.3
+    },
+    "candidates": [
+      {
+        "name_zh": "李昆澤",
+        "party": "DPP",
+        "votes": 123239,
+        "vote_pct": 52.3
+      },
+      {
+        "name_zh": "黃柏霖",
+        "party": "KMT",
+        "votes": 92220,
+        "vote_pct": 39.1
+      },
+      {
+        "name_zh": "李佳玲",
+        "party": "TPP",
+        "votes": 20336,
+        "vote_pct": 8.6
+      }
+    ]
+  },
+  "64000-6": {
+    "winner": {
+      "name_zh": "趙天麟",
+      "party": "DPP",
+      "votes": 128072,
+      "vote_pct": 49
+    },
+    "candidates": [
+      {
+        "name_zh": "趙天麟",
+        "party": "DPP",
+        "votes": 128072,
+        "vote_pct": 49
+      },
+      {
+        "name_zh": "陳美雅",
+        "party": "KMT",
+        "votes": 92337,
+        "vote_pct": 35.3
+      },
+      {
+        "name_zh": "吳益政",
+        "party": "PFP",
+        "votes": 11964,
+        "vote_pct": 4.6
+      },
+      {
+        "name_zh": "吳佩蓉",
+        "party": "IND",
+        "votes": 8643,
+        "vote_pct": 3.3
+      },
+      {
+        "name_zh": "劉哲嘉",
+        "party": "IND",
+        "votes": 6760,
+        "vote_pct": 2.6
+      },
+      {
+        "name_zh": "林鴻正",
+        "party": "IND",
+        "votes": 4872,
+        "vote_pct": 1.9
+      },
+      {
+        "name_zh": "劉仙娥",
+        "party": "IND",
+        "votes": 4839,
+        "vote_pct": 1.9
+      },
+      {
+        "name_zh": "李建輝",
+        "party": "IND",
+        "votes": 3082,
+        "vote_pct": 1.2
+      },
+      {
+        "name_zh": "周金榜",
+        "party": "IND",
+        "votes": 447,
+        "vote_pct": 0.2
+      },
+      {
+        "name_zh": "李鎔任",
+        "party": "IND",
+        "votes": 258,
+        "vote_pct": 0.1
+      }
+    ]
+  },
+  "64000-7": {
+    "winner": {
+      "name_zh": "許智傑",
+      "party": "DPP",
+      "votes": 114998,
+      "vote_pct": 49.2
+    },
+    "candidates": [
+      {
+        "name_zh": "許智傑",
+        "party": "DPP",
+        "votes": 114998,
+        "vote_pct": 49.2
+      },
+      {
+        "name_zh": "李雅靜",
+        "party": "KMT",
+        "votes": 86127,
+        "vote_pct": 36.9
+      },
+      {
+        "name_zh": "陳惠敏",
+        "party": "NPP",
+        "votes": 17466,
+        "vote_pct": 7.5
+      },
+      {
+        "name_zh": "葉鳳強",
+        "party": "IND",
+        "votes": 4806,
+        "vote_pct": 2.1
+      },
+      {
+        "name_zh": "林杰正",
+        "party": "IND",
+        "votes": 4326,
+        "vote_pct": 1.9
+      },
+      {
+        "name_zh": "秦詩雁",
+        "party": "PFP",
+        "votes": 3920,
+        "vote_pct": 1.7
+      },
+      {
+        "name_zh": "吳青木",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 0.9
+      }
+    ]
+  },
+  "64000-8": {
+    "winner": {
+      "name_zh": "賴瑞隆",
+      "party": "DPP",
+      "votes": 135052,
+      "vote_pct": 57.6
+    },
+    "candidates": [
+      {
+        "name_zh": "賴瑞隆",
+        "party": "DPP",
+        "votes": 135052,
+        "vote_pct": 57.6
+      },
+      {
+        "name_zh": "陳麗娜",
+        "party": "KMT",
+        "votes": 83148,
+        "vote_pct": 35.5
+      },
+      {
+        "name_zh": "敖博勝",
+        "party": "TPP",
+        "votes": 14043,
+        "vote_pct": 6
+      },
+      {
+        "name_zh": "蔡媽福",
+        "party": "IND",
+        "votes": 2024,
+        "vote_pct": 0.9
+      }
+    ]
   }
 }

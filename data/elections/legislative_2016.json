@@ -3,21 +3,1571 @@
     "election": "Legislative Yuan 立法院",
     "year": 2016,
     "date": "2016-01-16",
-    "notes": "113-seat Legislature. DPP historic majority. 73 district seats + 34 party-list + 6 indigenous. Pre-2019 redistricting — boundaries from g0v/twgeojson. Source: CEC db.cec.gov.tw. District-level results pending — feature IDs must be verified against g0v twVote2010.geo.json.",
+    "source": "Wikipedia: 2016 Taiwanese legislative election",
+    "turnout_overall": 66.34,
+    "boundary_source": "legislative_2008 (pre-2019 boundaries; 2007 CEC drawing)",
+    "notes": "73 district seats. Pre-2019 boundaries: KHH 9 seats, PTG 3 seats, TNN 5 seats, HSH 1 seat. DPP majority.",
     "seats": {
       "DPP": 68,
       "KMT": 35,
       "NPP": 5,
       "PFP": 3,
-      "MKT": 1,
+      "NPSU": 1,
       "IND": 1
-    },
-    "seat_breakdown": {
-      "notes": "DPP: 46 district + 18 party-list + 4 indigenous. KMT: 20 district + 11 party-list + 4 indigenous. NPP: 4 district + 1 party-list. PFP: 3 party-list. MKT (Minkuotang): 1 district. IND: 1.",
-      "total": 113,
-      "district": 73,
-      "party_list": 34,
-      "indigenous": 6
     }
+  },
+  "63000-1": {
+    "winner": {
+      "name_en": "Rosalia Wu",
+      "name_zh": "吳思瑤",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Rosalia Wu",
+        "name_zh": "吳思瑤",
+        "party": "DPP",
+        "vote_pct": 50.82
+      },
+      {
+        "name_en": "Ting Shou-chung",
+        "name_zh": "丁守中",
+        "party": "KMT",
+        "vote_pct": 43.77
+      }
+    ]
+  },
+  "63000-2": {
+    "winner": {
+      "name_en": "Pasuya Yao",
+      "name_zh": "姚文智",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Pasuya Yao",
+        "name_zh": "姚文智",
+        "party": "DPP",
+        "vote_pct": 59.29
+      },
+      {
+        "name_en": "Wynn H.T. Pan",
+        "name_zh": "潘懷宗",
+        "party": "NP",
+        "vote_pct": 36.43
+      }
+    ]
+  },
+  "63000-3": {
+    "winner": {
+      "name_en": "Chiang Wan-an",
+      "name_zh": "蔣萬安",
+      "party": "KMT",
+      "wiki_url": "https://en.wikipedia.org/wiki/Chiang_Wan-an"
+    },
+    "candidates": [
+      {
+        "name_en": "Chiang Wan-an",
+        "name_zh": "蔣萬安",
+        "party": "KMT",
+        "wiki_url": "https://en.wikipedia.org/wiki/Chiang_Wan-an",
+        "vote_pct": 46.68
+      },
+      {
+        "name_en": "Billy Pan",
+        "name_zh": "潘人豪",
+        "party": "IND",
+        "vote_pct": 38.42
+      }
+    ]
+  },
+  "63000-4": {
+    "winner": {
+      "name_en": "Lee Yen-hsiu",
+      "name_zh": "李彥秀",
+      "party": "KMT",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lee_Yen-hsiu"
+    },
+    "candidates": [
+      {
+        "name_en": "Lee Yen-hsiu",
+        "name_zh": "李彥秀",
+        "party": "KMT",
+        "wiki_url": "https://en.wikipedia.org/wiki/Lee_Yen-hsiu",
+        "vote_pct": 41.74
+      },
+      {
+        "name_en": "Huang Shan-shan",
+        "name_zh": "黃珊珊",
+        "party": "PFP",
+        "wiki_url": "https://en.wikipedia.org/wiki/Huang_Shan-shan",
+        "vote_pct": 38.42
+      }
+    ]
+  },
+  "63000-5": {
+    "winner": {
+      "name_en": "Freddy Lim",
+      "name_zh": "林昶佐",
+      "party": "NPP",
+      "wiki_url": "https://en.wikipedia.org/wiki/Freddy_Lim"
+    },
+    "candidates": [
+      {
+        "name_en": "Freddy Lim",
+        "name_zh": "林昶佐",
+        "party": "NPP",
+        "wiki_url": "https://en.wikipedia.org/wiki/Freddy_Lim",
+        "vote_pct": 49.52
+      },
+      {
+        "name_en": "Lin Yu-fang",
+        "name_zh": "林郁方",
+        "party": "KMT",
+        "vote_pct": 45.58
+      }
+    ]
+  },
+  "63000-6": {
+    "winner": {
+      "name_en": "Chiang Nai-shin",
+      "name_zh": "江乃新",
+      "party": "KMT"
+    },
+    "candidates": [
+      {
+        "name_en": "Chiang Nai-shin",
+        "name_zh": "江乃新",
+        "party": "KMT",
+        "vote_pct": 46.1
+      },
+      {
+        "name_en": "Fan Yun",
+        "name_zh": "范雲",
+        "party": "GP",
+        "vote_pct": 35.36
+      }
+    ]
+  },
+  "63000-7": {
+    "winner": {
+      "name_en": "Fai Hrong-tai",
+      "name_zh": "費鴻泰",
+      "party": "KMT"
+    },
+    "candidates": [
+      {
+        "name_en": "Fai Hrong-tai",
+        "name_zh": "費鴻泰",
+        "party": "KMT",
+        "vote_pct": 45.05
+      }
+    ]
+  },
+  "63000-8": {
+    "winner": {
+      "name_en": "Lai Shyh-bao",
+      "name_zh": "賴士葆",
+      "party": "KMT",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lai_Shyh-bao"
+    },
+    "candidates": [
+      {
+        "name_en": "Lai Shyh-bao",
+        "name_zh": "賴士葆",
+        "party": "KMT",
+        "wiki_url": "https://en.wikipedia.org/wiki/Lai_Shyh-bao",
+        "vote_pct": 45.05
+      }
+    ]
+  },
+  "65000-1": {
+    "winner": {
+      "name_en": "Lu Sun-ling",
+      "name_zh": "呂孫綾",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Lu Sun-ling",
+        "name_zh": "呂孫綾",
+        "party": "DPP",
+        "vote_pct": 53.28
+      },
+      {
+        "name_en": "Wu Yu-sheng",
+        "name_zh": "吳育昇",
+        "party": "KMT",
+        "vote_pct": 40.88
+      }
+    ]
+  },
+  "65000-2": {
+    "winner": {
+      "name_en": "Lin Shu-fen",
+      "name_zh": "林淑芬",
+      "party": "DPP",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lin_Shu-fen"
+    },
+    "candidates": [
+      {
+        "name_en": "Lin Shu-fen",
+        "name_zh": "林淑芬",
+        "party": "DPP",
+        "wiki_url": "https://en.wikipedia.org/wiki/Lin_Shu-fen",
+        "vote_pct": 68.75
+      },
+      {
+        "name_en": "Chen Ming-yi",
+        "name_zh": "陳明義",
+        "party": "KMT",
+        "vote_pct": 31.25
+      }
+    ]
+  },
+  "65000-3": {
+    "winner": {
+      "name_en": "Gao Jyh-peng",
+      "name_zh": "高志鵬",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Gao Jyh-peng",
+        "name_zh": "高志鵬",
+        "party": "DPP",
+        "vote_pct": 54.54
+      },
+      {
+        "name_en": "Lee Chien-lung",
+        "name_zh": "李乾龍",
+        "party": "KMT",
+        "vote_pct": 35.43
+      }
+    ]
+  },
+  "65000-4": {
+    "winner": {
+      "name_en": "Wu Ping-jui",
+      "name_zh": "吳秉叡",
+      "party": "DPP",
+      "wiki_url": "https://en.wikipedia.org/wiki/Wu_Ping-jui"
+    },
+    "candidates": [
+      {
+        "name_en": "Wu Ping-jui",
+        "name_zh": "吳秉叡",
+        "party": "DPP",
+        "wiki_url": "https://en.wikipedia.org/wiki/Wu_Ping-jui",
+        "vote_pct": 62.99
+      },
+      {
+        "name_en": "Lee Hung-chun",
+        "name_zh": "李鴻鈞",
+        "party": "KMT",
+        "vote_pct": 29.4
+      }
+    ]
+  },
+  "65000-5": {
+    "winner": {
+      "name_en": "Su Chiao-hui",
+      "name_zh": "蘇巧慧",
+      "party": "DPP",
+      "wiki_url": "https://en.wikipedia.org/wiki/Su_Chiao-hui"
+    },
+    "candidates": [
+      {
+        "name_en": "Su Chiao-hui",
+        "name_zh": "蘇巧慧",
+        "party": "DPP",
+        "wiki_url": "https://en.wikipedia.org/wiki/Su_Chiao-hui",
+        "vote_pct": 56.11
+      },
+      {
+        "name_en": "Huang Chih-hsiung",
+        "name_zh": "黃志雄",
+        "party": "KMT",
+        "vote_pct": 40.77
+      }
+    ]
+  },
+  "65000-6": {
+    "winner": {
+      "name_en": "Chang Hung-lu",
+      "name_zh": "張宏陸",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Chang Hung-lu",
+        "name_zh": "張宏陸",
+        "party": "DPP",
+        "vote_pct": 52.61
+      },
+      {
+        "name_en": "Lin Kuo-chun",
+        "name_zh": "林國春",
+        "party": "KMT",
+        "vote_pct": 39.55
+      }
+    ]
+  },
+  "65000-7": {
+    "winner": {
+      "name_en": "Lo Chih-cheng",
+      "name_zh": "羅致政",
+      "party": "DPP",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lo_Chih-cheng"
+    },
+    "candidates": [
+      {
+        "name_en": "Lo Chih-cheng",
+        "name_zh": "羅致政",
+        "party": "DPP",
+        "wiki_url": "https://en.wikipedia.org/wiki/Lo_Chih-cheng",
+        "vote_pct": 53.61
+      },
+      {
+        "name_en": "Chiang Huei-chen",
+        "name_zh": "江惠貞",
+        "party": "KMT",
+        "vote_pct": 39.84
+      }
+    ]
+  },
+  "65000-8": {
+    "winner": {
+      "name_en": "Chiang Yung-chang",
+      "name_zh": "江永昌",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Chiang Yung-chang",
+        "name_zh": "江永昌",
+        "party": "DPP",
+        "vote_pct": 53.67
+      },
+      {
+        "name_en": "Chang Ching-chung",
+        "name_zh": "張慶忠",
+        "party": "KMT",
+        "vote_pct": 40.43
+      }
+    ]
+  },
+  "65000-9": {
+    "winner": {
+      "name_en": "Lin Te-fu",
+      "name_zh": "林德福",
+      "party": "KMT",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lin_Te-fu"
+    },
+    "candidates": [
+      {
+        "name_en": "Lin Te-fu",
+        "name_zh": "林德福",
+        "party": "KMT",
+        "wiki_url": "https://en.wikipedia.org/wiki/Lin_Te-fu",
+        "vote_pct": 52.44
+      },
+      {
+        "name_en": "Lee Hsin-chang",
+        "name_zh": "李新張",
+        "party": "IND",
+        "vote_pct": 29.57
+      }
+    ]
+  },
+  "65000-10": {
+    "winner": {
+      "name_en": "Wu Chi-ming",
+      "name_zh": "吳琪銘",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Wu Chi-ming",
+        "name_zh": "吳琪銘",
+        "party": "DPP",
+        "vote_pct": 58.5
+      },
+      {
+        "name_en": "Lu Chia-chen",
+        "name_zh": "盧嘉辰",
+        "party": "KMT",
+        "vote_pct": 38.46
+      }
+    ]
+  },
+  "65000-11": {
+    "winner": {
+      "name_en": "Lo Ming-tsai",
+      "name_zh": "羅明才",
+      "party": "KMT",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lo_Ming-tsai"
+    },
+    "candidates": [
+      {
+        "name_en": "Lo Ming-tsai",
+        "name_zh": "羅明才",
+        "party": "KMT",
+        "wiki_url": "https://en.wikipedia.org/wiki/Lo_Ming-tsai",
+        "vote_pct": 51.0
+      },
+      {
+        "name_en": "Chen Yung-fu",
+        "name_zh": "陳永福",
+        "party": "DPP",
+        "vote_pct": 49.0
+      }
+    ]
+  },
+  "65000-12": {
+    "winner": {
+      "name_en": "Huang Kuo-chang",
+      "name_zh": "黃國昌",
+      "party": "NPP",
+      "wiki_url": "https://en.wikipedia.org/wiki/Huang_Kuo-chang"
+    },
+    "candidates": [
+      {
+        "name_en": "Huang Kuo-chang",
+        "name_zh": "黃國昌",
+        "party": "NPP",
+        "wiki_url": "https://en.wikipedia.org/wiki/Huang_Kuo-chang",
+        "vote_pct": 51.52
+      },
+      {
+        "name_en": "Lee Ching-hua",
+        "name_zh": "李慶華",
+        "party": "KMT",
+        "vote_pct": 43.72
+      }
+    ]
+  },
+  "68000-1": {
+    "winner": {
+      "name_en": "Cheng Yun-peng",
+      "name_zh": "鄭運鵬",
+      "party": "DPP",
+      "wiki_url": "https://en.wikipedia.org/wiki/Cheng_Yun-peng"
+    },
+    "candidates": [
+      {
+        "name_en": "Cheng Yun-peng",
+        "name_zh": "鄭運鵬",
+        "party": "DPP",
+        "wiki_url": "https://en.wikipedia.org/wiki/Cheng_Yun-peng",
+        "vote_pct": 47.25
+      },
+      {
+        "name_en": "Chen Ken-te",
+        "name_zh": "陳根德",
+        "party": "KMT",
+        "vote_pct": 44.06
+      }
+    ]
+  },
+  "68000-2": {
+    "winner": {
+      "name_en": "Chen Lai Su-mei",
+      "name_zh": "陳賴素美",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Chen Lai Su-mei",
+        "name_zh": "陳賴素美",
+        "party": "DPP",
+        "vote_pct": 50.17
+      },
+      {
+        "name_en": "Liao Cheng-ching",
+        "name_zh": "廖正井",
+        "party": "KMT",
+        "vote_pct": 44.06
+      }
+    ]
+  },
+  "68000-3": {
+    "winner": {
+      "name_en": "Chen Shei-saint",
+      "name_zh": "陳學聖",
+      "party": "KMT"
+    },
+    "candidates": [
+      {
+        "name_en": "Chen Shei-saint",
+        "name_zh": "陳學聖",
+        "party": "KMT",
+        "vote_pct": 44.71
+      },
+      {
+        "name_en": "Hsu Ching-wen",
+        "name_zh": "許清雲",
+        "party": "DPP",
+        "vote_pct": 44.49
+      }
+    ]
+  },
+  "68000-4": {
+    "winner": {
+      "name_en": "Cheng Pao-ching",
+      "name_zh": "鄭寶清",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Cheng Pao-ching",
+        "name_zh": "鄭寶清",
+        "party": "DPP",
+        "vote_pct": 50.05
+      },
+      {
+        "name_en": "Yang Li-huan",
+        "name_zh": "楊麗環",
+        "party": "KMT",
+        "vote_pct": 49.95
+      }
+    ]
+  },
+  "68000-5": {
+    "winner": {
+      "name_en": "Lu Yu-ling",
+      "name_zh": "呂玉玲",
+      "party": "KMT",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lu_Yu-ling"
+    },
+    "candidates": [
+      {
+        "name_en": "Lu Yu-ling",
+        "name_zh": "呂玉玲",
+        "party": "KMT",
+        "wiki_url": "https://en.wikipedia.org/wiki/Lu_Yu-ling",
+        "vote_pct": 43.86
+      },
+      {
+        "name_en": "Chao Liang-chang",
+        "name_zh": "趙良澄",
+        "party": "DPP",
+        "vote_pct": 42.2
+      }
+    ]
+  },
+  "68000-6": {
+    "winner": {
+      "name_en": "Chao Cheng-yu",
+      "name_zh": "趙正宇",
+      "party": "IND"
+    },
+    "candidates": [
+      {
+        "name_en": "Chao Cheng-yu",
+        "name_zh": "趙正宇",
+        "party": "IND",
+        "vote_pct": 46.53
+      },
+      {
+        "name_en": "Sun Ta-chien",
+        "name_zh": "孫大千",
+        "party": "KMT",
+        "vote_pct": 46.06
+      }
+    ]
+  },
+  "66000-1": {
+    "winner": {
+      "name_en": "Tsai Chi-chang",
+      "name_zh": "蔡其昌",
+      "party": "DPP",
+      "wiki_url": "https://en.wikipedia.org/wiki/Tsai_Chi-chang"
+    },
+    "candidates": [
+      {
+        "name_en": "Tsai Chi-chang",
+        "name_zh": "蔡其昌",
+        "party": "DPP",
+        "wiki_url": "https://en.wikipedia.org/wiki/Tsai_Chi-chang",
+        "vote_pct": 60.14
+      },
+      {
+        "name_en": "Yen Chiou-yue",
+        "name_zh": "嚴秋雨",
+        "party": "KMT",
+        "vote_pct": 37.99
+      }
+    ]
+  },
+  "66000-2": {
+    "winner": {
+      "name_en": "Yen Chin-piao",
+      "name_zh": "顏清標",
+      "party": "KMT"
+    },
+    "candidates": [
+      {
+        "name_en": "Yen Chin-piao",
+        "name_zh": "顏清標",
+        "party": "KMT",
+        "vote_pct": 46.65
+      },
+      {
+        "name_en": "Chen Shih-kai",
+        "name_zh": "陳世凱",
+        "party": "DPP",
+        "vote_pct": 37.99
+      }
+    ]
+  },
+  "66000-3": {
+    "winner": {
+      "name_en": "Hung Tzu-yung",
+      "name_zh": "洪慈庸",
+      "party": "NPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Hung Tzu-yung",
+        "name_zh": "洪慈庸",
+        "party": "NPP",
+        "vote_pct": 53.87
+      },
+      {
+        "name_en": "Yang Chiung-ying",
+        "name_zh": "楊瓊瓔",
+        "party": "KMT",
+        "wiki_url": "https://en.wikipedia.org/wiki/Yang_Chiung-ying",
+        "vote_pct": 45.16
+      }
+    ]
+  },
+  "66000-4": {
+    "winner": {
+      "name_en": "Chang Liao Wan-chien",
+      "name_zh": "張廖萬堅",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Chang Liao Wan-chien",
+        "name_zh": "張廖萬堅",
+        "party": "DPP",
+        "vote_pct": 52.77
+      },
+      {
+        "name_en": "Tsai Chin-lung",
+        "name_zh": "蔡錦隆",
+        "party": "KMT",
+        "vote_pct": 36.77
+      }
+    ]
+  },
+  "66000-5": {
+    "winner": {
+      "name_en": "Lu Shiow-yen",
+      "name_zh": "盧秀燕",
+      "party": "KMT",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lu_Shiow-yen"
+    },
+    "candidates": [
+      {
+        "name_en": "Lu Shiow-yen",
+        "name_zh": "盧秀燕",
+        "party": "KMT",
+        "wiki_url": "https://en.wikipedia.org/wiki/Lu_Shiow-yen",
+        "vote_pct": 51.52
+      },
+      {
+        "name_en": "Liu Kuo-lung",
+        "name_zh": "劉國隆",
+        "party": "TSU",
+        "vote_pct": 39.96
+      }
+    ]
+  },
+  "66000-6": {
+    "winner": {
+      "name_en": "Huang Kuo-shu",
+      "name_zh": "黃國書",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Huang Kuo-shu",
+        "name_zh": "黃國書",
+        "party": "DPP",
+        "vote_pct": 55.74
+      },
+      {
+        "name_en": "Shen Chih-hwei",
+        "name_zh": "沈智慧",
+        "party": "KMT",
+        "vote_pct": 40.53
+      }
+    ]
+  },
+  "66000-7": {
+    "winner": {
+      "name_en": "Ho Hsin-chun",
+      "name_zh": "何欣純",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Ho Hsin-chun",
+        "name_zh": "何欣純",
+        "party": "DPP",
+        "vote_pct": 63.07
+      },
+      {
+        "name_en": "Lai Yi-huang",
+        "name_zh": "賴義鍠",
+        "party": "KMT",
+        "vote_pct": 35.05
+      }
+    ]
+  },
+  "66000-8": {
+    "winner": {
+      "name_en": "Johnny Chiang",
+      "name_zh": "江啟臣",
+      "party": "KMT"
+    },
+    "candidates": [
+      {
+        "name_en": "Johnny Chiang",
+        "name_zh": "江啟臣",
+        "party": "KMT",
+        "vote_pct": 49.62
+      },
+      {
+        "name_en": "Hsieh Chih-chung",
+        "name_zh": "謝志忠",
+        "party": "DPP",
+        "vote_pct": 48.6
+      }
+    ]
+  },
+  "67000-1": {
+    "winner": {
+      "name_en": "Yeh Yi-jin",
+      "name_zh": "葉宜津",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Yeh Yi-jin",
+        "name_zh": "葉宜津",
+        "party": "DPP",
+        "vote_pct": 71.22
+      },
+      {
+        "name_en": "Huang Rui-kun",
+        "name_zh": "黃瑞坤",
+        "party": "KMT",
+        "vote_pct": 22.17
+      }
+    ]
+  },
+  "67000-2": {
+    "winner": {
+      "name_en": "Huang Wei-che",
+      "name_zh": "黃偉哲",
+      "party": "DPP",
+      "wiki_url": "https://en.wikipedia.org/wiki/Huang_Wei-che"
+    },
+    "candidates": [
+      {
+        "name_en": "Huang Wei-che",
+        "name_zh": "黃偉哲",
+        "party": "DPP",
+        "wiki_url": "https://en.wikipedia.org/wiki/Huang_Wei-che",
+        "vote_pct": 76.47
+      },
+      {
+        "name_en": "Huang Yao-sheng",
+        "name_zh": "黃堯昇",
+        "party": "KMT",
+        "vote_pct": 18.67
+      }
+    ]
+  },
+  "67000-3": {
+    "winner": {
+      "name_en": "Chen Ting-fei",
+      "name_zh": "陳亭妃",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Chen Ting-fei",
+        "name_zh": "陳亭妃",
+        "party": "DPP",
+        "vote_pct": 71.38
+      },
+      {
+        "name_en": "Xie Long-jie",
+        "name_zh": "謝龍介",
+        "party": "KMT",
+        "wiki_url": "https://en.wikipedia.org/wiki/Hsieh_Lung-chieh",
+        "vote_pct": 25.73
+      }
+    ]
+  },
+  "67000-4": {
+    "winner": {
+      "name_en": "Lin Jun-xian",
+      "name_zh": "林俊憲",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Lin Jun-xian",
+        "name_zh": "林俊憲",
+        "party": "DPP",
+        "vote_pct": 58.9
+      },
+      {
+        "name_en": "Chen Shu-hui",
+        "name_zh": "陳淑慧",
+        "party": "KMT",
+        "vote_pct": 32.46
+      }
+    ]
+  },
+  "67000-5": {
+    "winner": {
+      "name_en": "Wang Ting-yu",
+      "name_zh": "王定宇",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Wang Ting-yu",
+        "name_zh": "王定宇",
+        "party": "DPP",
+        "vote_pct": 72.05
+      },
+      {
+        "name_en": "Lin Yi-huang",
+        "name_zh": "林義煌",
+        "party": "KMT",
+        "vote_pct": 24.28
+      }
+    ]
+  },
+  "64000-1": {
+    "winner": {
+      "name_en": "Chiu Yi-ying",
+      "name_zh": "邱議瑩",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Chiu Yi-ying",
+        "name_zh": "邱議瑩",
+        "party": "DPP",
+        "vote_pct": 59.02
+      },
+      {
+        "name_en": "Chung Yi-chung",
+        "name_zh": "鍾易仲",
+        "party": "KMT",
+        "vote_pct": 39.62
+      }
+    ]
+  },
+  "64000-2": {
+    "winner": {
+      "name_en": "Chiu Chih-wei",
+      "name_zh": "邱志偉",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Chiu Chih-wei",
+        "name_zh": "邱志偉",
+        "party": "DPP",
+        "vote_pct": 63.24
+      },
+      {
+        "name_en": "Huang Yun-han",
+        "name_zh": "黃韻涵",
+        "party": "KMT",
+        "vote_pct": 34.91
+      }
+    ]
+  },
+  "64000-3": {
+    "winner": {
+      "name_en": "Liu Shyh-fang",
+      "name_zh": "劉世芳",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Liu Shyh-fang",
+        "name_zh": "劉世芳",
+        "party": "DPP",
+        "vote_pct": 53.51
+      },
+      {
+        "name_en": "Chang Hsien-yao",
+        "name_zh": "張顯耀",
+        "party": "KMT",
+        "vote_pct": 38.61
+      }
+    ]
+  },
+  "64000-4": {
+    "winner": {
+      "name_en": "Lin Tai-hua",
+      "name_zh": "林岱樺",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Lin Tai-hua",
+        "name_zh": "林岱樺",
+        "party": "DPP",
+        "vote_pct": 75.53
+      },
+      {
+        "name_en": "Lucas Kuo",
+        "name_zh": "郭瑞龍",
+        "party": "KMT",
+        "vote_pct": 23.21
+      }
+    ]
+  },
+  "64000-5": {
+    "winner": {
+      "name_en": "Kuan Bi-ling",
+      "name_zh": "管碧玲",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Kuan Bi-ling",
+        "name_zh": "管碧玲",
+        "party": "DPP",
+        "vote_pct": 59.44
+      },
+      {
+        "name_en": "Tsai Chin-yen",
+        "name_zh": "蔡金艷",
+        "party": "KMT",
+        "vote_pct": 38.6
+      }
+    ]
+  },
+  "64000-6": {
+    "winner": {
+      "name_en": "Lee Kun-tse",
+      "name_zh": "李昆澤",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Lee Kun-tse",
+        "name_zh": "李昆澤",
+        "party": "DPP",
+        "vote_pct": 58.94
+      },
+      {
+        "name_en": "Huang Po-lin",
+        "name_zh": "黃博林",
+        "party": "KMT",
+        "vote_pct": 39.78
+      }
+    ]
+  },
+  "64000-7": {
+    "winner": {
+      "name_en": "Chao Tien-lin",
+      "name_zh": "趙天麟",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Chao Tien-lin",
+        "name_zh": "趙天麟",
+        "party": "DPP",
+        "vote_pct": 60.5
+      },
+      {
+        "name_en": "Zhuang Qi-wang",
+        "name_zh": "莊啟旺",
+        "party": "KMT",
+        "vote_pct": 34.08
+      }
+    ]
+  },
+  "64000-8": {
+    "winner": {
+      "name_en": "Hsu Chih-chieh",
+      "name_zh": "許智峯",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Hsu Chih-chieh",
+        "name_zh": "許智峯",
+        "party": "DPP",
+        "vote_pct": 59.13
+      },
+      {
+        "name_en": "Huang Hsi-wen",
+        "name_zh": "黃錫文",
+        "party": "KMT",
+        "vote_pct": 31.62
+      }
+    ]
+  },
+  "64000-9": {
+    "winner": {
+      "name_en": "Lai Jui-lung",
+      "name_zh": "賴瑞隆",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Lai Jui-lung",
+        "name_zh": "賴瑞隆",
+        "party": "DPP",
+        "vote_pct": 60.57
+      },
+      {
+        "name_en": "Lin Kuo-cheng",
+        "name_zh": "林國正",
+        "party": "KMT",
+        "vote_pct": 34.44
+      }
+    ]
+  },
+  "10004-1": {
+    "winner": {
+      "name_en": "Lin Wei-chou",
+      "name_zh": "林為洲",
+      "party": "KMT"
+    },
+    "candidates": [
+      {
+        "name_en": "Lin Wei-chou",
+        "name_zh": "林為洲",
+        "party": "KMT",
+        "vote_pct": 36.75
+      },
+      {
+        "name_en": "Cheng Yung-chin",
+        "name_zh": "鄭永進",
+        "party": "IND",
+        "vote_pct": 33.48
+      }
+    ]
+  },
+  "10005-1": {
+    "winner": {
+      "name_en": "Chen Chao-ming",
+      "name_zh": "陳超明",
+      "party": "KMT"
+    },
+    "candidates": [
+      {
+        "name_en": "Chen Chao-ming",
+        "name_zh": "陳超明",
+        "party": "KMT",
+        "vote_pct": 42.26
+      },
+      {
+        "name_en": "Tu Wen-ching",
+        "name_zh": "杜文卿",
+        "party": "DPP",
+        "vote_pct": 33.48
+      }
+    ]
+  },
+  "10005-2": {
+    "winner": {
+      "name_en": "Hsu Chih-jung",
+      "name_zh": "徐志榮",
+      "party": "KMT"
+    },
+    "candidates": [
+      {
+        "name_en": "Hsu Chih-jung",
+        "name_zh": "徐志榮",
+        "party": "KMT",
+        "vote_pct": 49.9
+      },
+      {
+        "name_en": "Wu Yi-chen",
+        "name_zh": "吳宜臻",
+        "party": "DPP",
+        "vote_pct": 44.61
+      }
+    ]
+  },
+  "10007-1": {
+    "winner": {
+      "name_en": "Wang Hui-mei",
+      "name_zh": "王惠美",
+      "party": "KMT",
+      "wiki_url": "https://en.wikipedia.org/wiki/Wang_Hui-mei"
+    },
+    "candidates": [
+      {
+        "name_en": "Wang Hui-mei",
+        "name_zh": "王惠美",
+        "party": "KMT",
+        "wiki_url": "https://en.wikipedia.org/wiki/Wang_Hui-mei",
+        "vote_pct": 56.2
+      },
+      {
+        "name_en": "Chen Wen-pin",
+        "name_zh": "陳文彬",
+        "party": "DPP",
+        "vote_pct": 43.8
+      }
+    ]
+  },
+  "10007-2": {
+    "winner": {
+      "name_en": "Huang Hsiu-fang",
+      "name_zh": "黃秀芳",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Huang Hsiu-fang",
+        "name_zh": "黃秀芳",
+        "party": "DPP",
+        "vote_pct": 45.07
+      },
+      {
+        "name_en": "Lin Tsang-min",
+        "name_zh": "林滄敏",
+        "party": "KMT",
+        "vote_pct": 40.02
+      }
+    ]
+  },
+  "10007-3": {
+    "winner": {
+      "name_en": "Hung Chun-yi",
+      "name_zh": "洪朝揚",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Hung Chun-yi",
+        "name_zh": "洪朝揚",
+        "party": "DPP",
+        "vote_pct": 44.58
+      },
+      {
+        "name_en": "Cheng Ru-fen",
+        "name_zh": "鄭汝芬",
+        "party": "KMT",
+        "vote_pct": 40.95
+      }
+    ]
+  },
+  "10007-4": {
+    "winner": {
+      "name_en": "Chen Su-yueh",
+      "name_zh": "陳素月",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Chen Su-yueh",
+        "name_zh": "陳素月",
+        "party": "DPP",
+        "vote_pct": 57.24
+      },
+      {
+        "name_en": "Chang Chin-kun",
+        "name_zh": "張欽坤",
+        "party": "KMT",
+        "vote_pct": 42.76
+      }
+    ]
+  },
+  "10008-1": {
+    "winner": {
+      "name_en": "Ma Wen-chun",
+      "name_zh": "馬文君",
+      "party": "KMT"
+    },
+    "candidates": [
+      {
+        "name_en": "Ma Wen-chun",
+        "name_zh": "馬文君",
+        "party": "KMT",
+        "vote_pct": 54.77
+      },
+      {
+        "name_en": "Kuor Hsin-chang",
+        "name_zh": "郭信良",
+        "party": "DPP",
+        "vote_pct": 45.23
+      }
+    ]
+  },
+  "10008-2": {
+    "winner": {
+      "name_en": "Hsu Shu-hua",
+      "name_zh": "許淑華",
+      "party": "KMT"
+    },
+    "candidates": [
+      {
+        "name_en": "Hsu Shu-hua",
+        "name_zh": "許淑華",
+        "party": "KMT",
+        "vote_pct": 56.65
+      },
+      {
+        "name_en": "Tsai Huang-liang",
+        "name_zh": "蔡煌瑯",
+        "party": "DPP",
+        "vote_pct": 43.35
+      }
+    ]
+  },
+  "10009-1": {
+    "winner": {
+      "name_en": "Su Chin-feng",
+      "name_zh": "蘇治芬",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Su Chin-feng",
+        "name_zh": "蘇治芬",
+        "party": "DPP",
+        "vote_pct": 53.73
+      },
+      {
+        "name_en": "Chang Jung-chi",
+        "name_zh": "張榮志",
+        "party": "KMT",
+        "vote_pct": 42.8
+      }
+    ]
+  },
+  "10009-2": {
+    "winner": {
+      "name_en": "Liu Chien-kuo",
+      "name_zh": "劉建國",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Liu Chien-kuo",
+        "name_zh": "劉建國",
+        "party": "DPP",
+        "vote_pct": 68.17
+      },
+      {
+        "name_en": "Wu Wei-chih",
+        "name_zh": "吳威志",
+        "party": "KMT",
+        "vote_pct": 26.17
+      }
+    ]
+  },
+  "10010-1": {
+    "winner": {
+      "name_en": "Tsai Yi-yu",
+      "name_zh": "蔡易餘",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Tsai Yi-yu",
+        "name_zh": "蔡易餘",
+        "party": "DPP",
+        "vote_pct": 52.96
+      },
+      {
+        "name_en": "Lin Chiang-chuan",
+        "name_zh": "林江釧",
+        "party": "KMT",
+        "vote_pct": 45.44
+      }
+    ]
+  },
+  "10010-2": {
+    "winner": {
+      "name_en": "Chen Ming-wen",
+      "name_zh": "陳明文",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Chen Ming-wen",
+        "name_zh": "陳明文",
+        "party": "DPP",
+        "vote_pct": 65.18
+      },
+      {
+        "name_en": "Lin Yu-ling",
+        "name_zh": "林玉玲",
+        "party": "KMT",
+        "vote_pct": 31.86
+      }
+    ]
+  },
+  "10013-1": {
+    "winner": {
+      "name_en": "Su Chen-ching",
+      "name_zh": "蘇震清",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Su Chen-ching",
+        "name_zh": "蘇震清",
+        "party": "DPP",
+        "vote_pct": 70.0
+      },
+      {
+        "name_en": "Liao Wan-ju",
+        "name_zh": "廖婉汝",
+        "party": "KMT",
+        "vote_pct": 30.0
+      }
+    ]
+  },
+  "10013-2": {
+    "winner": {
+      "name_en": "Chung Chia-pin",
+      "name_zh": "鍾佳濱",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Chung Chia-pin",
+        "name_zh": "鍾佳濱",
+        "party": "DPP",
+        "vote_pct": 52.55
+      },
+      {
+        "name_en": "Wang Chin-shih",
+        "name_zh": "王進士",
+        "party": "KMT",
+        "vote_pct": 47.45
+      }
+    ]
+  },
+  "10013-3": {
+    "winner": {
+      "name_en": "Chuang Jui-hsiung",
+      "name_zh": "莊瑞雄",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Chuang Jui-hsiung",
+        "name_zh": "莊瑞雄",
+        "party": "DPP",
+        "vote_pct": 53.53
+      },
+      {
+        "name_en": "Huang Chao-chang",
+        "name_zh": "黃朝滄",
+        "party": "IND",
+        "vote_pct": 47.45
+      }
+    ]
+  },
+  "10002-1": {
+    "winner": {
+      "name_en": "Chen Ou-po",
+      "name_zh": "陳歐珀",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Chen Ou-po",
+        "name_zh": "陳歐珀",
+        "party": "DPP",
+        "vote_pct": 53.68
+      },
+      {
+        "name_en": "Lee Chih-yung",
+        "name_zh": "李志勇",
+        "party": "KMT",
+        "vote_pct": 28.25
+      }
+    ]
+  },
+  "10015-1": {
+    "winner": {
+      "name_en": "Hsiao Bi-khim",
+      "name_zh": "蕭美琴",
+      "party": "DPP",
+      "wiki_url": "https://en.wikipedia.org/wiki/Hsiao_Bi-khim"
+    },
+    "candidates": [
+      {
+        "name_en": "Hsiao Bi-khim",
+        "name_zh": "蕭美琴",
+        "party": "DPP",
+        "wiki_url": "https://en.wikipedia.org/wiki/Hsiao_Bi-khim",
+        "vote_pct": 53.77
+      },
+      {
+        "name_en": "Wang Ting-son",
+        "name_zh": "王廷升",
+        "party": "KMT",
+        "vote_pct": 43.58
+      }
+    ]
+  },
+  "10014-1": {
+    "winner": {
+      "name_en": "Liu Chao-how",
+      "name_zh": "劉曉玟",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Liu Chao-how",
+        "name_zh": "劉曉玟",
+        "party": "DPP",
+        "vote_pct": 64.18
+      },
+      {
+        "name_en": "Chen Chien-ke",
+        "name_zh": "陳建克",
+        "party": "KMT",
+        "vote_pct": 35.81
+      }
+    ]
+  },
+  "10016-1": {
+    "winner": {
+      "name_en": "Yang Yao",
+      "name_zh": "楊曜",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Yang Yao",
+        "name_zh": "楊曜",
+        "party": "DPP",
+        "vote_pct": 55.4
+      },
+      {
+        "name_en": "Cheng Shuang-chuan",
+        "name_zh": "鄭雙全",
+        "party": "KMT",
+        "vote_pct": 39.99
+      }
+    ]
+  },
+  "10017-1": {
+    "winner": {
+      "name_en": "Tsai Shih-ying",
+      "name_zh": "蔡適應",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Tsai Shih-ying",
+        "name_zh": "蔡適應",
+        "party": "DPP",
+        "vote_pct": 41.45
+      },
+      {
+        "name_en": "Hau Lung-bin",
+        "name_zh": "郝龍斌",
+        "party": "KMT",
+        "vote_pct": 36.14
+      }
+    ]
+  },
+  "10018-1": {
+    "winner": {
+      "name_en": "Ker Chien-ming",
+      "name_zh": "柯建銘",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Ker Chien-ming",
+        "name_zh": "柯建銘",
+        "party": "DPP",
+        "vote_pct": 41.33
+      },
+      {
+        "name_en": "Cheng Cheng-chien",
+        "name_zh": "鄭正鈐",
+        "party": "KMT",
+        "vote_pct": 36.46
+      }
+    ]
+  },
+  "10020-1": {
+    "winner": {
+      "name_en": "Lee Chun-yi",
+      "name_zh": "李俊俋",
+      "party": "DPP"
+    },
+    "candidates": [
+      {
+        "name_en": "Lee Chun-yi",
+        "name_zh": "李俊俋",
+        "party": "DPP",
+        "vote_pct": 53.95
+      },
+      {
+        "name_en": "Wu Yu-jen",
+        "name_zh": "吳育仁",
+        "party": "KMT",
+        "vote_pct": 35.66
+      }
+    ]
+  },
+  "09020-1": {
+    "winner": {
+      "name_en": "Yang Ying-hsiung",
+      "name_zh": "楊應雄",
+      "party": "KMT"
+    },
+    "candidates": [
+      {
+        "name_en": "Yang Ying-hsiung",
+        "name_zh": "楊應雄",
+        "party": "KMT",
+        "vote_pct": 45.08
+      },
+      {
+        "name_en": "Wu Cherng-dean",
+        "name_zh": "吳成典",
+        "party": "NP",
+        "vote_pct": 25.93
+      }
+    ]
+  },
+  "09007-1": {
+    "winner": {
+      "name_en": "Cheng Hsueh-sheng",
+      "name_zh": "陳雪生",
+      "party": "KMT"
+    },
+    "candidates": [
+      {
+        "name_en": "Cheng Hsueh-sheng",
+        "name_zh": "陳雪生",
+        "party": "KMT",
+        "vote_pct": 68.07
+      }
+    ]
   }
 }

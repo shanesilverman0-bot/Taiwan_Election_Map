@@ -64,23 +64,17 @@ const CONFIG = {
       topoObject: 'towns',
     },
 
-    // Legislative districts — CURRENT boundaries (from 2019 redistricting; used 2020+)
-    // Note: taiwan-atlas's districts file may reflect pre-2019 boundaries;
-    // verify against CEC data when populating 2020/2024 legislative races.
+    // Legislative districts — taiwan-atlas file (used for ALL legislative years).
+    // Feature IDs are in {county_code}-{n} format, e.g. "63000-1" (Taipei D1).
+    // Election JSON keys must match this format exactly.
+    // Note: The 2019 redistricting made minor seat-count changes (KHH −1, PTG −1,
+    // TNN +1, HSH +1). Pre-2019 elections (2008/2012/2016) are displayed on the
+    // post-2019 map; affected districts simply won't have a matching polygon.
+    // TODO: replace with a verified pre-2019 GeoJSON when one becomes available.
     legislative_2020: {
       url: 'https://cdn.jsdelivr.net/npm/taiwan-atlas/districts-10t.json',
       format: 'topojson',
       topoObject: 'districts',
-      notes: 'Post-2019 redistricting — used for 2020, 2024 elections.',
-    },
-
-    // Legislative districts — LEGACY boundaries (2007 CEC drawing; used 2008-2016)
-    // Source: g0v/twgeojson. File contains boundaries valid for the
-    // first three elections under the 113-seat system.
-    legislative_2008: {
-      url: 'https://raw.githubusercontent.com/g0v/twgeojson/master/json/twVote2010.geo.json',
-      format: 'geojson',
-      notes: 'Pre-2019 boundaries — used for 2008, 2012, 2016 elections.',
     },
   },
 
@@ -158,11 +152,9 @@ const CONFIG = {
       type: 'legislative',
       idType: 'districtId',
       years: [2008, 2012, 2016, 2020, 2024],
-      boundaryByYear: (year) => {
-        // 2019 redistricting took effect for 2020+ elections
-        if (year >= 2020) return 'legislative_2020';
-        return 'legislative_2008';
-      },
+      // All years use the same taiwan-atlas boundary file.
+      // Election data keys use {county_code}-{n} format to match feature.id.
+      boundaryByYear: (year) => 'legislative_2020',
     },
     magistrate: {
       label: 'County/City Magistrate 縣市首長',

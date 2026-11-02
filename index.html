@@ -43,6 +43,10 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
         <span>Compare</span>
       </button>
+      <button class="nav-item" data-tab="trends" title="Trends 趨勢">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+        <span>Trends</span>
+      </button>
       <button class="nav-item" data-tab="notes" title="Notes 筆記">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
         <span>Notes</span>
@@ -120,6 +124,66 @@
         </div>
       </div>
 
+      <!-- TRENDS SIDEBAR -->
+      <div id="trends-sidebar" class="tab-sidebar">
+        <div class="sidebar-section">
+          <div class="sidebar-section-title">Add Series 加入數列</div>
+          <div class="trends-form">
+            <label class="trends-label">Election Type</label>
+            <select id="tr-election-type" class="trends-select"></select>
+            <label class="trends-label">Metric</label>
+            <select id="tr-metric" class="trends-select">
+              <optgroup label="Party metrics">
+                <option value="party_votes">Party — Total Votes</option>
+                <option value="party_pct">Party — Vote %</option>
+              </optgroup>
+              <optgroup label="District metrics">
+                <option value="district_turnout">District — Turnout %</option>
+                <option value="district_votes">District — Winner Votes</option>
+                <option value="district_winner">District — Winner Party</option>
+              </optgroup>
+            </select>
+            <div id="tr-party-row" class="trends-sub-row">
+              <label class="trends-label">Party</label>
+              <select id="tr-party" class="trends-select"></select>
+            </div>
+            <div id="tr-district-row" class="trends-sub-row hidden">
+              <label class="trends-label">District</label>
+              <select id="tr-district" class="trends-select"></select>
+            </div>
+            <button id="tr-add-btn" class="action-btn primary" style="margin-top:10px;width:100%">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to Chart
+            </button>
+          </div>
+        </div>
+        <div class="sidebar-section">
+          <div class="sidebar-section-title">Y-Axis Scale</div>
+          <div class="trends-form" style="flex-direction:row;gap:8px;align-items:center">
+            <div style="flex:1"><label class="trends-label">Y Min</label><input id="tr-ymin" type="number" class="trends-input" placeholder="auto"></div>
+            <div style="flex:1"><label class="trends-label">Y Max</label><input id="tr-ymax" type="number" class="trends-input" placeholder="auto"></div>
+            <button id="tr-yaxis-apply" class="action-btn" style="margin-top:16px;padding:6px 10px;font-size:11px">Apply</button>
+          </div>
+        </div>
+        <div class="sidebar-section">
+          <div class="sidebar-section-title">Active Series</div>
+          <div id="tr-series-list" class="trends-series-list">
+            <div class="saved-list-empty">No series yet.</div>
+          </div>
+          <div style="display:flex;gap:6px;margin-top:8px">
+            <button id="tr-save-setup-btn" class="action-btn" style="flex:1;font-size:11px" title="Save series config as JSON">💾 Save Setup</button>
+            <button id="tr-export-img-btn" class="action-btn" style="flex:1;font-size:11px" title="Export chart as PNG">🖼 Export PNG</button>
+            <button id="tr-clear-btn" class="action-btn" style="padding:6px 8px;font-size:11px" title="Clear all series">✕</button>
+          </div>
+        </div>
+        <div class="sidebar-section">
+          <div class="sidebar-section-title">Saved Setups</div>
+          <div id="tr-saved-list" class="trends-series-list">
+            <div class="saved-list-empty">No saved setups yet.</div>
+          </div>
+        </div>
+      </div>
+
       <!-- NOTES SIDEBAR -->
       <div id="notes-sidebar" class="tab-sidebar">
         <div class="sidebar-section">
@@ -186,6 +250,18 @@
             <h3>Electoral Comparison Tool</h3>
             <p>Compare results across elections, districts, and time periods.</p>
             <p class="hint">Click <strong>New Comparison</strong> in the sidebar to begin.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- TRENDS TAB -->
+      <div id="tab-content-trends" class="tab-content">
+        <div id="trends-view">
+          <div id="trends-chart-area" class="trends-chart-area">
+            <div class="trends-empty">
+              <span class="icon" style="font-size:36px;opacity:0.4">📈</span>
+              <p style="font-size:13px;color:var(--fd-text-light)">Add a series from the sidebar to begin.</p>
+            </div>
           </div>
         </div>
       </div>
