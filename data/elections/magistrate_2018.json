@@ -1,234 +1,1335 @@
 {
-  "_meta": {
-    "election": "County Magistrate / City Mayor (九合一)",
-    "year": 2018,
-    "date": "2018-11-24",
-    "turnout_national": 66.11,
-    "registered": 19102502,
-    "source_primary": "Taiwan Central Election Commission (CEC) — https://www.cec.gov.tw",
-    "source_secondary": "Wikipedia: 2018 Taiwanese local elections — https://en.wikipedia.org/wiki/2018_Taiwanese_local_elections",
-    "notes": "All vote counts and percentages are from the Wikipedia results table, which cites CEC directly. Key result: KMT won 15 seats, DPP 6, IND 1 (Ko Wen-je in Taipei). DPP had held 13 seats going in; this was a major defeat. Han Kuo-yu's surprise win in Kaohsiung — a historic DPP stronghold — was the headline result. Tsai resigned as DPP chair following the result. Ko Wen-je won Taipei as an independent by 2,254 votes over KMT's Ting Shou-chung. Runner-up data shows top two; full multi-candidate results at db.cec.gov.tw."
-  },
-
-  "A": {
-    "name_zh": "臺北市", "name_en": "Taipei City",
-    "electorate": 2164155, "turnout": 65.37,
-    "winner": { "name_en": "Ko Wen-je", "name_zh": "柯文哲", "party": "IND" },
-    "candidates": [
-      { "politician_id": "1003", "name_en": "Ko Wen-je",       "name_zh": "柯文哲",   "party": "IND", "votes": 580820, "vote_pct": 41.05 },
-      { "name_en": "Ting Shou-chung", "name_zh": "丁守中",       "party": "KMT",        "votes": 577566, "vote_pct": 40.82 },
-      { "name_en": "Pasuya Yao",      "name_zh": "姚文智",        "party": "DPP",        "votes": 244302, "vote_pct": 17.27 }
-    ]
-  },
-
-  "F": {
-    "name_zh": "新北市", "name_en": "New Taipei City",
-    "electorate": 3264128, "turnout": 62.46,
-    "winner": { "politician_id": "1002" },
-    "candidates": [
-      { "politician_id": "1002", "name_en": "Hou Yu-ih",       "name_zh": "侯友宜",   "party": "KMT", "votes": 1165130, "vote_pct": 57.15 },
-      { "name_en": "Su Tseng-chang", "name_zh": "蘇貞昌",        "party": "DPP",        "votes": 873692,  "vote_pct": 42.85 }
-    ]
-  },
-
-  "H": {
-    "name_zh": "桃園市", "name_en": "Taoyuan City",
-    "electorate": 1732591, "turnout": 59.63,
-    "winner": { "name_en": "Cheng Wen-tsan", "name_zh": "鄭文燦", "party": "DPP" },
-    "candidates": [
-      { "name_en": "Cheng Wen-tsan", "name_zh": "鄭文燦", "party": "DPP", "votes": 552330, "vote_pct": 53.46 },
-      { "name_en": "Apollo Chen",    "name_zh": "陳學聖", "party": "KMT", "votes": 407234, "vote_pct": 39.42 }
-    ]
-  },
-
-  "B": {
-    "name_zh": "臺中市", "name_en": "Taichung City",
-    "electorate": 2213789, "turnout": 66.12,
-    "winner": { "politician_id": "2008" },
-    "candidates": [
-      { "politician_id": "2008", "name_en": "Lu Shiow-yen",    "name_zh": "盧秀燕",   "party": "KMT", "votes": 827996, "vote_pct": 56.57 },
-      { "name_en": "Lin Chia-lung",  "name_zh": "林佳龍",        "party": "DPP",        "votes": 619855, "vote_pct": 42.35 }
-    ]
-  },
-
-  "D": {
-    "name_zh": "臺南市", "name_en": "Tainan City",
-    "electorate": 1546862, "turnout": 62.49,
-    "winner": { "politician_id": "2010" },
-    "candidates": [
-      { "politician_id": "2010", "name_en": "Huang Wei-che",   "name_zh": "黃偉哲",   "party": "DPP", "votes": 367518, "vote_pct": 38.02 },
-      { "name_en": "Kao Su-po",     "name_zh": "高思博",          "party": "KMT",        "votes": 312874, "vote_pct": 32.37 },
-      { "name_en": "Hsu Tain-tsair","name_zh": "許添財",          "party": "IND",        "votes": 153699, "vote_pct": 15.90 }
-    ]
-  },
-
-  "E": {
-    "name_zh": "高雄市", "name_en": "Kaohsiung City",
-    "electorate": 2281338, "turnout": 72.63,
-    "winner": { "politician_id": "1005" },
-    "candidates": [
-      { "politician_id": "1005", "name_en": "Han Kuo-yu",      "name_zh": "韓國瑜",   "party": "KMT", "votes": 892545, "vote_pct": 53.87 },
-      { "name_en": "Chen Chi-mai",   "name_zh": "陳其邁",         "party": "DPP",        "votes": 742239, "vote_pct": 44.80 }
-    ]
-  },
-
-  "G": {
-    "name_zh": "宜蘭縣", "name_en": "Yilan County",
-    "electorate": 373510, "turnout": 66.97,
-    "winner": { "politician_id": "2023" },
-    "candidates": [
-      { "politician_id": "2023", "name_en": "Lin Tzu-miao",    "name_zh": "林姿妙",   "party": "KMT", "votes": 123767, "vote_pct": 49.48 },
-      { "politician_id": "2024", "name_en": "Chen Ou-po",      "name_zh": "陳歐珀",   "party": "DPP", "votes": 95609,  "vote_pct": 38.23 }
-    ]
-  },
-
-  "J": {
-    "name_zh": "新竹縣", "name_en": "Hsinchu County",
-    "electorate": 427652, "turnout": 66.03,
-    "winner": { "politician_id": "2019" },
-    "candidates": [
-      { "politician_id": "2019", "name_en": "Yang Wen-ke",     "name_zh": "楊文科",   "party": "KMT", "votes": 107877, "vote_pct": 38.20 },
-      { "name_en": "Hsu Hsin-ying", "name_zh": "許欣盈",         "party": "DPP",        "votes": 91190,  "vote_pct": 32.29 }
-    ]
-  },
-
-  "K": {
-    "name_zh": "苗栗縣", "name_en": "Miaoli County",
-    "electorate": 446507, "turnout": 68.17,
-    "winner": { "name_en": "Hsu Yao-chang", "name_zh": "徐耀昌", "party": "KMT" },
-    "candidates": [
-      { "name_en": "Hsu Yao-chang",  "name_zh": "徐耀昌",  "party": "KMT", "votes": 175756, "vote_pct": 57.74 },
-      { "name_en": "Hsu Ting-zhen",  "name_zh": "徐定禎",  "party": "DPP", "votes": 112704, "vote_pct": 37.03 }
-    ]
-  },
-
-  "N": {
-    "name_zh": "彰化縣", "name_en": "Changhua County",
-    "electorate": 1031222, "turnout": 68.89,
-    "winner": { "politician_id": "2029" },
-    "candidates": [
-      { "politician_id": "2029", "name_en": "Wang Hui-mei",    "name_zh": "王惠美",   "party": "KMT", "votes": 377795, "vote_pct": 53.18 },
-      { "name_en": "Wei Ming-ku",   "name_zh": "魏明谷",          "party": "DPP",        "votes": 283269, "vote_pct": 39.87 }
-    ]
-  },
-
-  "M": {
-    "name_zh": "南投縣", "name_en": "Nantou County",
-    "electorate": 413222, "turnout": 70.87,
-    "winner": { "name_en": "Lin Ming-chen", "name_zh": "林明溱", "party": "KMT" },
-    "candidates": [
-      { "name_en": "Lin Ming-chen",  "name_zh": "林明溱",  "party": "KMT", "votes": 195385, "vote_pct": 66.72 },
-      { "name_en": "Hung Kuo-hao",   "name_zh": "洪國浩",  "party": "DPP", "votes": 97460,  "vote_pct": 33.28 }
-    ]
-  },
-
-  "P": {
-    "name_zh": "雲林縣", "name_en": "Yunlin County",
-    "electorate": 565078, "turnout": 69.29,
-    "winner": { "politician_id": "2031" },
-    "candidates": [
-      { "politician_id": "2031", "name_en": "Zhang Li-shan",   "name_zh": "張麗善",   "party": "KMT", "votes": 210770, "vote_pct": 53.82 },
-      { "name_en": "Lee Chin-yung",  "name_zh": "李進勇",          "party": "DPP",        "votes": 163325, "vote_pct": 41.72 }
-    ]
-  },
-
-  "Q": {
-    "name_zh": "嘉義縣", "name_en": "Chiayi County",
-    "electorate": 428649, "turnout": 66.52,
-    "winner": { "politician_id": "2033" },
-    "candidates": [
-      { "politician_id": "2033", "name_en": "Weng Chang-liang","name_zh": "翁章梁",   "party": "DPP", "votes": 145288, "vote_pct": 50.95 },
-      { "name_en": "Wu Yu-jen",      "name_zh": "吳育仁",          "party": "KMT",        "votes": 84243,  "vote_pct": 29.54 }
-    ]
-  },
-
-  "T": {
-    "name_zh": "屏東縣", "name_en": "Pingtung County",
-    "electorate": 689393, "turnout": 68.20,
-    "winner": { "name_en": "Pan Men-an", "name_zh": "潘孟安", "party": "DPP" },
-    "candidates": [
-      { "name_en": "Pan Men-an",     "name_zh": "潘孟安",  "party": "DPP", "votes": 262809, "vote_pct": 55.90 },
-      { "name_en": "Su Ching-chuan", "name_zh": "蘇清泉",  "party": "KMT", "votes": 197518, "vote_pct": 42.01 }
-    ]
-  },
-
-  "V": {
-    "name_zh": "臺東縣", "name_en": "Taitung County",
-    "electorate": 179706, "turnout": 66.51,
-    "winner": { "politician_id": "2039" },
-    "candidates": [
-      { "politician_id": "2039", "name_en": "Rao Ching-ling",  "name_zh": "饒慶鈴",   "party": "KMT", "votes": 70577, "vote_pct": 59.05 },
-      { "name_en": "Liu Chao-hao",   "name_zh": "劉曉薇",          "party": "DPP",        "votes": 44264, "vote_pct": 37.04 }
-    ]
-  },
-
-  "U": {
-    "name_zh": "花蓮縣", "name_en": "Hualien County",
-    "electorate": 268817, "turnout": 63.09,
-    "winner": { "politician_id": "2037" },
-    "candidates": [
-      { "politician_id": "2037", "name_en": "Hsu Chen-wei",    "name_zh": "徐榛蔚",   "party": "KMT", "votes": 121297, "vote_pct": 71.52 },
-      { "name_en": "Liu Siao-Mei",   "name_zh": "劉曉玫",          "party": "DPP",        "votes": 43879,  "vote_pct": 25.87 }
-    ]
-  },
-
-  "X": {
-    "name_zh": "澎湖縣", "name_en": "Penghu County",
-    "electorate": 86603, "turnout": 61.10,
-    "winner": { "name_en": "Lai Feng-wei", "name_zh": "賴峰偉", "party": "KMT" },
-    "candidates": [
-      { "name_en": "Lai Feng-wei",   "name_zh": "賴峰偉",  "party": "KMT", "votes": 20570, "vote_pct": 38.87 },
-      { "politician_id": "2042", "name_en": "Chen Kuang-fu", "name_zh": "陳光復", "party": "DPP", "votes": 17347, "vote_pct": 32.78 }
-    ]
-  },
-
-  "C": {
-    "name_zh": "基隆市", "name_en": "Keelung City",
-    "electorate": 309428, "turnout": 60.98,
-    "winner": { "name_en": "Lin Yu-chang", "name_zh": "林右昌", "party": "DPP" },
-    "candidates": [
-      { "name_en": "Lin Yu-chang",   "name_zh": "林右昌",  "party": "DPP", "votes": 102167, "vote_pct": 54.14 },
-      { "name_en": "Hsieh Li-kung",  "name_zh": "謝立功",  "party": "KMT", "votes": 86529,  "vote_pct": 45.86 }
-    ]
-  },
-
-  "O": {
-    "name_zh": "新竹市", "name_en": "Hsinchu City",
-    "electorate": 338323, "turnout": 64.17,
-    "winner": { "name_en": "Lin Chih-chien", "name_zh": "林智堅", "party": "DPP" },
-    "candidates": [
-      { "name_en": "Lin Chih-chien", "name_zh": "林智堅",  "party": "DPP", "votes": 107612, "vote_pct": 49.57 },
-      { "name_en": "Hsu Ming-tsai",  "name_zh": "許明財",  "party": "KMT", "votes": 60508,  "vote_pct": 27.87 }
-    ]
-  },
-
-  "I": {
-    "name_zh": "嘉義市", "name_en": "Chiayi City",
-    "electorate": 212843, "turnout": 66.81,
-    "winner": { "politician_id": "2025" },
-    "candidates": [
-      { "politician_id": "2025", "name_en": "Huang Min-hui",   "name_zh": "黃敏惠",   "party": "KMT", "votes": 58558, "vote_pct": 41.18 },
-      { "name_en": "Twu Shiing-jer", "name_zh": "塗醒哲",         "party": "DPP",        "votes": 56256, "vote_pct": 39.56 }
-    ]
-  },
-
-  "W": {
-    "name_zh": "金門縣", "name_en": "Kinmen County",
-    "electorate": 117913, "turnout": 41.75,
-    "winner": { "name_en": "Yang Cheng-wu", "name_zh": "楊鎮浯", "party": "KMT" },
-    "candidates": [
-      { "name_en": "Yang Cheng-wu",  "name_zh": "楊鎮浯",  "party": "KMT", "votes": 23520, "vote_pct": 47.48 },
-      { "politician_id": "2041", "name_en": "Chen Fu-hai", "name_zh": "陳福海", "party": "IND", "votes": 22719, "vote_pct": 46.15 }
-    ]
-  },
-
-  "Z": {
-    "name_zh": "連江縣", "name_en": "Lienchiang County",
-    "electorate": 10773, "turnout": 68.76,
-    "winner": { "name_en": "Liu Cheng-ying", "name_zh": "劉增應", "party": "KMT" },
-    "candidates": [
-      { "name_en": "Liu Cheng-ying", "name_zh": "劉增應",  "party": "KMT", "votes": 4861, "vote_pct": 65.62 },
-      { "name_en": "Chu Hsiu-chen",  "name_zh": "朱秀珍",  "party": "DPP", "votes": 1284, "vote_pct": 17.33 }
-    ]
+ "_meta": {
+  "election": "County Magistrate / City Mayor (九合一)",
+  "year": 2018,
+  "date": "2018-11-24",
+  "registered": 19102502,
+  "turnout_national": 66.96,
+  "races": 22,
+  "source": "Taiwan Central Election Commission (CEC) bulk election database, via kiang/db.cec.gov.tw (CC BY 4.0); generated by etl/05_export.py from data/canonical/*.csv",
+  "generated_by": "etl/05_export.py",
+  "legacy_notes": "All vote counts and percentages are from the Wikipedia results table, which cites CEC directly. Key result: KMT won 15 seats, DPP 6, IND 1 (Ko Wen-je in Taipei). DPP had held 13 seats going in; this was a major defeat. Han Kuo-yu's surprise win in Kaohsiung — a historic DPP stronghold — was the headline result. Tsai resigned as DPP chair following the result. Ko Wen-je won Taipei as an independent by 2,254 votes over KMT's Ting Shou-chung. Runner-up data shows top two; full multi-candidate results at db.cec.gov.tw.",
+  "legacy_meta": {
+   "election": "County Magistrate / City Mayor (九合一)",
+   "year": 2018,
+   "date": "2018-11-24",
+   "turnout_national": 66.11,
+   "registered": 19102502,
+   "source_primary": "Taiwan Central Election Commission (CEC) — https://www.cec.gov.tw",
+   "source_secondary": "Wikipedia: 2018 Taiwanese local elections — https://en.wikipedia.org/wiki/2018_Taiwanese_local_elections"
   }
+ },
+ "A": {
+  "name_zh": "臺北市",
+  "name_en": "Taipei City",
+  "electorate": 2164155,
+  "turnout": 65.95,
+  "valid_votes": 1413870,
+  "winner": {
+   "politician_id": "5fe49e84",
+   "party": "IND"
+  },
+  "candidates": [
+   {
+    "politician_id": "7df810fc",
+    "name_zh": "吳蕚洋",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": false,
+    "votes": 5611,
+    "vote_pct": 0.4
+   },
+   {
+    "politician_id": "88d1a807",
+    "name_zh": "丁守中",
+    "name_en": "Ting Shou-chung",
+    "party": "KMT",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": false,
+    "votes": 577096,
+    "vote_pct": 40.82
+   },
+   {
+    "politician_id": "d299f913",
+    "name_zh": "姚文智",
+    "name_en": "Pasuya Yao",
+    "party": "DPP",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 244342,
+    "vote_pct": 17.28
+   },
+   {
+    "politician_id": "5fe49e84",
+    "name_zh": "柯文哲",
+    "name_en": "Ko Wen-je",
+    "party": "IND",
+    "ballot_no": 4,
+    "incumbent": true,
+    "elected": true,
+    "votes": 580663,
+    "vote_pct": 41.07
+   },
+   {
+    "politician_id": "cf738663",
+    "name_zh": "李錫錕",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 5,
+    "incumbent": false,
+    "elected": false,
+    "votes": 6158,
+    "vote_pct": 0.44
+   }
+  ]
+ },
+ "B": {
+  "name_zh": "臺中市",
+  "name_en": "Taichung City",
+  "electorate": 2213789,
+  "turnout": 67.46,
+  "valid_votes": 1463770,
+  "winner": {
+   "politician_id": "30bdb156",
+   "party": "KMT"
+  },
+  "candidates": [
+   {
+    "politician_id": "e1062cd1",
+    "name_zh": "宋原通",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": false,
+    "votes": 15919,
+    "vote_pct": 1.09
+   },
+   {
+    "politician_id": "d95b170d",
+    "name_zh": "林佳龍",
+    "name_en": "Lin Chia-lung",
+    "party": "DPP",
+    "ballot_no": 2,
+    "incumbent": true,
+    "elected": false,
+    "votes": 619855,
+    "vote_pct": 42.35
+   },
+   {
+    "politician_id": "30bdb156",
+    "name_zh": "盧秀燕",
+    "name_en": "Lu Shiow-yen",
+    "party": "KMT",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": true,
+    "votes": 827996,
+    "vote_pct": 56.57
+   }
+  ]
+ },
+ "C": {
+  "name_zh": "基隆市",
+  "name_en": "Keelung City",
+  "electorate": 309428,
+  "turnout": 62.45,
+  "valid_votes": 188696,
+  "winner": {
+   "politician_id": "9d722079",
+   "party": "DPP"
+  },
+  "candidates": [
+   {
+    "politician_id": "0babb44f",
+    "name_zh": "謝立功",
+    "name_en": "Hsieh Li-kung",
+    "party": "KMT",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": false,
+    "votes": 86529,
+    "vote_pct": 45.86
+   },
+   {
+    "politician_id": "9d722079",
+    "name_zh": "林右昌",
+    "name_en": "Lin Yu-chang",
+    "party": "DPP",
+    "ballot_no": 2,
+    "incumbent": true,
+    "elected": true,
+    "votes": 102167,
+    "vote_pct": 54.14
+   }
+  ]
+ },
+ "D": {
+  "name_zh": "臺南市",
+  "name_en": "Tainan City",
+  "electorate": 1546862,
+  "turnout": 64.01,
+  "valid_votes": 966670,
+  "winner": {
+   "politician_id": "8b78e6cc",
+   "party": "DPP"
+  },
+  "candidates": [
+   {
+    "politician_id": "8b78e6cc",
+    "name_zh": "黃偉哲",
+    "name_en": "Huang Wei-che",
+    "party": "DPP",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": true,
+    "votes": 367518,
+    "vote_pct": 38.02
+   },
+   {
+    "politician_id": "2dbb56fb",
+    "name_zh": "高思博",
+    "name_en": "Kao Su-po",
+    "party": "KMT",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": false,
+    "votes": 312874,
+    "vote_pct": 32.37
+   },
+   {
+    "politician_id": "69090497",
+    "name_zh": "林義豐",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 84153,
+    "vote_pct": 8.71
+   },
+   {
+    "politician_id": "69412a7d",
+    "name_zh": "許忠信",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 4,
+    "incumbent": false,
+    "elected": false,
+    "votes": 45168,
+    "vote_pct": 4.67
+   },
+   {
+    "politician_id": "0fd908bc",
+    "name_zh": "陳永和",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 5,
+    "incumbent": false,
+    "elected": false,
+    "votes": 117179,
+    "vote_pct": 12.12
+   },
+   {
+    "politician_id": "65ca4806",
+    "name_zh": "蘇煥智",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 6,
+    "incumbent": false,
+    "elected": false,
+    "votes": 39778,
+    "vote_pct": 4.11
+   }
+  ]
+ },
+ "E": {
+  "name_zh": "高雄市",
+  "name_en": "Kaohsiung City",
+  "electorate": 2281338,
+  "turnout": 73.54,
+  "valid_votes": 1656907,
+  "winner": {
+   "politician_id": "9f59af59",
+   "party": "KMT"
+  },
+  "candidates": [
+   {
+    "politician_id": "9f59af59",
+    "name_zh": "韓國瑜",
+    "name_en": "Han Kuo-yu",
+    "party": "KMT",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": true,
+    "votes": 892545,
+    "vote_pct": 53.87
+   },
+   {
+    "politician_id": "89f49daa",
+    "name_zh": "陳其邁",
+    "name_en": "Chen Chi-mai",
+    "party": "DPP",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": false,
+    "votes": 742239,
+    "vote_pct": 44.8
+   },
+   {
+    "politician_id": "628f0df4",
+    "name_zh": "璩美鳳",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 7998,
+    "vote_pct": 0.48
+   },
+   {
+    "politician_id": "55076139",
+    "name_zh": "蘇盈貴",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 4,
+    "incumbent": false,
+    "elected": false,
+    "votes": 14125,
+    "vote_pct": 0.85
+   }
+  ]
+ },
+ "F": {
+  "name_zh": "新北市",
+  "name_en": "New Taipei City",
+  "electorate": 3264128,
+  "turnout": 64.0,
+  "valid_votes": 2038822,
+  "winner": {
+   "politician_id": "b6a786fc",
+   "party": "KMT"
+  },
+  "candidates": [
+   {
+    "politician_id": "2aa96673",
+    "name_zh": "蘇貞昌",
+    "name_en": "Su Tseng-chang",
+    "party": "DPP",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": false,
+    "votes": 873692,
+    "vote_pct": 42.85
+   },
+   {
+    "politician_id": "b6a786fc",
+    "name_zh": "侯友宜",
+    "name_en": "Hou Yu-ih",
+    "party": "KMT",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": true,
+    "votes": 1165130,
+    "vote_pct": 57.15
+   }
+  ]
+ },
+ "G": {
+  "name_zh": "宜蘭縣",
+  "name_en": "Yilan County",
+  "electorate": 373510,
+  "turnout": 69.09,
+  "valid_votes": 250121,
+  "winner": {
+   "politician_id": "5e1f5045",
+   "party": "KMT"
+  },
+  "candidates": [
+   {
+    "politician_id": "2c326d46",
+    "name_zh": "林信華",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": false,
+    "votes": 27399,
+    "vote_pct": 10.95
+   },
+   {
+    "politician_id": "5e1f5045",
+    "name_zh": "林姿妙",
+    "name_en": "Lin Tzu-miao",
+    "party": "KMT",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": true,
+    "votes": 123767,
+    "vote_pct": 49.48
+   },
+   {
+    "politician_id": "8d3ce5c8",
+    "name_zh": "陳歐珀",
+    "name_en": "Chen Ou-po",
+    "party": "DPP",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 95609,
+    "vote_pct": 38.23
+   },
+   {
+    "politician_id": "b1092348",
+    "name_zh": "林錦坤",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 4,
+    "incumbent": false,
+    "elected": false,
+    "votes": 1922,
+    "vote_pct": 0.77
+   },
+   {
+    "politician_id": "9f70ad41",
+    "name_zh": "陳秋境",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 5,
+    "incumbent": false,
+    "elected": false,
+    "votes": 1424,
+    "vote_pct": 0.57
+   }
+  ]
+ },
+ "H": {
+  "name_zh": "桃園市",
+  "name_en": "Taoyuan City",
+  "electorate": 1732591,
+  "turnout": 60.63,
+  "valid_votes": 1033149,
+  "winner": {
+   "politician_id": "9b027dc3",
+   "party": "DPP"
+  },
+  "candidates": [
+   {
+    "politician_id": "7b83a36b",
+    "name_zh": "朱梅雪",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": false,
+    "votes": 18200,
+    "vote_pct": 1.76
+   },
+   {
+    "politician_id": "985159b5",
+    "name_zh": "陳學聖",
+    "name_en": null,
+    "party": "KMT",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": false,
+    "votes": 407234,
+    "vote_pct": 39.42
+   },
+   {
+    "politician_id": "de673700",
+    "name_zh": "楊麗環",
+    "name_en": "Yang Li-huan",
+    "party": "IND",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 51518,
+    "vote_pct": 4.99
+   },
+   {
+    "politician_id": "78779c14",
+    "name_zh": "吳富彤",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 4,
+    "incumbent": false,
+    "elected": false,
+    "votes": 3867,
+    "vote_pct": 0.37
+   },
+   {
+    "politician_id": "9b027dc3",
+    "name_zh": "鄭文燦",
+    "name_en": "Cheng Wen-tsan",
+    "party": "DPP",
+    "ballot_no": 5,
+    "incumbent": true,
+    "elected": true,
+    "votes": 552330,
+    "vote_pct": 53.46
+   }
+  ]
+ },
+ "I": {
+  "name_zh": "嘉義市",
+  "name_en": "Chiayi City",
+  "electorate": 212843,
+  "turnout": 67.91,
+  "valid_votes": 142208,
+  "winner": {
+   "politician_id": "bc9e7e07",
+   "party": "KMT"
+  },
+  "candidates": [
+   {
+    "politician_id": "02aba5b4",
+    "name_zh": "蕭淑麗",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": false,
+    "votes": 25572,
+    "vote_pct": 17.98
+   },
+   {
+    "politician_id": "bc9e7e07",
+    "name_zh": "黃敏惠",
+    "name_en": "Huang Min-hui",
+    "party": "KMT",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": true,
+    "votes": 58558,
+    "vote_pct": 41.18
+   },
+   {
+    "politician_id": "7dc286d5",
+    "name_zh": "黃宏成台灣阿成世界偉人財神總統",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 1822,
+    "vote_pct": 1.28
+   },
+   {
+    "politician_id": "2c4d831a",
+    "name_zh": "涂醒哲",
+    "name_en": null,
+    "party": "DPP",
+    "ballot_no": 4,
+    "incumbent": true,
+    "elected": false,
+    "votes": 56256,
+    "vote_pct": 39.56
+   }
+  ]
+ },
+ "J": {
+  "name_zh": "新竹縣",
+  "name_en": "Hsinchu County",
+  "electorate": 427652,
+  "turnout": 67.95,
+  "valid_votes": 282405,
+  "winner": {
+   "politician_id": "f36f253b",
+   "party": "KMT"
+  },
+  "candidates": [
+   {
+    "politician_id": "f36f253b",
+    "name_zh": "楊文科",
+    "name_en": "Yang Wen-ke",
+    "party": "KMT",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": true,
+    "votes": 107877,
+    "vote_pct": 38.2
+   },
+   {
+    "politician_id": "7ae5799e",
+    "name_zh": "葉芳棟",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": false,
+    "votes": 5168,
+    "vote_pct": 1.83
+   },
+   {
+    "politician_id": "5bc8531c",
+    "name_zh": "鄭朝方",
+    "name_en": null,
+    "party": "DPP",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 78170,
+    "vote_pct": 27.68
+   },
+   {
+    "politician_id": "ed565ce9",
+    "name_zh": "徐欣瑩",
+    "name_en": "Hsu Hsin-ying",
+    "party": "OTHER",
+    "party_name_zh": "民國黨",
+    "ballot_no": 4,
+    "incumbent": false,
+    "elected": false,
+    "votes": 91190,
+    "vote_pct": 32.29
+   }
+  ]
+ },
+ "K": {
+  "name_zh": "苗栗縣",
+  "name_en": "Miaoli County",
+  "electorate": 446507,
+  "turnout": 70.74,
+  "valid_votes": 304370,
+  "winner": {
+   "politician_id": "874276df",
+   "party": "KMT"
+  },
+  "candidates": [
+   {
+    "politician_id": "9629656c",
+    "name_zh": "朱泰平",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": false,
+    "votes": 6880,
+    "vote_pct": 2.26
+   },
+   {
+    "politician_id": "7cc169ab",
+    "name_zh": "徐定禎",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": false,
+    "votes": 112704,
+    "vote_pct": 37.03
+   },
+   {
+    "politician_id": "8dda7c26",
+    "name_zh": "黃玉燕",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 9030,
+    "vote_pct": 2.97
+   },
+   {
+    "politician_id": "874276df",
+    "name_zh": "徐耀昌",
+    "name_en": "Hsu Yao-chang",
+    "party": "KMT",
+    "ballot_no": 4,
+    "incumbent": true,
+    "elected": true,
+    "votes": 175756,
+    "vote_pct": 57.74
+   }
+  ]
+ },
+ "M": {
+  "name_zh": "南投縣",
+  "name_en": "Nantou County",
+  "electorate": 413222,
+  "turnout": 72.75,
+  "valid_votes": 292845,
+  "winner": {
+   "politician_id": "fc7fe15c",
+   "party": "KMT"
+  },
+  "candidates": [
+   {
+    "politician_id": "fc7fe15c",
+    "name_zh": "林明溱",
+    "name_en": "Lin Ming-chen",
+    "party": "KMT",
+    "ballot_no": 1,
+    "incumbent": true,
+    "elected": true,
+    "votes": 195385,
+    "vote_pct": 66.72
+   },
+   {
+    "politician_id": "bc9b271f",
+    "name_zh": "洪國浩",
+    "name_en": "Hung Kuo-hao",
+    "party": "DPP",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": false,
+    "votes": 97460,
+    "vote_pct": 33.28
+   }
+  ]
+ },
+ "N": {
+  "name_zh": "彰化縣",
+  "name_en": "Changhua County",
+  "electorate": 1031222,
+  "turnout": 70.9,
+  "valid_votes": 710419,
+  "winner": {
+   "politician_id": "f9daba3f",
+   "party": "KMT"
+  },
+  "candidates": [
+   {
+    "politician_id": "b98bddcb",
+    "name_zh": "魏明谷",
+    "name_en": "Wei Ming-ku",
+    "party": "DPP",
+    "ballot_no": 1,
+    "incumbent": true,
+    "elected": false,
+    "votes": 283269,
+    "vote_pct": 39.87
+   },
+   {
+    "politician_id": "f9daba3f",
+    "name_zh": "王惠美",
+    "name_en": "Wang Hui-mei",
+    "party": "KMT",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": true,
+    "votes": 377795,
+    "vote_pct": 53.18
+   },
+   {
+    "politician_id": "eb459e2c",
+    "name_zh": "白雅燦",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 7402,
+    "vote_pct": 1.04
+   },
+   {
+    "politician_id": "370c2f32",
+    "name_zh": "黃文玲",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 4,
+    "incumbent": false,
+    "elected": false,
+    "votes": 34690,
+    "vote_pct": 4.88
+   },
+   {
+    "politician_id": "e9f628c2",
+    "name_zh": "洪敏雄",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 5,
+    "incumbent": false,
+    "elected": false,
+    "votes": 7263,
+    "vote_pct": 1.02
+   }
+  ]
+ },
+ "O": {
+  "name_zh": "新竹市",
+  "name_en": "Hsinchu City",
+  "electorate": 338323,
+  "turnout": 65.44,
+  "valid_votes": 217103,
+  "winner": {
+   "politician_id": "0b5bc8ab",
+   "party": "DPP"
+  },
+  "candidates": [
+   {
+    "politician_id": "b9d231d0",
+    "name_zh": "謝文進",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": false,
+    "votes": 44101,
+    "vote_pct": 20.31
+   },
+   {
+    "politician_id": "6f2c6614",
+    "name_zh": "李驥羣",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": false,
+    "votes": 705,
+    "vote_pct": 0.32
+   },
+   {
+    "politician_id": "ac444857",
+    "name_zh": "黃源甫",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 3603,
+    "vote_pct": 1.66
+   },
+   {
+    "politician_id": "db1e02af",
+    "name_zh": "許明財",
+    "name_en": "Hsu Ming-tsai",
+    "party": "KMT",
+    "ballot_no": 4,
+    "incumbent": false,
+    "elected": false,
+    "votes": 60508,
+    "vote_pct": 27.87
+   },
+   {
+    "politician_id": "68f6c211",
+    "name_zh": "郭榮睿",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 5,
+    "incumbent": false,
+    "elected": false,
+    "votes": 574,
+    "vote_pct": 0.26
+   },
+   {
+    "politician_id": "0b5bc8ab",
+    "name_zh": "林智堅",
+    "name_en": "Lin Chih-chien",
+    "party": "DPP",
+    "ballot_no": 6,
+    "incumbent": true,
+    "elected": true,
+    "votes": 107612,
+    "vote_pct": 49.57
+   }
+  ]
+ },
+ "P": {
+  "name_zh": "雲林縣",
+  "name_en": "Yunlin County",
+  "electorate": 565078,
+  "turnout": 71.57,
+  "valid_votes": 391519,
+  "winner": {
+   "politician_id": "4528b06b",
+   "party": "KMT"
+  },
+  "candidates": [
+   {
+    "politician_id": "4e595ead",
+    "name_zh": "林佳瑜",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": false,
+    "votes": 6163,
+    "vote_pct": 1.57
+   },
+   {
+    "politician_id": "0d9833b6",
+    "name_zh": "李進勇",
+    "name_en": "Lee Chin-yung",
+    "party": "DPP",
+    "ballot_no": 2,
+    "incumbent": true,
+    "elected": false,
+    "votes": 163325,
+    "vote_pct": 41.72
+   },
+   {
+    "politician_id": "161e318d",
+    "name_zh": "王麗萍",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 11261,
+    "vote_pct": 2.88
+   },
+   {
+    "politician_id": "4528b06b",
+    "name_zh": "張麗善",
+    "name_en": null,
+    "party": "KMT",
+    "ballot_no": 4,
+    "incumbent": false,
+    "elected": true,
+    "votes": 210770,
+    "vote_pct": 53.83
+   }
+  ]
+ },
+ "Q": {
+  "name_zh": "嘉義縣",
+  "name_en": "Chiayi County",
+  "electorate": 428649,
+  "turnout": 70.75,
+  "valid_votes": 285147,
+  "winner": {
+   "politician_id": "c6ebf200",
+   "party": "DPP"
+  },
+  "candidates": [
+   {
+    "politician_id": "c6ebf200",
+    "name_zh": "翁章梁",
+    "name_en": "Weng Chang-liang",
+    "party": "DPP",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": true,
+    "votes": 145288,
+    "vote_pct": 50.95
+   },
+   {
+    "politician_id": "da13ea5c",
+    "name_zh": "吳芳銘",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": false,
+    "votes": 51020,
+    "vote_pct": 17.89
+   },
+   {
+    "politician_id": "547b2793",
+    "name_zh": "林國龍",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 4596,
+    "vote_pct": 1.61
+   },
+   {
+    "politician_id": "865cde68",
+    "name_zh": "吳育仁",
+    "name_en": "Wu Yu-jen",
+    "party": "KMT",
+    "ballot_no": 4,
+    "incumbent": false,
+    "elected": false,
+    "votes": 84243,
+    "vote_pct": 29.54
+   }
+  ]
+ },
+ "T": {
+  "name_zh": "屏東縣",
+  "name_en": "Pingtung County",
+  "electorate": 689393,
+  "turnout": 71.09,
+  "valid_votes": 470146,
+  "winner": {
+   "politician_id": "c69ba9e5",
+   "party": "DPP"
+  },
+  "candidates": [
+   {
+    "politician_id": "14695382",
+    "name_zh": "李鎔任",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": false,
+    "votes": 9819,
+    "vote_pct": 2.09
+   },
+   {
+    "politician_id": "8461904f",
+    "name_zh": "蘇清泉",
+    "name_en": "Su Ching-chuan",
+    "party": "KMT",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": false,
+    "votes": 197518,
+    "vote_pct": 42.01
+   },
+   {
+    "politician_id": "c69ba9e5",
+    "name_zh": "潘孟安",
+    "name_en": "Pan Men-an",
+    "party": "DPP",
+    "ballot_no": 3,
+    "incumbent": true,
+    "elected": true,
+    "votes": 262809,
+    "vote_pct": 55.9
+   }
+  ]
+ },
+ "U": {
+  "name_zh": "花蓮縣",
+  "name_en": "Hualien County",
+  "electorate": 268817,
+  "turnout": 64.87,
+  "valid_votes": 169596,
+  "winner": {
+   "politician_id": "f978c639",
+   "party": "KMT"
+  },
+  "candidates": [
+   {
+    "politician_id": "f978c639",
+    "name_zh": "徐榛蔚",
+    "name_en": "Hsu Chen-wei",
+    "party": "KMT",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": true,
+    "votes": 121297,
+    "vote_pct": 71.52
+   },
+   {
+    "politician_id": "f217d412",
+    "name_zh": "劉曉玫",
+    "name_en": "Liu Siao-Mei",
+    "party": "DPP",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": false,
+    "votes": 43879,
+    "vote_pct": 25.87
+   },
+   {
+    "politician_id": "6d2753a9",
+    "name_zh": "黄師鵬",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 4420,
+    "vote_pct": 2.61
+   }
+  ]
+ },
+ "V": {
+  "name_zh": "臺東縣",
+  "name_en": "Taitung County",
+  "electorate": 179706,
+  "turnout": 68.33,
+  "valid_votes": 119518,
+  "winner": {
+   "politician_id": "c5cedf71",
+   "party": "KMT"
+  },
+  "candidates": [
+   {
+    "politician_id": "626a2032",
+    "name_zh": "鄺麗貞",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": false,
+    "votes": 3049,
+    "vote_pct": 2.55
+   },
+   {
+    "politician_id": "7b8eafba",
+    "name_zh": "劉櫂豪",
+    "name_en": null,
+    "party": "DPP",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": false,
+    "votes": 44264,
+    "vote_pct": 37.04
+   },
+   {
+    "politician_id": "329ae3c2",
+    "name_zh": "黃裕斌",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 640,
+    "vote_pct": 0.54
+   },
+   {
+    "politician_id": "b58d7c01",
+    "name_zh": "彭權國",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 4,
+    "incumbent": false,
+    "elected": false,
+    "votes": 988,
+    "vote_pct": 0.83
+   },
+   {
+    "politician_id": "c5cedf71",
+    "name_zh": "饒慶鈴",
+    "name_en": "Rao Ching-ling",
+    "party": "KMT",
+    "ballot_no": 5,
+    "incumbent": false,
+    "elected": true,
+    "votes": 70577,
+    "vote_pct": 59.05
+   }
+  ]
+ },
+ "W": {
+  "name_zh": "金門縣",
+  "name_en": "Kinmen County",
+  "electorate": 117913,
+  "turnout": 42.76,
+  "valid_votes": 49229,
+  "winner": {
+   "politician_id": "34d88d81",
+   "party": "KMT"
+  },
+  "candidates": [
+   {
+    "politician_id": "34d88d81",
+    "name_zh": "楊鎮浯",
+    "name_en": "Yang Cheng-wu",
+    "party": "KMT",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": true,
+    "votes": 23520,
+    "vote_pct": 47.78
+   },
+   {
+    "politician_id": "bf8e71f7",
+    "name_zh": "洪志恒",
+    "name_en": null,
+    "party": "OTHER",
+    "party_name_zh": "金門高粱黨",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": false,
+    "votes": 832,
+    "vote_pct": 1.69
+   },
+   {
+    "politician_id": "889cd337",
+    "name_zh": "汪承樺",
+    "name_en": null,
+    "party": "OTHER",
+    "party_name_zh": "教科文預算保障e聯盟",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 403,
+    "vote_pct": 0.82
+   },
+   {
+    "politician_id": "421f6e09",
+    "name_zh": "陳福海",
+    "name_en": "Chen Fu-hai",
+    "party": "IND",
+    "ballot_no": 4,
+    "incumbent": true,
+    "elected": false,
+    "votes": 22719,
+    "vote_pct": 46.15
+   },
+   {
+    "politician_id": "045b2d5e",
+    "name_zh": "謝宜璋",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 5,
+    "incumbent": false,
+    "elected": false,
+    "votes": 1389,
+    "vote_pct": 2.82
+   },
+   {
+    "politician_id": "cdeb5de6",
+    "name_zh": "洪和成",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 6,
+    "incumbent": false,
+    "elected": false,
+    "votes": 366,
+    "vote_pct": 0.74
+   }
+  ]
+ },
+ "X": {
+  "name_zh": "澎湖縣",
+  "name_en": "Penghu County",
+  "electorate": 86603,
+  "turnout": 62.88,
+  "valid_votes": 52915,
+  "winner": {
+   "politician_id": "82d34327",
+   "party": "KMT"
+  },
+  "candidates": [
+   {
+    "politician_id": "6842f06f",
+    "name_zh": "翁珍聖",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": false,
+    "votes": 1379,
+    "vote_pct": 2.61
+   },
+   {
+    "politician_id": "c30006fb",
+    "name_zh": "鄭清發",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": false,
+    "votes": 4330,
+    "vote_pct": 8.18
+   },
+   {
+    "politician_id": "5ff63ad9",
+    "name_zh": "陳大松",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 5822,
+    "vote_pct": 11.0
+   },
+   {
+    "politician_id": "c65038a1",
+    "name_zh": "吳政隆",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 4,
+    "incumbent": false,
+    "elected": false,
+    "votes": 2999,
+    "vote_pct": 5.67
+   },
+   {
+    "politician_id": "82d34327",
+    "name_zh": "賴峰偉",
+    "name_en": "Lai Feng-wei",
+    "party": "KMT",
+    "ballot_no": 5,
+    "incumbent": false,
+    "elected": true,
+    "votes": 20570,
+    "vote_pct": 38.87
+   },
+   {
+    "politician_id": "391e1693",
+    "name_zh": "陳光復",
+    "name_en": "Chen Kuang-fu",
+    "party": "DPP",
+    "ballot_no": 6,
+    "incumbent": true,
+    "elected": false,
+    "votes": 17347,
+    "vote_pct": 32.78
+   },
+   {
+    "politician_id": "8fcbe683",
+    "name_zh": "呂華苑",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 7,
+    "incumbent": false,
+    "elected": false,
+    "votes": 468,
+    "vote_pct": 0.88
+   }
+  ]
+ },
+ "Z": {
+  "name_zh": "連江縣",
+  "name_en": "Lienchiang County",
+  "electorate": 10773,
+  "turnout": 71.31,
+  "valid_votes": 7408,
+  "winner": {
+   "politician_id": "6c223646",
+   "party": "KMT"
+  },
+  "candidates": [
+   {
+    "politician_id": "412f8d20",
+    "name_zh": "蘇柏豪",
+    "name_en": null,
+    "party": "OTHER",
+    "party_name_zh": "樹黨",
+    "ballot_no": 1,
+    "incumbent": false,
+    "elected": false,
+    "votes": 927,
+    "vote_pct": 12.51
+   },
+   {
+    "politician_id": "ce38ad74",
+    "name_zh": "朱秀珍",
+    "name_en": "Chu Hsiu-chen",
+    "party": "IND",
+    "ballot_no": 2,
+    "incumbent": false,
+    "elected": false,
+    "votes": 1284,
+    "vote_pct": 17.33
+   },
+   {
+    "politician_id": "e92749e1",
+    "name_zh": "魏耀乾",
+    "name_en": null,
+    "party": "IND",
+    "ballot_no": 3,
+    "incumbent": false,
+    "elected": false,
+    "votes": 336,
+    "vote_pct": 4.54
+   },
+   {
+    "politician_id": "6c223646",
+    "name_zh": "劉增應",
+    "name_en": "Liu Cheng-ying",
+    "party": "KMT",
+    "ballot_no": 4,
+    "incumbent": true,
+    "elected": true,
+    "votes": 4861,
+    "vote_pct": 65.62
+   }
+  ]
+ }
 }
