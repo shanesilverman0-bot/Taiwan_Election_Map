@@ -1,0 +1,98 @@
+# election_id -> raw CEC folder(s), race code, office, date.
+# Folders are relative to ~/data/db.cec.gov.tw/voteData (raw data is never copied into the repo).
+# race_code: CEC race-type code. Only the 2022 folder ships 選舉種類代碼.xlsx (C1 = 縣(市)長, with
+#   city/ = 縣市 and prv/ = 直轄市 subfolders). Older folders have no code file; the codes below are
+#   assigned by analogy (C1 = county magistrate / city mayor, P1 = president; 2016 presidential files
+#   carry a literal _P1 suffix). See etl/SCHEMA.md.
+# level: national = one race for the whole country (presidential); county = one race per county/city.
+elections:
+  - id: presidential_2008
+    type: presidential
+    year: 2008
+    date: 2008-03-22
+    office: 總統副總統
+    race_code: P1
+    level: national
+    # "2008 12任總統" is a near-duplicate of this folder (4 elctks lines differ); not used, diffed in REPORT.
+    folders: ["20080322-總統"]
+  - id: presidential_2012
+    type: presidential
+    year: 2012
+    date: 2012-01-14
+    office: 總統副總統
+    race_code: P1
+    level: national
+    folders: ["20120114-總統及立委/總統"]
+  - id: presidential_2016
+    type: presidential
+    year: 2016
+    date: 2016-01-16
+    office: 總統副總統
+    race_code: P1
+    level: national
+    folders: ["2016總統立委/總統"]
+  - id: presidential_2020
+    type: presidential
+    year: 2020
+    date: 2020-01-11
+    office: 總統副總統
+    race_code: P1
+    level: national
+    folders: ["2020總統立委/總統"]
+  - id: presidential_2024
+    type: presidential
+    year: 2024
+    date: 2024-01-13
+    office: 總統副總統
+    race_code: P1
+    level: national
+    folders: ["2024總統立委/總統"]
+
+  # 2009/2010 split cycle: the 2009 vote covered 17 counties/cities (incl. Taoyuan County);
+  # the 2010 vote covered the 5 new special municipalities (Taipei, New Taipei, Taichung, Tainan, Kaohsiung).
+  - id: magistrate_2009
+    type: magistrate
+    year: 2009
+    date: 2009-12-05
+    office: 縣市長
+    race_code: C1
+    level: county
+    folders: ["20091205-縣市長縣市議員及鄉鎮長/縣市長"]
+  - id: magistrate_2010
+    type: magistrate
+    year: 2010
+    date: 2010-11-27
+    office: 直轄市長
+    race_code: C1
+    level: county
+    folders: ["20101127-五都市長議員及里長/市長"]
+  - id: magistrate_2014
+    type: magistrate
+    year: 2014
+    date: 2014-11-29
+    office: 縣市長+直轄市長
+    race_code: C1
+    level: county
+    folders: ["2014-103年地方公職人員選舉/縣市市長", "2014-103年地方公職人員選舉/直轄市市長"]
+  - id: magistrate_2018
+    type: magistrate
+    year: 2018
+    date: 2018-11-24
+    office: 縣市長+直轄市長
+    race_code: C1
+    level: county
+    folders: ["2018-107年地方公職人員選舉/縣市市長", "2018-107年地方公職人員選舉/直轄市市長"]
+  - id: magistrate_2022
+    type: magistrate
+    year: 2022
+    date: 2022-11-26
+    office: 縣市長+直轄市長
+    race_code: C1
+    level: county
+    folders: ["2022-111年地方公職人員選舉/C1/city", "2022-111年地方公職人員選舉/C1/prv"]
+    # Chiayi City vote was postponed (candidate death); rerun held 2022-12-18. Non-standard file layout
+    # (cand.csv + prof.csv, station-level, district/village names instead of codes).
+    rerun:
+      folder: "2022年_嘉義市長重行選舉"
+      date: 2022-12-18
+      county_name: 嘉義市

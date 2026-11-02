@@ -1,379 +1,2166 @@
 {
-  "_meta": {
-    "notes": "Politician registry. Keys are numeric string IDs used in election JSON files via 'politician_id'. Inline fields in election files override registry fields (allowing per-election photo/wiki overrides). IDs: 1xxx = national/presidential figures; 2xxx = magistrates/local executives; 3xxx = legislators.",
-    "last_updated": "April 2026"
-  },
-
-  "1001": {
-    "name_en": "Lai Ching-te",
-    "name_zh": "賴清德",
-    "party": "DPP",
-    "wiki_url": "https://en.wikipedia.org/wiki/Lai_Ching-te",
-    "photo": null
-  },
-  "1002": {
-    "name_en": "Hou Yu-ih",
-    "name_zh": "侯友宜",
-    "party": "KMT",
-    "wiki_url": "https://en.wikipedia.org/wiki/Hou_Yu-ih",
-    "photo": null
-  },
-  "1003": {
-    "name_en": "Ko Wen-je",
-    "name_zh": "柯文哲",
-    "party": "TPP",
-    "wiki_url": "https://en.wikipedia.org/wiki/Ko_Wen-je",
-    "photo": null
-  },
-  "1004": {
-    "name_en": "Tsai Ing-wen",
-    "name_zh": "蔡英文",
-    "party": "DPP",
-    "wiki_url": "https://en.wikipedia.org/wiki/Tsai_Ing-wen",
-    "photo": null
-  },
-  "1005": {
-    "name_en": "Han Kuo-yu",
-    "name_zh": "韓國瑜",
-    "party": "KMT",
-    "wiki_url": "https://en.wikipedia.org/wiki/Han_Kuo-yu",
-    "photo": null
-  },
-  "1006": {
-    "name_en": "James Soong",
-    "name_zh": "宋楚瑜",
-    "party": "PFP",
-    "wiki_url": "https://en.wikipedia.org/wiki/James_Soong",
-    "photo": null
-  },
-  "1007": {
-    "name_en": "Eric Chu",
-    "name_zh": "朱立倫",
-    "party": "KMT",
-    "wiki_url": "https://en.wikipedia.org/wiki/Eric_Chu",
-    "photo": null
-  },
-  "1008": {
-    "name_en": "Ma Ying-jeou",
-    "name_zh": "馬英九",
-    "party": "KMT",
-    "wiki_url": "https://en.wikipedia.org/wiki/Ma_Ying-jeou",
-    "photo": null
-  },
-  "1009": {
-    "name_en": "Frank Hsieh",
-    "name_zh": "謝長廷",
-    "party": "DPP",
-    "wiki_url": "https://en.wikipedia.org/wiki/Frank_Hsieh",
-    "photo": null
-  },
-
-  "2001": {
-    "name_en": "Chiang Wan-an",
-    "name_zh": "蔣萬安",
-    "party": "KMT",
-    "wiki_url": "https://en.wikipedia.org/wiki/Chiang_Wan-an",
-    "photo": null
-  },
-  "2002": {
-    "name_en": "Chen Shih-chung",
-    "name_zh": "陳時中",
-    "party": "DPP",
-    "wiki_url": "https://en.wikipedia.org/wiki/Chen_Shih-chung_(physician)",
-    "photo": null
-  },
-  "2003": {
-    "name_en": "Huang Shan-shan",
-    "name_zh": "黃珊珊",
-    "party": "TPP",
-    "wiki_url": "https://en.wikipedia.org/wiki/Huang_Shan-shan",
-    "photo": null
-  },
-  "2004": {
-    "name_en": "Lin Chia-lung",
-    "name_zh": "林佳龍",
-    "party": "DPP",
-    "wiki_url": "https://en.wikipedia.org/wiki/Lin_Chia-lung",
-    "photo": null
-  },
-  "2005": {
-    "name_en": "Chang San-cheng",
-    "name_zh": "張善政",
-    "party": "KMT",
-    "wiki_url": "https://en.wikipedia.org/wiki/Chang_San-cheng",
-    "photo": null
-  },
-  "2006": {
-    "name_en": "Cheng Pao-ching",
-    "name_zh": "鄭寶清",
-    "party": "DPP",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2007": {
-    "name_en": "Lai Hsiang-lin",
-    "name_zh": "賴香伶",
-    "party": "TPP",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2008": {
-    "name_en": "Lu Shiow-yen",
-    "name_zh": "盧秀燕",
-    "party": "KMT",
-    "wiki_url": "https://en.wikipedia.org/wiki/Lu_Shiow-yen",
-    "photo": null
-  },
-  "2009": {
-    "name_en": "Tsai Chi-chang",
-    "name_zh": "蔡其昌",
-    "party": "DPP",
-    "wiki_url": "https://en.wikipedia.org/wiki/Tsai_Chi-chang",
-    "photo": null
-  },
-  "2010": {
-    "name_en": "Huang Wei-che",
-    "name_zh": "黃偉哲",
-    "party": "DPP",
-    "wiki_url": "https://en.wikipedia.org/wiki/Huang_Wei-che",
-    "photo": null
-  },
-  "2011": {
-    "name_en": "Hsieh Lung-chieh",
-    "name_zh": "謝龍介",
-    "party": "KMT",
-    "wiki_url": "https://en.wikipedia.org/wiki/Hsieh_Lung-chieh",
-    "photo": null
-  },
-  "2012": {
-    "name_en": "Chen Chi-mai",
-    "name_zh": "陳其邁",
-    "party": "DPP",
-    "wiki_url": "https://en.wikipedia.org/wiki/Chen_Chi-mai",
-    "photo": null
-  },
-  "2013": {
-    "name_en": "Ko Chih-en",
-    "name_zh": "柯志恩",
-    "party": "KMT",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2014": {
-    "name_en": "Hsieh Kuo-liang",
-    "name_zh": "謝國樑",
-    "party": "KMT",
-    "wiki_url": "https://en.wikipedia.org/wiki/Hsieh_Kuo-liang",
-    "photo": null
-  },
-  "2015": {
-    "name_en": "Tsai Shih-ying",
-    "name_zh": "蔡適應",
-    "party": "DPP",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2016": {
-    "name_en": "Kao Hung-an",
-    "name_zh": "高虹安",
-    "party": "TPP",
-    "wiki_url": "https://en.wikipedia.org/wiki/Kao_Hung-an",
-    "photo": null
-  },
-  "2017": {
-    "name_en": "Shen Hui-hung",
-    "name_zh": "沈慧虹",
-    "party": "DPP",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2018": {
-    "name_en": "Lin Keng-hua",
-    "name_zh": "林耕華",
-    "party": "KMT",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2019": {
-    "name_en": "Yang Wen-ke",
-    "name_zh": "楊文科",
-    "party": "KMT",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2020": {
-    "name_en": "Chou Chiang-chieh",
-    "name_zh": "周江杰",
-    "party": "DPP",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2021": {
-    "name_en": "Chung Tung-chin",
-    "name_zh": "鍾東錦",
-    "party": "KMT",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2022": {
-    "name_en": "Hsu Ting-chen",
-    "name_zh": "徐定禎",
-    "party": "DPP",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2023": {
-    "name_en": "Lin Tzu-miao",
-    "name_zh": "林姿妙",
-    "party": "KMT",
-    "wiki_url": "https://en.wikipedia.org/wiki/Lin_Tzu-miao",
-    "photo": null
-  },
-  "2024": {
-    "name_en": "Chen Ou-po",
-    "name_zh": "陳歐珀",
-    "party": "DPP",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2025": {
-    "name_en": "Huang Min-hui",
-    "name_zh": "黃敏惠",
-    "party": "KMT",
-    "wiki_url": "https://en.wikipedia.org/wiki/Huang_Min-hui",
-    "photo": null
-  },
-  "2026": {
-    "name_en": "Li Chun-yi",
-    "name_zh": "李俊俋",
-    "party": "DPP",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2027": {
-    "name_en": "Hsu Shu-hua",
-    "name_zh": "許淑華",
-    "party": "KMT",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2028": {
-    "name_en": "Chen Zheng-yang",
-    "name_zh": "陳正昇",
-    "party": "DPP",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2029": {
-    "name_en": "Wang Hui-mei",
-    "name_zh": "王惠美",
-    "party": "KMT",
-    "wiki_url": "https://en.wikipedia.org/wiki/Wang_Hui-mei",
-    "photo": null
-  },
-  "2030": {
-    "name_en": "Tsai Chih-hung",
-    "name_zh": "蔡志宏",
-    "party": "DPP",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2031": {
-    "name_en": "Zhang Li-shan",
-    "name_zh": "張麗善",
-    "party": "KMT",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2032": {
-    "name_en": "Liu Chien-kuo",
-    "name_zh": "劉建國",
-    "party": "DPP",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2033": {
-    "name_en": "Weng Chang-liang",
-    "name_zh": "翁章梁",
-    "party": "DPP",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2034": {
-    "name_en": "Su Te-ching",
-    "name_zh": "蘇德清",
-    "party": "KMT",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2035": {
-    "name_en": "Chou Chun-mi",
-    "name_zh": "周春米",
-    "party": "DPP",
-    "wiki_url": "https://en.wikipedia.org/wiki/Chou_Chun-mi",
-    "photo": null
-  },
-  "2036": {
-    "name_en": "Cheng Li-ta",
-    "name_zh": "鄭麗鈕",
-    "party": "KMT",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2037": {
-    "name_en": "Hsu Chen-wei",
-    "name_zh": "徐榛蔚",
-    "party": "KMT",
-    "wiki_url": "https://en.wikipedia.org/wiki/Hsu_Chen-wei",
-    "photo": null
-  },
-  "2038": {
-    "name_en": "Hsiao Pi-ling",
-    "name_zh": "蕭碧玲",
-    "party": "DPP",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2039": {
-    "name_en": "Rao Ching-ling",
-    "name_zh": "饒慶鈴",
-    "party": "KMT",
-    "wiki_url": "https://en.wikipedia.org/wiki/Rao_Ching-ling",
-    "photo": null
-  },
-  "2040": {
-    "name_en": "Liu Ching-kuo",
-    "name_zh": "劉慶國",
-    "party": "DPP",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2041": {
-    "name_en": "Chen Fu-hai",
-    "name_zh": "陳福海",
-    "party": "KMT",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2042": {
-    "name_en": "Chen Kuang-fu",
-    "name_zh": "陳光復",
-    "party": "DPP",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2043": {
-    "name_en": "Chen Jian-ming",
-    "name_zh": "陳建名",
-    "party": "KMT",
-    "wiki_url": null,
-    "photo": null
-  },
-  "2044": {
-    "name_en": "Wang Chung-ming",
-    "name_zh": "王忠銘",
-    "party": "KMT",
-    "wiki_url": null,
-    "photo": null
-  }
+ "_meta": {
+  "notes": "Person registry generated by etl/05_export.py from data/canonical/people.csv. Keys are person_id = sha1(name_zh|birth_date)[:8]. Identity only: party lives on each candidate entry in the election files. name_en is null unless sourced.",
+  "generated_by": "etl/05_export.py"
+ },
+ "0006c54e": {
+  "name_zh": "蔡其昌",
+  "name_en": "Tsai Chi-chang",
+  "birth_year": 1969,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Tsai_Chi-chang",
+  "photo": null
+ },
+ "018a0b69": {
+  "name_zh": "黃景泰",
+  "name_en": null,
+  "birth_year": 1965,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "02aba5b4": {
+  "name_zh": "蕭淑麗",
+  "name_en": null,
+  "birth_year": 1967,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "02c9db68": {
+  "name_zh": "黃珊珊",
+  "name_en": "Huang Shan-shan",
+  "birth_year": 1969,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Huang_Shan-shan",
+  "photo": null
+ },
+ "035ad0db": {
+  "name_zh": "周江杰",
+  "name_en": "Chou Chiang-chieh",
+  "birth_year": 1980,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "03bca56b": {
+  "name_zh": "蕭萬長",
+  "name_en": "Vincent Siew",
+  "birth_year": 1939,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "045b2d5e": {
+  "name_zh": "謝宜璋",
+  "name_en": null,
+  "birth_year": 1967,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "07c9328a": {
+  "name_zh": "陳振盛",
+  "name_en": null,
+  "birth_year": 1950,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "09650cec": {
+  "name_zh": "蕭仁正",
+  "name_en": null,
+  "birth_year": 1953,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "0a510f2d": {
+  "name_zh": "林修二",
+  "name_en": null,
+  "birth_year": 1941,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "0b5bc8ab": {
+  "name_zh": "林智堅",
+  "name_en": "Lin Chih-chien",
+  "birth_year": 1975,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "0babb44f": {
+  "name_zh": "謝立功",
+  "name_en": "Hsieh Li-kung",
+  "birth_year": 1961,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "0d4e21af": {
+  "name_zh": "林聖芬",
+  "name_en": null,
+  "birth_year": 1976,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "0d9833b6": {
+  "name_zh": "李進勇",
+  "name_en": "Lee Chin-yung",
+  "birth_year": 1951,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "0fd908bc": {
+  "name_zh": "陳永和",
+  "name_en": null,
+  "birth_year": 1960,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "117825f0": {
+  "name_zh": "陳水在",
+  "name_en": null,
+  "birth_year": 1948,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "14695382": {
+  "name_zh": "李鎔任",
+  "name_en": null,
+  "birth_year": 1952,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "15027ab4": {
+  "name_zh": "邱鏡淳",
+  "name_en": "Chiu Ching-chun",
+  "birth_year": 1949,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "15ba59d8": {
+  "name_zh": "馮光遠",
+  "name_en": null,
+  "birth_year": 1953,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "15ed25bc": {
+  "name_zh": "雷由靖",
+  "name_en": null,
+  "birth_year": 1961,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "16156b15": {
+  "name_zh": "許敬民",
+  "name_en": null,
+  "birth_year": 1949,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "161e318d": {
+  "name_zh": "王麗萍",
+  "name_en": null,
+  "birth_year": 1962,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "179b54d1": {
+  "name_zh": "許文建",
+  "name_en": null,
+  "birth_year": 1960,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "17de7bd5": {
+  "name_zh": "周典論",
+  "name_en": null,
+  "birth_year": 1955,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "1a17befb": {
+  "name_zh": "呂國華",
+  "name_en": null,
+  "birth_year": 1956,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "1c1b4155": {
+  "name_zh": "童文薰",
+  "name_en": null,
+  "birth_year": 1965,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "1cfda5e7": {
+  "name_zh": "梁國棟",
+  "name_en": null,
+  "birth_year": 1956,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "1d13c094": {
+  "name_zh": "周春米",
+  "name_en": "Chou Chun-mi",
+  "birth_year": 1966,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Chou_Chun-mi",
+  "photo": null
+ },
+ "1e23a04e": {
+  "name_zh": "謝長廷",
+  "name_en": "Frank Hsieh",
+  "birth_year": 1946,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Frank_Hsieh",
+  "photo": null
+ },
+ "2150b78c": {
+  "name_zh": "吳盛聖",
+  "name_en": null,
+  "birth_year": 1979,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "21c8307a": {
+  "name_zh": "陳泰山",
+  "name_en": null,
+  "birth_year": 1949,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "226465cd": {
+  "name_zh": "陳汝斌",
+  "name_en": null,
+  "birth_year": 1937,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "249033c0": {
+  "name_zh": "莊作兵",
+  "name_en": null,
+  "birth_year": 1933,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "24c23f42": {
+  "name_zh": "郭添財",
+  "name_en": null,
+  "birth_year": 1962,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "28893c30": {
+  "name_zh": "謝立康",
+  "name_en": null,
+  "birth_year": 1970,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "28bfb709": {
+  "name_zh": "鍾東錦",
+  "name_en": "Chung Tung-chin",
+  "birth_year": 1963,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "2947c09b": {
+  "name_zh": "許睿智",
+  "name_en": null,
+  "birth_year": 1938,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "29b30e1e": {
+  "name_zh": "杜麗華",
+  "name_en": null,
+  "birth_year": 1961,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "2aa96673": {
+  "name_zh": "蘇貞昌",
+  "name_en": "Su Tseng-chang",
+  "birth_year": 1947,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "2b2cb297": {
+  "name_zh": "李朝卿",
+  "name_en": null,
+  "birth_year": 1950,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "2c1d1ae0": {
+  "name_zh": "康世儒",
+  "name_en": null,
+  "birth_year": 1964,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "2c326d46": {
+  "name_zh": "林信華",
+  "name_en": null,
+  "birth_year": 1967,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "2c4d831a": {
+  "name_zh": "涂醒哲",
+  "name_en": null,
+  "birth_year": 1951,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "2dbb56fb": {
+  "name_zh": "高思博",
+  "name_en": "Kao Su-po",
+  "birth_year": 1968,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "2e1b84fb": {
+  "name_zh": "翁玉隆",
+  "name_en": null,
+  "birth_year": 1947,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "30bdb156": {
+  "name_zh": "盧秀燕",
+  "name_en": "Lu Shiow-yen",
+  "birth_year": 1961,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Lu_Shiow-yen",
+  "photo": null
+ },
+ "329ae3c2": {
+  "name_zh": "黃裕斌",
+  "name_en": null,
+  "birth_year": 1949,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "34d88d81": {
+  "name_zh": "楊鎮浯",
+  "name_en": "Yang Cheng-wu",
+  "birth_year": 1972,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "35809505": {
+  "name_zh": "謝國樑",
+  "name_en": "Hsieh Kuo-liang",
+  "birth_year": 1975,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Hsieh_Kuo-liang",
+  "photo": null
+ },
+ "36bbabde": {
+  "name_zh": "傅崐萁",
+  "name_en": null,
+  "birth_year": 1962,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "370c2f32": {
+  "name_zh": "黃文玲",
+  "name_en": null,
+  "birth_year": 1969,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "38175d51": {
+  "name_zh": "蕭淑華",
+  "name_en": null,
+  "birth_year": 1961,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "381eb8e3": {
+  "name_zh": "張俊宏",
+  "name_en": null,
+  "birth_year": 1938,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "3902cbdc": {
+  "name_zh": "莊育民",
+  "name_en": null,
+  "birth_year": 1970,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "391e1693": {
+  "name_zh": "陳光復",
+  "name_en": "Chen Kuang-fu",
+  "birth_year": 1955,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "39e3e036": {
+  "name_zh": "黃秀龍",
+  "name_en": null,
+  "birth_year": 1960,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "3b899b46": {
+  "name_zh": "曾尹儷",
+  "name_en": null,
+  "birth_year": 1963,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "3c2ddf81": {
+  "name_zh": "江鑒育",
+  "name_en": null,
+  "birth_year": 1960,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "3cd37532": {
+  "name_zh": "宋楚瑜",
+  "name_en": "James Soong",
+  "birth_year": 1942,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/James_Soong",
+  "photo": null
+ },
+ "3f247ff2": {
+  "name_zh": "張碧琴",
+  "name_en": null,
+  "birth_year": 1965,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "405ad190": {
+  "name_zh": "卓伯源",
+  "name_en": null,
+  "birth_year": 1965,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "412f8d20": {
+  "name_zh": "蘇柏豪",
+  "name_en": null,
+  "birth_year": 1986,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "421f6e09": {
+  "name_zh": "陳福海",
+  "name_en": "Chen Fu-hai",
+  "birth_year": 1963,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "4528b06b": {
+  "name_zh": "張麗善",
+  "name_en": null,
+  "birth_year": 1964,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "45bcc80e": {
+  "name_zh": "許鋐哲",
+  "name_en": null,
+  "birth_year": 1949,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "46b60203": {
+  "name_zh": "曾坤炳",
+  "name_en": null,
+  "birth_year": 1950,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "475b9583": {
+  "name_zh": "陳菊",
+  "name_en": null,
+  "birth_year": 1950,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "47a830c9": {
+  "name_zh": "吳志揚",
+  "name_en": "John Wu",
+  "birth_year": 1969,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "47d26198": {
+  "name_zh": "謝福弘",
+  "name_en": null,
+  "birth_year": 1956,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "48011728": {
+  "name_zh": "吳成典",
+  "name_en": "Wu Cherng-dean",
+  "birth_year": 1957,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "48487ebe": {
+  "name_zh": "劉俊秀",
+  "name_en": null,
+  "birth_year": 1952,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "492effad": {
+  "name_zh": "趙衍慶",
+  "name_en": null,
+  "birth_year": 1936,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "4a79a17f": {
+  "name_zh": "簡太郎",
+  "name_en": null,
+  "birth_year": 1947,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "4b1bbb0d": {
+  "name_zh": "王忠銘",
+  "name_en": "Wang Chung-ming",
+  "birth_year": 1958,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "4da6d0ef": {
+  "name_zh": "鄭匡宇",
+  "name_en": null,
+  "birth_year": 1976,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "4e595ead": {
+  "name_zh": "林佳瑜",
+  "name_en": null,
+  "birth_year": 1959,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "4fa101b2": {
+  "name_zh": "唐新民",
+  "name_en": null,
+  "birth_year": 1950,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "50072b02": {
+  "name_zh": "林聰賢",
+  "name_en": null,
+  "birth_year": 1962,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "51d2fbbc": {
+  "name_zh": "沈慧虹",
+  "name_en": "Shen Hui-hung",
+  "birth_year": 1967,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "547b2793": {
+  "name_zh": "林國龍",
+  "name_en": null,
+  "birth_year": 1950,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "55076139": {
+  "name_zh": "蘇盈貴",
+  "name_en": null,
+  "birth_year": 1958,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "5518860b": {
+  "name_zh": "黃秀霜",
+  "name_en": null,
+  "birth_year": 1961,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "55e02b9f": {
+  "name_zh": "張通榮",
+  "name_en": null,
+  "birth_year": 1949,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "566a074f": {
+  "name_zh": "林瑞雄",
+  "name_en": "Lin Ruey-shiung",
+  "birth_year": 1940,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "578bd016": {
+  "name_zh": "陳永昌",
+  "name_en": null,
+  "birth_year": 1952,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "57cc7027": {
+  "name_zh": "鄭永金",
+  "name_en": null,
+  "birth_year": 1949,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "581e2754": {
+  "name_zh": "曾國民",
+  "name_en": null,
+  "birth_year": 1962,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "58d711e9": {
+  "name_zh": "蔡仁堅",
+  "name_en": null,
+  "birth_year": 1952,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "5a9c02c5": {
+  "name_zh": "宋國鼎",
+  "name_en": null,
+  "birth_year": 1981,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "5bc8531c": {
+  "name_zh": "鄭朝方",
+  "name_en": null,
+  "birth_year": 1980,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "5c6e1843": {
+  "name_zh": "張志明",
+  "name_en": null,
+  "birth_year": 1964,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "5d26f74d": {
+  "name_zh": "蔡適應",
+  "name_en": "Tsai Shih-ying",
+  "birth_year": 1973,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "5dfd019b": {
+  "name_zh": "黃健庭",
+  "name_en": "Justin Huang",
+  "birth_year": 1959,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "5e1f5045": {
+  "name_zh": "林姿妙",
+  "name_en": "Lin Tzu-miao",
+  "birth_year": 1952,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Lin_Tzu-miao",
+  "photo": null
+ },
+ "5fa45fe2": {
+  "name_zh": "柯賜海",
+  "name_en": null,
+  "birth_year": 1956,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "5fe49e84": {
+  "name_zh": "柯文哲",
+  "name_en": "Ko Wen-je",
+  "birth_year": 1959,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Ko_Wen-je",
+  "photo": null
+ },
+ "5ff63ad9": {
+  "name_zh": "陳大松",
+  "name_en": null,
+  "birth_year": 1958,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "601f2ada": {
+  "name_zh": "蔣萬安",
+  "name_en": "Chiang Wan-an",
+  "birth_year": 1978,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Chiang_Wan-an",
+  "photo": null
+ },
+ "60fe16d9": {
+  "name_zh": "邱淑媞",
+  "name_en": null,
+  "birth_year": 1962,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "625da434": {
+  "name_zh": "李俊俋",
+  "name_en": null,
+  "birth_year": 1965,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "626a2032": {
+  "name_zh": "鄺麗貞",
+  "name_en": null,
+  "birth_year": 1963,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "628f0df4": {
+  "name_zh": "璩美鳳",
+  "name_en": null,
+  "birth_year": 1966,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "6358a93b": {
+  "name_zh": "王如玄",
+  "name_en": "Wang Ju-hsuan",
+  "birth_year": 1961,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "640dc7d4": {
+  "name_zh": "游錫堃",
+  "name_en": null,
+  "birth_year": 1948,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "65ca4806": {
+  "name_zh": "蘇煥智",
+  "name_en": null,
+  "birth_year": 1956,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "6842f06f": {
+  "name_zh": "翁珍聖",
+  "name_en": null,
+  "birth_year": 1970,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "68f6c211": {
+  "name_zh": "郭榮睿",
+  "name_en": null,
+  "birth_year": 1954,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "69090497": {
+  "name_zh": "林義豐",
+  "name_en": null,
+  "birth_year": 1948,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "69412a7d": {
+  "name_zh": "許忠信",
+  "name_en": null,
+  "birth_year": 1965,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "695569ce": {
+  "name_zh": "楊綏生",
+  "name_en": null,
+  "birth_year": 1954,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "698a0873": {
+  "name_zh": "吳炳輝",
+  "name_en": null,
+  "birth_year": 1967,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "6c223646": {
+  "name_zh": "劉增應",
+  "name_en": "Liu Cheng-ying",
+  "birth_year": 1958,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "6d2753a9": {
+  "name_zh": "黄師鵬",
+  "name_en": null,
+  "birth_year": 1957,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "6d2c5f10": {
+  "name_zh": "朱國華",
+  "name_en": null,
+  "birth_year": 1959,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "6ee0344b": {
+  "name_zh": "詹智鈞",
+  "name_en": null,
+  "birth_year": 1976,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "6f2c6614": {
+  "name_zh": "李驥羣",
+  "name_en": null,
+  "birth_year": 1956,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "6fa28b97": {
+  "name_zh": "曾國良",
+  "name_en": null,
+  "birth_year": 1962,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "708887c0": {
+  "name_zh": "楊榮祥",
+  "name_en": null,
+  "birth_year": 1953,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "713d09cd": {
+  "name_zh": "黃希賢",
+  "name_en": null,
+  "birth_year": 1965,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "7565ad08": {
+  "name_zh": "黃昭順",
+  "name_en": "Huang Chao-shun",
+  "birth_year": 1953,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "785e5531": {
+  "name_zh": "張春男",
+  "name_en": null,
+  "birth_year": 1941,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "78779c14": {
+  "name_zh": "吳富彤",
+  "name_en": null,
+  "birth_year": 1959,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "787d605d": {
+  "name_zh": "范振揆",
+  "name_en": null,
+  "birth_year": 1971,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "78db62fb": {
+  "name_zh": "鄭凱升",
+  "name_en": null,
+  "birth_year": null,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "7963513a": {
+  "name_zh": "江明修",
+  "name_en": null,
+  "birth_year": 1959,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "7ae5799e": {
+  "name_zh": "葉芳棟",
+  "name_en": null,
+  "birth_year": 1969,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "7b83a36b": {
+  "name_zh": "朱梅雪",
+  "name_en": null,
+  "birth_year": 1964,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "7b8eafba": {
+  "name_zh": "劉櫂豪",
+  "name_en": null,
+  "birth_year": 1967,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "7ba21cf8": {
+  "name_zh": "谷辣斯．尤達卡",
+  "name_en": "Kolas Yotaka",
+  "birth_year": 1974,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "7c278476": {
+  "name_zh": "李宏信",
+  "name_en": null,
+  "birth_year": 1940,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "7c8f3186": {
+  "name_zh": "楊長鎮",
+  "name_en": null,
+  "birth_year": 1963,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "7cc169ab": {
+  "name_zh": "徐定禎",
+  "name_en": null,
+  "birth_year": 1961,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "7ce978c9": {
+  "name_zh": "賴香伶",
+  "name_en": null,
+  "birth_year": 1968,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "7cf43f17": {
+  "name_zh": "謝龍介",
+  "name_en": null,
+  "birth_year": 1961,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Hsieh_Lung-chieh",
+  "photo": null
+ },
+ "7dc286d5": {
+  "name_zh": "黃宏成台灣阿成世界偉人財神總統",
+  "name_en": null,
+  "birth_year": 1968,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "7df810fc": {
+  "name_zh": "吳蕚洋",
+  "name_en": null,
+  "birth_year": 1960,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "7f1f54d0": {
+  "name_zh": "趙少康",
+  "name_en": "Jaw Shaw-kong",
+  "birth_year": 1950,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "7f80c819": {
+  "name_zh": "林詩涵",
+  "name_en": null,
+  "birth_year": 1981,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "82d34327": {
+  "name_zh": "賴峰偉",
+  "name_en": "Lai Feng-wei",
+  "birth_year": 1953,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "83f3bf6c": {
+  "name_zh": "李問",
+  "name_en": null,
+  "birth_year": 1989,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "8461904f": {
+  "name_zh": "蘇清泉",
+  "name_en": "Su Ching-chuan",
+  "birth_year": 1957,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "8582acd0": {
+  "name_zh": "王育敏",
+  "name_en": "Wang Yu-min",
+  "birth_year": 1971,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "85b887a6": {
+  "name_zh": "張花冠",
+  "name_en": "Helen Chang",
+  "birth_year": 1954,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "86500a85": {
+  "name_zh": "蘇嘉全",
+  "name_en": "Su Jia-chyuan",
+  "birth_year": 1956,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "865cde68": {
+  "name_zh": "吳育仁",
+  "name_en": "Wu Yu-jen",
+  "birth_year": 1969,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "86a92a22": {
+  "name_zh": "賴清德",
+  "name_en": null,
+  "birth_year": 1959,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Lai_Ching-te",
+  "photo": null
+ },
+ "874276df": {
+  "name_zh": "徐耀昌",
+  "name_en": "Hsu Yao-chang",
+  "birth_year": 1955,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "87d47161": {
+  "name_zh": "江聰淵",
+  "name_en": "Chiang Tsung-yuan",
+  "birth_year": 1969,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "889cd337": {
+  "name_zh": "汪承樺",
+  "name_en": null,
+  "birth_year": 1960,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "88d1a807": {
+  "name_zh": "丁守中",
+  "name_en": "Ting Shou-chung",
+  "birth_year": 1954,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "895d045b": {
+  "name_zh": "蘇崑雄",
+  "name_en": null,
+  "birth_year": 1956,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "89f49daa": {
+  "name_zh": "陳其邁",
+  "name_en": "Chen Chi-mai",
+  "birth_year": 1964,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Chen_Chi-mai",
+  "photo": null
+ },
+ "8b78e6cc": {
+  "name_zh": "黃偉哲",
+  "name_en": "Huang Wei-che",
+  "birth_year": 1963,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Huang_Wei-che",
+  "photo": null
+ },
+ "8c88644e": {
+  "name_zh": "許乃權",
+  "name_en": null,
+  "birth_year": 1956,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "8c8a6197": {
+  "name_zh": "王乾發",
+  "name_en": null,
+  "birth_year": 1949,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "8d3ce5c8": {
+  "name_zh": "陳歐珀",
+  "name_en": "Chen Ou-po",
+  "birth_year": 1962,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "8dda7c26": {
+  "name_zh": "黃玉燕",
+  "name_en": null,
+  "birth_year": 1961,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "8f903aab": {
+  "name_zh": "張善政",
+  "name_en": "Chang San-cheng",
+  "birth_year": 1954,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Chang_San-cheng",
+  "photo": null
+ },
+ "8fcbe683": {
+  "name_zh": "呂華苑",
+  "name_en": null,
+  "birth_year": 1959,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "901871a0": {
+  "name_zh": "施奉先",
+  "name_en": null,
+  "birth_year": 1958,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "90920e83": {
+  "name_zh": "林水泉",
+  "name_en": null,
+  "birth_year": 1948,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "90970b4b": {
+  "name_zh": "蘇治芬",
+  "name_en": "Su Chin-feng",
+  "birth_year": 1953,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "91c672bf": {
+  "name_zh": "王永慶",
+  "name_en": null,
+  "birth_year": 1962,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "91f95e1c": {
+  "name_zh": "林志錦",
+  "name_en": null,
+  "birth_year": 1972,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "9629656c": {
+  "name_zh": "朱泰平",
+  "name_en": null,
+  "birth_year": 1955,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "97eb282c": {
+  "name_zh": "馬英九",
+  "name_en": "Ma Ying-jeou",
+  "birth_year": 1950,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Ma_Ying-jeou",
+  "photo": null
+ },
+ "985159b5": {
+  "name_zh": "陳學聖",
+  "name_en": null,
+  "birth_year": 1957,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "989e8c3f": {
+  "name_zh": "劉復嵐",
+  "name_en": null,
+  "birth_year": 1974,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "990e1056": {
+  "name_zh": "李進順",
+  "name_en": null,
+  "birth_year": 1960,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "9b027dc3": {
+  "name_zh": "鄭文燦",
+  "name_en": "Cheng Wen-tsan",
+  "birth_year": 1967,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "9bd3fdb8": {
+  "name_zh": "龔偉綸",
+  "name_en": null,
+  "birth_year": 1982,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "9c616100": {
+  "name_zh": "陳財能",
+  "name_en": null,
+  "birth_year": 1965,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "9d722079": {
+  "name_zh": "林右昌",
+  "name_en": "Lin Yu-chang",
+  "birth_year": 1971,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "9e714835": {
+  "name_zh": "劉政鴻",
+  "name_en": null,
+  "birth_year": 1947,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "9f59af59": {
+  "name_zh": "韓國瑜",
+  "name_en": "Han Kuo-yu",
+  "birth_year": 1957,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Han_Kuo-yu",
+  "photo": null
+ },
+ "9f70ad41": {
+  "name_zh": "陳秋境",
+  "name_en": null,
+  "birth_year": 1963,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "a0807419": {
+  "name_zh": "吳宜臻",
+  "name_en": "Wu Yi-chen",
+  "birth_year": 1970,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "a39d337a": {
+  "name_zh": "曹爾元",
+  "name_en": null,
+  "birth_year": 1958,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "a6deb3cb": {
+  "name_zh": "蔡培慧",
+  "name_en": "Frida Tsai",
+  "birth_year": 1971,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "a726ac35": {
+  "name_zh": "吳威志",
+  "name_en": "Wu Wei-chih",
+  "birth_year": 1965,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "a72f649d": {
+  "name_zh": "翁金珠",
+  "name_en": null,
+  "birth_year": 1947,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "a7e4dd33": {
+  "name_zh": "陳美妃",
+  "name_en": null,
+  "birth_year": 1971,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "ab148d76": {
+  "name_zh": "汪成華",
+  "name_en": null,
+  "birth_year": 1960,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "ac444857": {
+  "name_zh": "黃源甫",
+  "name_en": null,
+  "birth_year": 1954,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "af6e705f": {
+  "name_zh": "黃秀芳",
+  "name_en": "Huang Hsiu-fang",
+  "birth_year": 1971,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "afe5a7ec": {
+  "name_zh": "吳敦義",
+  "name_en": "Wu Den-yih",
+  "birth_year": 1948,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "b1092348": {
+  "name_zh": "林錦坤",
+  "name_en": null,
+  "birth_year": 1964,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "b13ede8c": {
+  "name_zh": "陳琬惠",
+  "name_en": null,
+  "birth_year": 1974,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "b2868b7f": {
+  "name_zh": "陳時中",
+  "name_en": "Chen Shih-chung",
+  "birth_year": 1952,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Chen_Shih-chung_(physician)",
+  "photo": null
+ },
+ "b45ee11b": {
+  "name_zh": "李文忠",
+  "name_en": null,
+  "birth_year": 1958,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "b4d2ac69": {
+  "name_zh": "鄭寶清",
+  "name_en": "Cheng Pao-ching",
+  "birth_year": 1955,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "b4dcdb85": {
+  "name_zh": "何燕堂",
+  "name_en": null,
+  "birth_year": 1965,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "b53ea9b1": {
+  "name_zh": "吳欣盈",
+  "name_en": "Cynthia Wu",
+  "birth_year": 1978,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "b58d7c01": {
+  "name_zh": "彭權國",
+  "name_en": null,
+  "birth_year": 1963,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "b6a786fc": {
+  "name_zh": "侯友宜",
+  "name_en": "Hou Yu-ih",
+  "birth_year": 1957,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Hou_Yu-ih",
+  "photo": null
+ },
+ "b747f192": {
+  "name_zh": "劉正幸",
+  "name_en": null,
+  "birth_year": 1955,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "b9838170": {
+  "name_zh": "朱振東",
+  "name_en": null,
+  "birth_year": 1953,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "b98bddcb": {
+  "name_zh": "魏明谷",
+  "name_en": "Wei Ming-ku",
+  "birth_year": 1963,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "b9d231d0": {
+  "name_zh": "謝文進",
+  "name_en": null,
+  "birth_year": 1954,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "bb1e9b59": {
+  "name_zh": "黃聖峰",
+  "name_en": null,
+  "birth_year": 1979,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "bba4a84c": {
+  "name_zh": "曾錦祥",
+  "name_en": null,
+  "birth_year": 1952,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "bc9b271f": {
+  "name_zh": "洪國浩",
+  "name_en": "Hung Kuo-hao",
+  "birth_year": 1958,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "bc9e7e07": {
+  "name_zh": "黃敏惠",
+  "name_en": "Huang Min-hui",
+  "birth_year": 1959,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Huang_Min-hui",
+  "photo": null
+ },
+ "bce5286a": {
+  "name_zh": "李佳穆",
+  "name_en": null,
+  "birth_year": 1950,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "be0fe5eb": {
+  "name_zh": "黃宏成台灣阿成世界偉人",
+  "name_en": null,
+  "birth_year": 1968,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "be527889": {
+  "name_zh": "朱立倫",
+  "name_en": "Eric Chu",
+  "birth_year": 1961,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Eric_Chu",
+  "photo": null
+ },
+ "beeeb177": {
+  "name_zh": "翁天慶",
+  "name_en": null,
+  "birth_year": 1953,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "bf8e71f7": {
+  "name_zh": "洪志恒",
+  "name_en": null,
+  "birth_year": 1968,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "c30006fb": {
+  "name_zh": "鄭清發",
+  "name_en": null,
+  "birth_year": 1958,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "c33fc252": {
+  "name_zh": "吳武明",
+  "name_en": null,
+  "birth_year": 1957,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "c5cedf71": {
+  "name_zh": "饒慶鈴",
+  "name_en": "Rao Ching-ling",
+  "birth_year": 1969,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Rao_Ching-ling",
+  "photo": null
+ },
+ "c65038a1": {
+  "name_zh": "吳政隆",
+  "name_en": null,
+  "birth_year": 1966,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "c6600764": {
+  "name_zh": "朱紀瑋",
+  "name_en": null,
+  "birth_year": 1961,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "c69ba9e5": {
+  "name_zh": "潘孟安",
+  "name_en": "Pan Men-an",
+  "birth_year": 1963,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "c6ebf200": {
+  "name_zh": "翁章梁",
+  "name_en": "Weng Chang-liang",
+  "birth_year": 1965,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "c70a9888": {
+  "name_zh": "王文娟",
+  "name_en": null,
+  "birth_year": 1963,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "c74ba593": {
+  "name_zh": "曹啟鴻",
+  "name_en": null,
+  "birth_year": 1948,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "c9d6ca1e": {
+  "name_zh": "李沃士",
+  "name_en": null,
+  "birth_year": 1960,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "cd30c528": {
+  "name_zh": "蔡英文",
+  "name_en": "Tsai Ing-wen",
+  "birth_year": 1956,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Tsai_Ing-wen",
+  "photo": null
+ },
+ "cdeb5de6": {
+  "name_zh": "洪和成",
+  "name_en": null,
+  "birth_year": 1961,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "ce38ad74": {
+  "name_zh": "朱秀珍",
+  "name_en": "Chu Hsiu-chen",
+  "birth_year": 1966,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "ce74f177": {
+  "name_zh": "許淑華",
+  "name_en": "Hsu Shu-hua",
+  "birth_year": 1975,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "cf738663": {
+  "name_zh": "李錫錕",
+  "name_en": null,
+  "birth_year": 1947,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "cfb2e388": {
+  "name_zh": "翁重鈞",
+  "name_en": "Wong Chung-chun",
+  "birth_year": 1955,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "d0eb2994": {
+  "name_zh": "蔡啟塔",
+  "name_en": null,
+  "birth_year": 1958,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "d2786cc7": {
+  "name_zh": "蕭美琴",
+  "name_en": "Hsiao Bi-khim",
+  "birth_year": 1971,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "d299f913": {
+  "name_zh": "姚文智",
+  "name_en": "Pasuya Yao",
+  "birth_year": 1965,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "d4ea4695": {
+  "name_zh": "鄭宇翔",
+  "name_en": null,
+  "birth_year": 1981,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "d83fc15b": {
+  "name_zh": "柯志恩",
+  "name_en": "Ko Chih-en",
+  "birth_year": 1962,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "d95b170d": {
+  "name_zh": "林佳龍",
+  "name_en": "Lin Chia-lung",
+  "birth_year": 1964,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Lin_Chia-lung",
+  "photo": null
+ },
+ "da13ea5c": {
+  "name_zh": "吳芳銘",
+  "name_en": null,
+  "birth_year": 1971,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "dabdd9db": {
+  "name_zh": "陳長宏",
+  "name_en": null,
+  "birth_year": 1965,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "db1e02af": {
+  "name_zh": "許明財",
+  "name_en": "Hsu Ming-tsai",
+  "birth_year": 1953,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "dd959517": {
+  "name_zh": "蕭登標",
+  "name_en": null,
+  "birth_year": 1957,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "de673700": {
+  "name_zh": "楊麗環",
+  "name_en": "Yang Li-huan",
+  "birth_year": 1957,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "debc5e81": {
+  "name_zh": "余湘",
+  "name_en": "Sandra Yu",
+  "birth_year": 1959,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "e1062cd1": {
+  "name_zh": "宋原通",
+  "name_en": null,
+  "birth_year": 1959,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "e17cb56a": {
+  "name_zh": "張家豪",
+  "name_en": null,
+  "birth_year": 1985,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "e8fd5946": {
+  "name_zh": "李步輝",
+  "name_en": null,
+  "birth_year": 1968,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "e92749e1": {
+  "name_zh": "魏耀乾",
+  "name_en": null,
+  "birth_year": 1950,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "e9f628c2": {
+  "name_zh": "洪敏雄",
+  "name_en": null,
+  "birth_year": 1961,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "ea2b743a": {
+  "name_zh": "蘇龍科",
+  "name_en": null,
+  "birth_year": 1960,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "eabef428": {
+  "name_zh": "陳秀麗",
+  "name_en": null,
+  "birth_year": 1948,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "eb459e2c": {
+  "name_zh": "白雅燦",
+  "name_en": null,
+  "birth_year": 1945,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "eb4ca064": {
+  "name_zh": "林滄敏",
+  "name_en": "Lin Tsang-min",
+  "birth_year": 1958,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "eccbf6c8": {
+  "name_zh": "楊秋興",
+  "name_en": null,
+  "birth_year": 1956,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "ed565ce9": {
+  "name_zh": "徐欣瑩",
+  "name_en": "Hsu Hsin-ying",
+  "birth_year": 1972,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "edd8b8c2": {
+  "name_zh": "吳炎成",
+  "name_en": null,
+  "birth_year": 1942,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "f217d412": {
+  "name_zh": "劉曉玫",
+  "name_en": "Liu Siao-Mei",
+  "birth_year": 1973,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "f36f253b": {
+  "name_zh": "楊文科",
+  "name_en": "Yang Wen-ke",
+  "birth_year": 1951,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "f406eb50": {
+  "name_zh": "葉竹林",
+  "name_en": null,
+  "birth_year": 1962,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "f54428a1": {
+  "name_zh": "李應文",
+  "name_en": null,
+  "birth_year": 1979,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "f694072e": {
+  "name_zh": "高虹安",
+  "name_en": "Kao Hung-an",
+  "birth_year": 1984,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Kao_Hung-an",
+  "photo": null
+ },
+ "f6bc76f3": {
+  "name_zh": "陳薇仲",
+  "name_en": null,
+  "birth_year": 1990,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "f978c639": {
+  "name_zh": "徐榛蔚",
+  "name_en": "Hsu Chen-wei",
+  "birth_year": 1968,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Hsu_Chen-wei",
+  "photo": null
+ },
+ "f9daba3f": {
+  "name_zh": "王惠美",
+  "name_en": "Wang Hui-mei",
+  "birth_year": 1968,
+  "wikidata_qid": null,
+  "wiki_url": "https://en.wikipedia.org/wiki/Wang_Hui-mei",
+  "photo": null
+ },
+ "fa0312c2": {
+  "name_zh": "劉建國",
+  "name_en": "Liu Chien-kuo",
+  "birth_year": 1969,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "fa596571": {
+  "name_zh": "吳淑敏",
+  "name_en": null,
+  "birth_year": 1965,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "fbe012a8": {
+  "name_zh": "連勝文",
+  "name_en": null,
+  "birth_year": 1970,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "fc0e33e6": {
+  "name_zh": "陳以真",
+  "name_en": null,
+  "birth_year": 1977,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "fc1610e2": {
+  "name_zh": "胡志強",
+  "name_en": null,
+  "birth_year": 1948,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "fc3b71c1": {
+  "name_zh": "鄭運鵬",
+  "name_en": "Cheng Yun-peng",
+  "birth_year": 1973,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "fc4ba195": {
+  "name_zh": "周可盛",
+  "name_en": null,
+  "birth_year": 1957,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "fc7fe15c": {
+  "name_zh": "林明溱",
+  "name_en": "Lin Ming-chen",
+  "birth_year": 1951,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "fe0ff0db": {
+  "name_zh": "郝龍斌",
+  "name_en": "Hau Lung-bin",
+  "birth_year": 1952,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "fe202ca0": {
+  "name_zh": "陳建仁",
+  "name_en": "Chen Chien-jen",
+  "birth_year": 1951,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "fe89a627": {
+  "name_zh": "陳淑芬",
+  "name_en": null,
+  "birth_year": 1960,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "febd9a43": {
+  "name_zh": "林耕仁",
+  "name_en": null,
+  "birth_year": 1960,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "ff4042ba": {
+  "name_zh": "蔡見興",
+  "name_en": null,
+  "birth_year": 1952,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ },
+ "ffd2759b": {
+  "name_zh": "彭紹瑾",
+  "name_en": null,
+  "birth_year": 1957,
+  "wikidata_qid": null,
+  "wiki_url": null,
+  "photo": null
+ }
 }
