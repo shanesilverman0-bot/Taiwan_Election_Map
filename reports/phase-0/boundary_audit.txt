@@ -1,0 +1,40 @@
+boundary files in config.js: 3
+
+== https://cdn.jsdelivr.net/npm/taiwan-atlas/counties-10t.json
+type: Topology | objects: ['counties', 'nation']
+  object counties: 22 features; property keys: ['COUNTYID', 'COUNTYCODE', 'COUNTYNAME', 'COUNTYENG']; top-level geometry keys: ['arcs', 'properties', 'type']
+    None {"COUNTYID": "Z", "COUNTYCODE": "09007", "COUNTYNAME": "連江縣", "COUNTYENG": "Lienchiang County"}
+    None {"COUNTYID": "G", "COUNTYCODE": "10002", "COUNTYNAME": "宜蘭縣", "COUNTYENG": "Yilan County"}
+    None {"COUNTYID": "N", "COUNTYCODE": "10007", "COUNTYNAME": "彰化縣", "COUNTYENG": "Changhua County"}
+  object nation: 1 features; property keys: ['ID', 'NAME']; top-level geometry keys: ['arcs', 'properties', 'type']
+    None {"ID": "TW", "NAME": "Taiwan"}
+
+== https://cdn.jsdelivr.net/npm/taiwan-atlas/towns-10t.json
+type: Topology | objects: ['towns', 'counties', 'nation']
+  object towns: 368 features; property keys: ['TOWNID', 'TOWNCODE', 'COUNTYNAME', 'TOWNNAME', 'TOWNENG', 'COUNTYID', 'COUNTYCODE', 'COUNTYENG']; top-level geometry keys: ['arcs', 'properties', 'type']
+    None {"TOWNID": "V02", "TOWNCODE": "10014020", "COUNTYNAME": "台東縣", "TOWNNAME": "成功鎮", "TOWNENG": "Chenggong Township", "COUNTYID": "V", "COUNTYCODE": "10014", "COUNTYENG": "Taitung County"}
+    None {"TOWNID": "T21", "TOWNCODE": "10013210", "COUNTYNAME": "屏東縣", "TOWNNAME": "佳冬鄉", "TOWNENG": "Jiadong Township", "COUNTYID": "T", "COUNTYCODE": "10013", "COUNTYENG": "Pingtung County"}
+    None {"TOWNID": "P13", "TOWNCODE": "10009130", "COUNTYNAME": "雲林縣", "TOWNNAME": "麥寮鄉", "TOWNENG": "Mailiao Township", "COUNTYID": "P", "COUNTYCODE": "10009", "COUNTYENG": "Yunlin County"}
+  object counties: 22 features; property keys: ['COUNTYNAME', 'COUNTYID', 'COUNTYCODE', 'COUNTYENG']; top-level geometry keys: ['arcs', 'id', 'properties', 'type']
+    10014 {"COUNTYNAME": "台東縣", "COUNTYID": "V", "COUNTYCODE": "10014", "COUNTYENG": "Taitung County"}
+    10013 {"COUNTYNAME": "屏東縣", "COUNTYID": "T", "COUNTYCODE": "10013", "COUNTYENG": "Pingtung County"}
+    10009 {"COUNTYNAME": "雲林縣", "COUNTYID": "P", "COUNTYCODE": "10009", "COUNTYENG": "Yunlin County"}
+  object nation: 1 features; property keys: ['ID', 'NAME']; top-level geometry keys: ['arcs', 'properties', 'type']
+    None {"ID": "TW", "NAME": "Taiwan"}
+
+== https://cdn.jsdelivr.net/npm/taiwan-atlas/districts-10t.json
+type: Topology | objects: ['districts', 'counties', 'nation']
+  object districts: 74 features; property keys: ['COUNTYNAME', 'COUNTYID', 'COUNTYCODE', 'COUNTYENG', 'DISTRICTCODE', 'TOWNNAME', 'TOWNID', 'TOWNCODE', 'TOWNENG', 'VILLCODE', 'VILLNAME', 'VILLENG']; top-level geometry keys: ['arcs', 'id', 'properties', 'type']
+    64000-4 {"COUNTYNAME": "高雄市", "COUNTYID": "E", "COUNTYCODE": "64000", "COUNTYENG": "Kaohsiung City", "DISTRICTCODE": "64000-4"}
+    64000-8 {"COUNTYNAME": "高雄市", "COUNTYID": "E", "COUNTYCODE": "64000", "COUNTYENG": "Kaohsiung City", "DISTRICTCODE": "64000-8"}
+    09007-1 {"COUNTYNAME": "連江縣", "COUNTYID": "Z", "COUNTYCODE": "09007", "COUNTYENG": "Lienchiang County", "DISTRICTCODE": "09007-1"}
+  by county-code prefix: {'': 1, '09007': 1, '09020': 1, '10002': 1, '10004': 2, '10005': 2, '10007': 4, '10008': 2, '10009': 2, '10010': 2, '10013': 2, '10014': 1, '10015': 1, '10016': 1, '10017': 1, '10018': 1, '10020': 1, '63000': 8, '64000': 8, '65000': 12, '66000': 8, '67000': 6, '68000': 6}
+  total districts: 74 | features with no id: 1
+  id-less feature properties: {"VILLCODE": "68000020009", "COUNTYNAME": "桃園市", "TOWNNAME": "中壢區", "VILLNAME": "自強里", "VILLENG": "Ziqiang Vil.", "COUNTYID": "H", "COUNTYCODE": "68000", "TOWNID": "H03", "TOWNCODE": "68000020", "TOWNENG": "Zhongli District", "COUNTYENG": "Taoyuan City"}
+  Kaohsiung 64000 = 8 | Pingtung 10013 = 2
+  object counties: 22 features; property keys: ['COUNTYNAME', 'COUNTYID', 'COUNTYCODE', 'COUNTYENG', 'DISTRICTCODE']; top-level geometry keys: ['arcs', 'id', 'properties', 'type']
+    64000 {"COUNTYNAME": "高雄市", "COUNTYID": "E", "COUNTYCODE": "64000", "COUNTYENG": "Kaohsiung City"}
+    09007 {"COUNTYNAME": "連江縣", "COUNTYID": "Z", "COUNTYCODE": "09007", "COUNTYENG": "Lienchiang County", "DISTRICTCODE": "09007-1"}
+    10013 {"COUNTYNAME": "屏東縣", "COUNTYID": "T", "COUNTYCODE": "10013", "COUNTYENG": "Pingtung County"}
+  object nation: 1 features; property keys: []; top-level geometry keys: ['arcs', 'type']
+    None null

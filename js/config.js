@@ -43,7 +43,7 @@ const CONFIG = {
    *  section below references these by name and specifies which
    *  years use which dataset.
    *
-   *  Taiwan Atlas (dkaoster) files are loaded from jsDelivr CDN.
+   *  Taiwan Atlas (dkaoster) files are vendored in data/geo/ (taiwan-atlas@2021.9.20).
    *  g0v/twgeojson files are loaded from GitHub raw content.
    *
    *  format: 'topojson' → needs topojson.feature() conversion
@@ -52,14 +52,14 @@ const CONFIG = {
   boundarySources: {
     // Counties — same boundaries throughout this era (2010 merge)
     counties_current: {
-      url: 'https://cdn.jsdelivr.net/npm/taiwan-atlas/counties-10t.json',
+      url: 'data/geo/counties-10t.json',
       format: 'topojson',
       topoObject: 'counties',
     },
 
     // Towns/districts (鄉鎮市區) — boundaries have been stable since 2010 merge
     towns_current: {
-      url: 'https://cdn.jsdelivr.net/npm/taiwan-atlas/towns-10t.json',
+      url: 'data/geo/towns-10t.json',
       format: 'topojson',
       topoObject: 'towns',
     },
@@ -72,7 +72,7 @@ const CONFIG = {
     // post-2019 map; affected districts simply won't have a matching polygon.
     // TODO: replace with a verified pre-2019 GeoJSON when one becomes available.
     legislative_2020: {
-      url: 'https://cdn.jsdelivr.net/npm/taiwan-atlas/districts-10t.json',
+      url: 'data/geo/districts-10t.json',
       format: 'topojson',
       topoObject: 'districts',
     },
